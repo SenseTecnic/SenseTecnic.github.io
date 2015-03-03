@@ -4,7 +4,7 @@ permalink: /fred/nodered/
 ---
 ## Node-RED in FRED
 
-The current current version of Node-RED used by FRED is `0.10.3`
+The current current version of Node-RED used by FRED is based on `0.10.3`.  The (minor) changes made to Node-RED are maintained at [github.com/mblackstock/node-red-contrib](https://github.com/mblackstock/node-red-contrib).  See the `fred-mods` branch.
 
 In addition to the core nodes, the following Node packages are installed:
 
@@ -19,7 +19,7 @@ In addition to the core nodes, the following Node packages are installed:
     "node-red-node-ping":"0.0.3",
     "node-red-contrib-moment":"1.0.2",
 
-Because FRED is a cloud-hosted service, you are not permitted to use nodes that access hardware or the underlying operating system.  The following core nodes are *disabled* in FRED:
+Because FRED is a cloud-hosted service, it does not make sense to include nodes that access hardware or the underlying operating system.  The following core nodes are *disabled* in FRED:
 
     '75-exec.js'
     '35-arduino.js'
