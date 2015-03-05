@@ -1,0 +1,24 @@
+{
+  "name": "SenseTecnic.github.io",
+  "version": "0.0.0",
+  "description": "Sense Tecnic Documentation Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SenseTecnic/SenseTecnic.github.io.git"
+  },
+  "author": "Mike Blackstock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SenseTecnic/SenseTecnic.github.io/issues"
+  },
+  "homepage": "https://github.com/SenseTecnic/SenseTecnic.github.io",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-copy": "^0.8.0"
+  }
+}

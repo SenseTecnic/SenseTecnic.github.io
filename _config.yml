@@ -1,5 +1,5 @@
 # Site settings
-title: Sense Tecnic
+title: Documentation
 email: info@sensetecnic.com
 description: > # this means to ignore newlines until "baseurl:"
   This site contains information and updates to the Sense Tecnic
@@ -11,3 +11,10 @@ github_username: SenseTecnic
 
 # Build settings
 markdown: kramdown
+exclude:
+  - "bower_components"
+  - "bower.json"
+  - "node_modules"
+  - "package.json"
+  - "Gruntfile.js"
+
