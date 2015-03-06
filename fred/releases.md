@@ -22,6 +22,7 @@ Date: March 6, 2015
 - write instance PID to disk right after starting up to track running node red instances for shutdown and future re-attach to FRED.
 - added admin email config to admin UI so I can disable admin emails, change address without restart
 - no longer starts instances on startup - admin must do this using admin pages
+- created documentation site, added link to this documentation site
 
 ###Release 0.1.0
 
