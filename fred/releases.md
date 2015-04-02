@@ -4,6 +4,15 @@ permalink: /fred/releases/
 ---
 ## Releases
 
+###Release 0.1.3
+
+Date: April 1, 2015
+
+- updated to use Node RED 0.10.6
+
+###Release 0.1.2
+- Node RED is now a submodule of FRED, not the other way around
+
 ###Release 0.1.1
 
 Date: March 6, 2015
