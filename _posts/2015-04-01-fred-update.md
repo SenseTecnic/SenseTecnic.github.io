@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FRED 0.1.1 Update"
+title:  "FRED 0.1.3 Update"
 date:   2015-04-02 11:00:00
 categories: fred releases
 ---
