@@ -32,8 +32,23 @@ To make a request, your username and API key must be added to the following HTTP
 
 You make HTTP requests to: `https://fred.sensetecnic.com/api`
 
-For example, to POST data to an HTTP input node with the URL /input you can use the following curl command:
+For example, we created a flow that takes in an HTTP input, sends the payload to the debug console, and sends a response back as illustrated below:
 
-    curl ...
+![example input](../../images/sample_http_in1.png "Logo Title Text 1")
 
+The flow definition is shown here:
 
+    [{"id":"18bdd439.e7422c","type":"http in","name":"/thing","url":"/thing","method":"post","x":104,"y":297,"z":"663faab1.99c054","wires":[["875057e1.78afa8","700ce276.8ff31c"]]},{"id":"875057e1.78afa8","type":"debug","name":"","active":true,"console":"false","complete":"false","x":358,"y":297,"z":"663faab1.99c054","wires":[]},{"id":"19a90a46.e656f6","type":"http response","name":"response to /thing","x":368,"y":439,"z":"663faab1.99c054","wires":[]},{"id":"700ce276.8ff31c","type":"function","name":"generate response","func":"msg.payload = { value:12, status:\"active\" };\nreturn msg;","outputs":1,"valid":true,"x":183,"y":398,"z":"663faab1.99c054","wires":[["19a90a46.e656f6"]]}]
+
+To POST JSON data to the `/thing` HTTP input node above you can use the following curl command:
+
+    curl -d '{"message":"message to thing"}' https://fred.sensetecnic.com/api/thing -H "Content-Type: application/json" -H "X-Auth-User: {user}" -H "X-Auth-Key: {apikey}"
+
+The response will be:
+
+    {
+        "value": 12,
+        "status": "active"
+    }
+
+And the text `{"message":"message to thing"}` should appear in the node-red debug console.

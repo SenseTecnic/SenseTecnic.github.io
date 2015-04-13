@@ -28,47 +28,19 @@ module.exports = function(grunt) {
             src: "bootstrap.min.js",
             dest: "resources"            
           }]
+        }
+      },
+      exec: {
+        build: {
+          cmd: 'jekyll build'
         },
-        semanticui: {
-          files: [{
-            expand: true,
-            cwd: "bower_components/semantic-ui/dist",
-            src: "semantic.min.css",
-            dest: "resources"
-          },
-          {
-            expand: true,
-            cwd: "bower_components/semantic-ui/dist",
-            src: "semantic.min.js",
-            dest: "resources"
-          },
-          {
-            expand: true,
-            cwd: "bower_components/semantic-ui/dist",
-            src: "semantic.min.js",
-            dest: "resources"
-          },
-          {
-            expand: true,
-            cwd: "bower_components/semantic-ui/dist",
-            src: ['themes/**'],
-            dest: "resources/themes"
-          },
-          {
-            expand: true,
-            cwd: "bower_components/semantic-ui/dist",
-            src: ["components/**"],
-            dest: "resources/components"
-          }],
-        },
-        exec: {
-          jekyll: {
-            cmd: "jekyll build --trace"
-          }
+        serve: {
+          cmd: 'jekyll serve --watch'
         }
       }
     });
 
-    grunt.registerTask('default', ['copy:jquery','copy:bootstrap']);
+    grunt.registerTask('default', 'copy');
+    grunt.registerTask('serve', 'exec');
 }
 
