@@ -4,9 +4,13 @@ permalink: /fred/releases/
 ---
 ## Releases
 
-###Release 0.1.3
+###Release 0.1.4
+April 16, 2015
 
-Date: April 1, 2015
+- fixed URI issues with web nodes
+
+###Release 0.1.3
+April 1, 2015
 
 - updated to use Node RED 0.10.6
 
@@ -14,8 +18,7 @@ Date: April 1, 2015
 - Node RED is now a submodule of FRED, not the other way around
 
 ###Release 0.1.1
-
-Date: March 6, 2015
+March 6, 2015
 
 - UI bug fixes
 - remove nodes that can't be used in fred using nodeExcludes features
