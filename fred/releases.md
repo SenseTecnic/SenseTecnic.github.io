@@ -5,9 +5,12 @@ permalink: /fred/releases/
 ## Releases
 
 ###Release 0.1.4
-April 16, 2015
+April 23, 2015
 
-- fixed URI issues with web nodes
+- fixed OAuth URI issues with web nodes upgraded to 0.3.2
+- fixed crashing pushbullet - upgraded to 0.0.5
+- added new wotkit nodes for control - 0.2.1
+- new front page
 
 ###Release 0.1.3
 April 1, 2015
