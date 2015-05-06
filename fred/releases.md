@@ -5,15 +5,15 @@ permalink: /fred/releases/
 ## Releases
 
 ###Release 0.1.4
-April 28, 2015
+May 6, 2015
 
-- fixed OAuth URI issues by upgrading to node-red-node-web-nodes v0.3.2.  Couldn't use OAuth2 dance with instagram, google calendar node and others.
-- fixed crashing pushbullet by upgrading to node-red-node-pushbullet v0.0.5.  
-- upgraded wotkit nodes to 0.2.1.  Now supports actuation.
-- new fancier front page.
-- Admin: track when new users come on board
-- Admin: track new user login time
-- Admin: client side sorting UI for tables
+- upgrade node-red-node-web-nodes to v0.3.2 to fix OAuth dance with instagram, google calendar node and others.
+- fixed crashing pushbullet by upgrading to node-red-node-pushbullet v0.0.5.  Thank you @knolleary for these fixes!
+- upgraded wotkit nodes to 0.2.1.  Now supports actuation.  Thanks @calderonroberto.
+- new fancier front page ala @calderonroberto.
+- new admin features to help us manage our users' instances.  Thanks @tedh for UI help.
+- front page asks user to start their instance if it is not running on login.
+- support public HTTP input nodes to allow users to build simple web sites/pages - thanks @borisadryan for the idea.
 
 ###Release 0.1.3
 April 1, 2015
