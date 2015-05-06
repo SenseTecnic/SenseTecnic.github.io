@@ -4,13 +4,13 @@ permalink: /fred/nodered/
 ---
 ## Node-RED in FRED
 
-The current current version of Node-RED used by FRED is based on `0.10.3`.  The (minor) changes made to Node-RED are maintained at [github.com/mblackstock/node-red-contrib](https://github.com/mblackstock/node-red-contrib).  See the `fred-mods` branch.
+The current current version of Node-RED used by FRED is based on `0.10.6`.  The (minor) UI changes made to Node-RED are maintained at [github.com/mblackstock/node-red-contrib](https://github.com/mblackstock/node-red-contrib).  See the `fred-develop` and `fred-master` branch.
 
 In addition to the core nodes, the following Node packages are installed:
 
-    "node-red-contrib-wotkit":"SenseTecnic/wotkit-node",
-    "node-red-node-web-nodes":"0.2.0",
-    "node-red-node-pushbullet":"0.0.3",
+    "node-red-contrib-wotkit":"0.2.1",
+    "node-red-node-web-nodes":"0.3.2",
+    "node-red-node-pushbullet":"0.0.5",
     "node-red-node-wordpos":"0.0.1",
     "node-red-node-xmpp":"0.0.2",
     "node-red-node-badwords":"0.0.1",

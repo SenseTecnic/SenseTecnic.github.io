@@ -4,9 +4,19 @@ permalink: /fred/releases/
 ---
 ## Releases
 
-###Release 0.1.3
+###Release 0.1.4
+May 6, 2015
 
-Date: April 1, 2015
+- upgrade node-red-node-web-nodes to v0.3.2 to fix OAuth dance with instagram, google calendar node and others.
+- fixed crashing pushbullet by upgrading to node-red-node-pushbullet v0.0.5.  Thank you @knolleary for these fixes!
+- upgraded wotkit nodes to 0.2.1.  Now supports actuation.  Thanks @calderonroberto.
+- new fancier front page ala @calderonroberto.
+- new admin features to help us manage our users' instances.  Thanks @tedh for UI help.
+- front page asks user to start their instance if it is not running on login.
+- support public HTTP input nodes to allow users to build simple web sites/pages - thanks @borisadryan for the idea.
+
+###Release 0.1.3
+April 1, 2015
 
 - updated to use Node RED 0.10.6
 
@@ -14,8 +24,7 @@ Date: April 1, 2015
 - Node RED is now a submodule of FRED, not the other way around
 
 ###Release 0.1.1
-
-Date: March 6, 2015
+March 6, 2015
 
 - UI bug fixes
 - remove nodes that can't be used in fred using nodeExcludes features
