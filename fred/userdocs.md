@@ -22,17 +22,23 @@ This dialog allows you to change your full name, email address, and password.  I
 ### Status
 In this dialog, you can see the time the instance was last started, and received data, as well as view the last on your Node-RED output.  There is a large button there allowing you to start and stop your instance.  To refresh the contents of your Node-RED output, click on the refresh button.
 
-## API Key and HTTP Input Nodes
-FRED proxies all communication from the Internet to your instance of Node-RED.  For an HTTP client to access the HTTP input nodes in your flows, you must provide your username and API key with your HTTP requests.  Like a password, the API key is used by FRED to authenticate your request.  An API is generated for you when you register, and can be regenerated using the Profile dialog.  Note that if you regenerate your API key, existing HTTP clients will no longer have access to your flows.
+## HTTP Input Nodes
+FRED proxies all communication from the Internet to your instance of Node-RED.  To dispatch to your instance, FRED uses your user name in a header for private API input nodes, or the URL for public HTTP input nodes.
 
-To make a request, your username and API key must be added to the following HTTP headers:
+## Public HTTP Input Nodes
+To create an HTTP input node accessible by anyone, prefix your URL with `/public/` in your flows.  To access the flow you add `/public/{username}` to the FRED host. For example, an HTTP Input node called `/public/data` set up by roberto will be accessible as `https://fred.sensetecnic.com/public/roberto/data`.
+
+### Private API HTTP Input Nodes
+For an HTTP client to access protected HTTP input nodes in your flows, you must provide your username and API key with your HTTP requests.  Like a password, the API key is used by FRED to authenticate the request.  An API is generated for you when you register, and can be regenerated using the Profile dialog.
+
+Note that if you regenerate your API key, existing HTTP clients will no longer have access to your flows.
+
+To make a request to a protected HTTP input node, your username and API key must be added to the request HTTP headers as follows:
 
     X-Auth-User: {username}
     X-Auth-Key: {apikey}
 
-You make HTTP requests to: `https://fred.sensetecnic.com/api`
-
-For example, we created a flow that takes in an HTTP input, sends the payload to the debug console, and sends a response back as illustrated below:
+For example, to make a request to a node with the URL `/thing`, you make HTTP requests to: `https://fred.sensetecnic.com/api/thing`.  Note that there is no username in the URL, and your HTTP input node is prefixed with `/api`.  To illustrate we created a flow that takes in an HTTP input, sends the payload to the debug console, and sends a response back:
 
 ![example input](../../images/sample_http_in1.png "Logo Title Text 1")
 
@@ -52,3 +58,18 @@ The response will be:
     }
 
 And the text `{"message":"message to thing"}` should appear in the node-red debug console.
+
+## Input Nodes
+
+Because FRED acts as a proxy, and hosts your Node-RED instance behind a firewall there are limitations on the accessibility of certain input nodes from client applications on the Internet.  In Node-RED, nodes such as the TCP and UDP input nodes can be configured to create servers that listen on specified ports.  Because these ports are not open to your instance on FRED, they are not reachable by clients.  We currently only proxy certain HTTP URLs including HTTP input nodes as documented in the HTTP Input node sections above.
+
+Specifically, the following nodes can be configured to 'Connect to' an outside server, but cannot be set up to 'Listen on' a specific port (or URL):
+
+* TCP Input/Output
+* UDP Input/Output
+* Web Sockets Input/Output
+
+Note: we do intend to support web sockets input proxy to your flows in a future revsion.
+
+## OAuth
+Currently we support several nodes like Instangram and Twitter that require the OAuth server authenticaiton dance to retrieve an access token from an outside service.  That said, we have seen problems with this in the past where the the URL for their node authentication is not generated correctly.  If you are having problems with connecting to an outside service, first, read the documentation that comes with the node.  If the problem persists, let us know @sensetecnic and hopefully we can get you going.
