@@ -4,8 +4,20 @@ permalink: /fred/releases/
 ---
 ## Releases
 
+###Release 0.2.0
+June 9, 2015
+
+- even more admin features to manage profiles and instances.
+- fixed bug where unvalidated user could not easily be enabled.
+- wotkit node to 0.2.4 to fix actuator bug.
+- integration with wotkit for shared profile (not yet enabled).
+- new feedback button that feeds into JIRA
+- profile uses first and last name
+
+
 ###Release 0.1.4
 May 6, 2015
+
 
 - upgrade node-red-node-web-nodes to v0.3.2 to fix OAuth dance with instagram, google calendar node and others.
 - fixed crashing pushbullet by upgrading to node-red-node-pushbullet v0.0.5.  Thank you @knolleary for these fixes!
