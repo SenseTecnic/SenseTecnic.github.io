@@ -4,6 +4,16 @@ permalink: /fred/releases/
 ---
 ## Releases
 
+###Release 0.3.0
+June 25, 2015
+
+- bug fixes related to user registration and emailer
+- refactored user service
+- migrated users to mongodb
+- fixed wotkit control-in bug, updated wotkit nodes.
+- added Slack node (https://www.npmjs.com/package/node-red-contrib-slack)
+- shard profile and password with WoTKit community edition
+
 ###Release 0.2.0
 June 9, 2015
 
