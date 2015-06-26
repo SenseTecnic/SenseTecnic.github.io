@@ -12,7 +12,7 @@ June 25, 2015
 - migrated users to mongodb
 - fixed wotkit control-in bug, updated wotkit nodes.
 - added Slack node (https://www.npmjs.com/package/node-red-contrib-slack)
-- shard profile and password with WoTKit community edition
+- shared profile and password with WoTKit community edition
 
 ###Release 0.2.0
 June 9, 2015
