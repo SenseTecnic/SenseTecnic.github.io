@@ -4,6 +4,16 @@ permalink: /fred/releases/
 ---
 ## Releases
 
+###Release 0.4.0
+July 22, 2015
+
+- upgraded node-red to version 0.11.1
+- added RBE node v0.0.6 (https://www.npmjs.com/package/node-red-node-rbe)
+- added Dweetio node v0.0.5 (https://www.npmjs.com/package/node-red-node-dweetio)
+- jwt integration with WoTKit community (http://wotkit.sensetecnic.com)
+- added link to developer site
+- added some administration features
+
 ###Release 0.3.0
 June 25, 2015
 
