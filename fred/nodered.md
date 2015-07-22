@@ -18,6 +18,9 @@ In addition to the core nodes, the following Node packages are installed:
     "node-red-node-smooth":"0.0.2",
     "node-red-node-ping":"0.0.3",
     "node-red-contrib-moment":"1.0.2",
+    "node-red-contrib-slack":"0.1.0",
+    "node-red-node-dweetio":"0.0.5",
+    "node-red-node-rbe":"0.0.6"
 
 Because FRED is a cloud-hosted service, it does not make sense to include nodes that access hardware or the underlying operating system.  The following core nodes are *disabled* in FRED:
 
