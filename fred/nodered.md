@@ -8,7 +8,7 @@ The current current version of Node-RED used by FRED is based on `0.10.6`.  The 
 
 In addition to the core nodes, the following Node packages are installed:
 
-    "node-red-contrib-wotkit":"0.2.1",
+    "node-red-contrib-wotkit":"0.2.9",
     "node-red-node-web-nodes":"0.3.2",
     "node-red-node-pushbullet":"0.0.5",
     "node-red-node-wordpos":"0.0.1",
@@ -20,7 +20,8 @@ In addition to the core nodes, the following Node packages are installed:
     "node-red-contrib-moment":"1.0.2",
     "node-red-contrib-slack":"0.1.0",
     "node-red-node-dweetio":"0.0.5",
-    "node-red-node-rbe":"0.0.6"
+    "node-red-node-rbe":"0.1.*",
+    "node-red-contrib-salesforce":"0.0.5"
 
 Because FRED is a cloud-hosted service, it does not make sense to include nodes that access hardware or the underlying operating system.  The following core nodes are *disabled* in FRED:
 
