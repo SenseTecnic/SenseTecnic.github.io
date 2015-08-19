@@ -9,7 +9,21 @@ The current current version of Node-RED used by FRED is based on `0.11.0`.  The 
 In addition to the core nodes, the following Node packages are installed:
 
     "node-red-contrib-wotkit":"0.2.9",
-    "node-red-node-web-nodes":"0.3.2",
+    "node-red-node-aws":"0.1.0",
+    "node-red-node-box":"0.1.0",
+    "node-red-node-delicious":"0.1.0",
+    "node-red-node-dropbox":"0.1.0",
+    "node-red-node-fitbit":"0.1.0",
+    "node-red-node-flickr":"0.1.1",
+    "node-red-node-forecastio":"0.1.0",
+    "node-red-node-google":"0.1.0",
+    "node-red-node-instagram":"0.1.0",
+    "node-red-node-jawboneup":"0.1.0",
+    "node-red-node-openweathermap":"0.1.0",
+    "node-red-node-pinboard":"0.1.0",
+    "node-red-node-strava":"0.1.0",
+    "node-red-node-tfl":"0.1.0",
+    "node-red-node-weather-underground":"0.1.1"
     "node-red-node-pushbullet":"0.0.5",
     "node-red-node-wordpos":"0.0.1",
     "node-red-node-xmpp":"0.0.2",
