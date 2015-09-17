@@ -32,7 +32,7 @@ In addition to the core nodes, the following Node packages are installed:
     "node-red-node-smooth":"0.0.2",
     "node-red-node-ping":"0.0.3",
     "node-red-contrib-moment":"1.0.2",
-    "node-red-contrib-slack":"0.1.0",
+    "node-red-contrib-slack":"SenseTecnic/node-red-slack" (0.1.0),
     "node-red-node-dweetio":"0.0.5",
     "node-red-node-rbe":"0.1.*",
     "node-red-contrib-salesforce":"0.0.5"

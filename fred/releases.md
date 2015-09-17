@@ -4,6 +4,19 @@ permalink: /fred/releases/
 ---
 ## Releases
 
+###Release 0.6.0
+September 17, 2015
+- websockets proxies to be able to serve ws:// urls (websockets server)
+- improved web service proxy for public and protected apis
+- fix instance crashing due to logging bug in slack nodes
+- update fred to express 4 updates
+
+###Release 0.5.0
+August 31, 2015
+- several fixes on admin pages
+- added maxoldspace config for booting instances to optimize memory usage
+- modified versions of tcp and udp core nodes disabling server configuration
+
 ###Release 0.4.0
 July 22, 2015
 
@@ -34,10 +47,8 @@ June 9, 2015
 - new feedback button that feeds into JIRA
 - profile uses first and last name
 
-
 ###Release 0.1.4
 May 6, 2015
-
 
 - upgrade node-red-node-web-nodes to v0.3.2 to fix OAuth dance with instagram, google calendar node and others.
 - fixed crashing pushbullet by upgrading to node-red-node-pushbullet v0.0.5.  Thank you @knolleary for these fixes!
