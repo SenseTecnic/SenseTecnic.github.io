@@ -68,7 +68,7 @@ FRED proxies all communication from the Internet to your instance of Node-RED. T
 To create a Websocket input node accessible by anyone, prefix your URL with `/public/` in the path option of the of the websocket node. To access the websocket  you will add `/public/{username}` to the client. For example, a websocket input node configured with the path `/public/data` set up by mike will be accessible as  `ws://fred.sensetecnic.com/public/mike/data`. You could access this websocket using wscat using:
 
 ```
-wscat -c "http://test-fred.sensetecnic.com/public/mike/receive"
+wscat -c "http://fred.sensetecnic.com/public/mike/receive"
 ```
 
 ### Private Websocket Input Nodes
@@ -85,7 +85,7 @@ To make a request to a protected websocket input node, your username and API key
 For example, to make a request to a node with the configured path `/thing`, you make a websocket request to: `ws://fred.sensetecnic.com/api/thing`.  Note that there is no username in the URL, and your HTTP input node is prefixed with `/api`. You could access this websocket with wscat using:
 
 ```
-wscat -H x-auth-user:{username} -H x-auth-key:{key} -c "http://test-fred.sensetecnic.com/api/thing"
+wscat -H x-auth-user:{username} -H x-auth-key:{key} -c "http://fred.sensetecnic.com/api/thing"
 ```
 
 ## Input Nodes
