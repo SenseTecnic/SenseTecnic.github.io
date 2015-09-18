@@ -6,6 +6,7 @@ permalink: /fred/releases/
 
 ###Release 0.6.0
 September 17, 2015
+
 - websockets proxies to be able to serve ws:// urls (websockets server)
 - improved web service proxy for public and protected apis
 - fix instance crashing due to logging bug in slack nodes
@@ -13,6 +14,7 @@ September 17, 2015
 
 ###Release 0.5.0
 August 31, 2015
+
 - several fixes on admin pages
 - added maxoldspace config for booting instances to optimize memory usage
 - modified versions of tcp and udp core nodes disabling server configuration
