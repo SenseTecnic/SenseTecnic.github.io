@@ -4,6 +4,12 @@ permalink: /fred/releases/
 ---
 ## Releases
 
+###Release 0.7.1
+October 8, 2015
+
+- admin feature to display info on last running instances
+- added mongodb, mysql, postgresql nodes
+
 ###Release 0.6.0
 September 17, 2015
 
