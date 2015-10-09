@@ -6,6 +6,8 @@ The static page site use jekyll.  More on jekyll at these links:
 - https://help.github.com/articles/using-jekyll-with-pages/
 - https://github.com/jekyll/jekyll
 
+You need to install ruby, python, nodejs, etc. as mentioned here: http://jekyllrb.com/docs/installation/
+
 I've set up a GruntFile to make it easier to remember how to build and serve the site.  To build the page ensure you've installed grunt:
 
     npm install -g grunt
