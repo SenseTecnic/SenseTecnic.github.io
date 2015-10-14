@@ -4,6 +4,13 @@ permalink: /fred/releases/
 ---
 ## Releases
 
+###Release 0.7.2
+October 14, 2015
+
+- fixed bug in /api prefix for http and websocket nodes
+- added influxdb, pubnub nodes
+- updated mongodb node
+
 ###Release 0.7.1
 October 8, 2015
 
