@@ -4,6 +4,16 @@ permalink: /fred/releases/
 ---
 ## Releases
 
+###Release 0.8.1
+January 18, 2016
+
+- moved FAQ link to documentation site
+
+###Release 0.8.0
+November 29, 2015
+
+- split instance management to separate backend service
+
 ###Release 0.7.2
 October 14, 2015
 

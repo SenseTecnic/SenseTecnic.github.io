@@ -42,15 +42,15 @@ We don't restrict the volume and data in/out at this stage but we may have to if
 Todays service doesn't help you directly. The target for FRED is people who are using NR as a tool to integrate devices and web services in the cloud. We are also doing some work on a distributed node-red that may help with flows that run both in the cloud and on devices.
 
 ###Q. What are the technical limitations of FRED?
-Broadly speaking, there are two. Firstly, FRED hosts Node-RED behind a proxy and firewall, so there is no way to communicate with your instance of node-red except through FRED. This means that only certain input nodes or configurations work (TODO: link to more info). Secondly, because FRED is a cloud service, you don’t have access to nodes that depend on underlying OS for storage and sensors. We plan to address some of these limitations in future releases.
+Broadly speaking, there are two. Firstly, FRED hosts Node-RED behind a proxy and firewall, so there is no way to communicate with your instance of node-red except through FRED. This means that only certain input nodes or configurations work. Secondly, because FRED is a cloud service, you don’t have access to nodes that depend on underlying OS for storage and sensors.  We currently don't allow you to install your own nodes yet. We plan to address some of these limitations in future releases. 
 
 ###Q. What is your roadmap for FRED?
 We have some ideas, but are open to suggestions. We hope to continue to support new versions and capabilities of node-red when they become available. We will be adding new nodes, and think that it would be good to bundle the system with libraries of flows and nodes. We are considering how to break open the functionality of the Sense Tecnic IoT platform so that we can offer other key components needed for IoT development.
 
-###Q. How do I access HTTP input nodes using the API key?
-To access a node-red HTTP Input node through FRED, you supply your login name and API key the appropriate headers. The headers used are:
+###Q. How do I access HTTP or web sockets input nodes using the API key?
+To access a node-red HTTP or web sockets input node through FRED, you supply your login name and password using basic authentication, or your API key the appropriate headers. The headers used are:
 
     X-Auth-User: {username}
     X-Auth-Key: {apikey}
 
-The API key is displayed in your Profile. You make HTTP requests to: `https://fred.sensetecnic.com/api`
+The API key is displayed in your Profile. You make HTTP requests to: `https://fred.sensetecnic.com/api/{node}`.  See the [user documentation](/fred/userdocs) for more information.

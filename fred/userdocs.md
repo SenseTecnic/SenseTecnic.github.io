@@ -29,7 +29,7 @@ FRED proxies all communication from the Internet to your instance of Node-RED.  
 To create an HTTP input node accessible by anyone, prefix your URL with `/public/` in your flows.  To access the flow you add `/public/{username}` to the FRED host. For example, an HTTP Input node called `/public/data` set up by roberto will be accessible as `https://fred.sensetecnic.com/public/roberto/data`.
 
 ### Private API HTTP Input Nodes
-For an HTTP client to access protected HTTP input nodes in your flows, you must provide your username and API key with your HTTP requests.  Like a password, the API key is used by FRED to authenticate the request.  An API is generated for you when you register, and can be regenerated using the Profile dialog.
+For an HTTP client to access protected HTTP input nodes in your flows, you must provide your username and password using basic authentation, or your username and API key with your HTTP requests.  Like a password, the API key is used by FRED to authenticate the request.  An API is generated for you when you register, and can be regenerated using the Profile dialog.
 
 Note that if you regenerate your API key, existing HTTP clients will no longer have access to your flows.
 
@@ -65,7 +65,7 @@ FRED proxies all communication from the Internet to your instance of Node-RED. T
 
 ### Public Websocket Input Nodes
 
-To create a Websocket input node accessible by anyone, prefix your URL with `/public/` in the path option of the of the websocket node. To access the websocket  you will add `/public/{username}` to the client. For example, a websocket input node configured with the path `/public/data` set up by mike will be accessible as  `ws://fred.sensetecnic.com/public/mike/data`. You could access this websocket using wscat using:
+Like public HTTP input nodes, to create a Websocket input node accessible by anyone, prefix your URL with `/public/` in the path option of the of the websocket node. To access the websocket  you will add `/public/{username}` to the client. For example, a websocket input node configured with the path `/public/data` set up by mike will be accessible as  `ws://fred.sensetecnic.com/public/mike/data`. You could access this websocket using wscat using:
 
 ```
 wscat -c "http://fred.sensetecnic.com/public/mike/receive"
@@ -73,7 +73,15 @@ wscat -c "http://fred.sensetecnic.com/public/mike/receive"
 
 ### Private Websocket Input Nodes
 
-For an websockets client to access protected Websocket input nodes in your flows, you must provide your username and API key with your requests.  Like a password, the API key is used by FRED to authenticate the request.  An API is generated for you when you register, and can be regenerated using the Profile dialog.
+For an websockets client to access protected Websocket input nodes in your flows, you must provide your username and password using basic authentication, or your API key with your requests.
+
+To connect to a web socket on a `/thing` listening node using basic authentication using the [wscat tool](https://github.com/websockets/wscat), use the following:
+
+```
+wscat --auth username:password -c "http://fred.sensetecnic.com/api/thing"
+```
+
+Like a password, the API key is used by FRED to authenticate the request.  An API is generated for you when you register, and can be regenerated using the Profile dialog.
 
 Note that if you regenerate your API key, existing clients will no longer have access to your flows.
 
