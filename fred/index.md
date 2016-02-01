@@ -15,7 +15,6 @@ To register for FRED, click on the *Register Now* button to bring up the registr
 - [Frequently Asked Questions](faq)
 - [User Documentation](userdocs)
 - [Node-RED and Nodes](nodered)
-- [Release Notes](releases)
 
 
 
