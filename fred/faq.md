@@ -24,7 +24,7 @@ We have no formal relationship with IBM. We are active members of the Node-RED c
 The free service is currently an beta release and is best effort only.  Free instances run for 72 hours after a log in.  In the future, we are considering a limit of 50 nodes in all flows/tabs.  Support is best effor by email.
 
 ### Q. Do you guys offer a SLA or some sort of guarantees? How can I ensure my flows will keep running?
-We are working on paid subscription options where your flows will keep running, higher node counts, improved support, and no time limits.  We also offer dedicated instances of Node-RED and customization services.  Please contact us for more information.
+We are working on paid subscription options where your flows will keep running, higher node counts, improved support, and no time limits.  We also offer dedicated instances of Node-RED and customization services.  Please [contact us](mailto:info@sensetecnic.com) for more information.
 
 ### Q. How does the node count limit work?
 We count nodes in your flows that appear on the canvas/workspace, other than tabs and comment nodes.  We check the node count against your limits when you first log in, and then periodically.  If you go over your node count limit, we give you 24 hours to remove nodes and redeploy before the instance is stopped.  Even after the instance is stopped, you can log in any time, start the instance, remove nodes and redeploy, or upgrade your subscription and start the instance.
@@ -36,7 +36,7 @@ No, we haven't made FRED open source. That's something we might consider but at 
 We are providing FRED as a service to the Node-RED community.  Initially FRED was free, but we've found it necessary to cover the costs of running *many* Node-RED instances in the cloud, so we're introducing paid subscriptions for those that need their instance to run 24x7.
 
 ### Q. Can I use it for commercial purposes?
-Yes, feel free to use your account and the NR instances in anyway you want. However, keep in mind that we only run your instance for 72 hours with the free account, and don't offer any guarantees that your flow will stay up. If you want that type of guarantee, please contact us or consider a paid subscription when that is ready.
+Yes, feel free to use your account and the NR instances in anyway you want. However, keep in mind that we only run your instance for 72 hours with the free account, and don't offer any guarantees that your flow will stay up. If you want that type of guarantee, please [contact us](mailto:info@sensetecnic.com) or consider a paid subscription when that is ready.
 
 ### Q. Can I have unlimited flows or nodes running?
 We don't restrict the volume and data in/out at this stage but we may have to if our costs get out of hand. If your flows misbehave, we may need to shut them down until we can work out what’s up.

@@ -7,7 +7,7 @@ permalink: /fred/nodered/
 The current current version of Node-RED used by FRED is based on `0.13.3`.  The (minor) UI changes made to Node-RED are maintained at [github.com/mblackstock/node-red-contrib](https://github.com/mblackstock/node-red-contrib).  See the `fred-develop` and `fred-master` branches.
 
 ## Nodes in FRED
-In addition to the core nodes, the following Node packages are installed for your enjoyment!  If there are nodes you would like to try, let us know!
+In addition to the core nodes, the following Node packages are installed for your enjoyment!  If there are nodes you would like to try, [let us know](mailto:info@sensetecnic.com)!
 
     node-red-contrib-moment@1.0.2
     node-red-contrib-postgres@0.4.0
