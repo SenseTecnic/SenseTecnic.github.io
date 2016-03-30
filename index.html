@@ -4,45 +4,13 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Products</h1>
-      <ul >
-        <li>
-          <a class="page-link" href="https://wotkit.sensetecnic.com">WoTKit - The Web of Things Toolkit</a>
-        </li>
-
-        <li>
-          <a class="page-link" href="https://fred.sensetecnic.com">FRED - Front end for Node-RED</a>
-        </li>
-    </ul>
-
   <h1 class="page-heading">Documentation</h1>
-  <ul>
-    <li>
-        <a class="page-link" href="http://wotkit.readthedocs.org">WoTKit</a>
-    </li>
-    {% for page in site.pages %}
-      {% if page.project %}
-        <li>
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.project }}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
-  <h1 class="page-heading">Updates</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  {% for page in site.pages %}
+    {% if page.project %}
+      <h2>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.project }}</a>
+      </h2>
+    {% endif %}
+  {% endfor %}
 
 </div>
