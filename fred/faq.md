@@ -21,7 +21,7 @@ We are Sense Tecnic, a commercial IoT solutions provider. We offer hosted IoT so
 We have no formal relationship with IBM. We are active members of the Node-RED community, but have developed FRED independently.
 
 ### Q. What do I get for free?
-The free service is currently an beta release and is best effort only.  Free instances run for 72 hours after a log in.  In the future, we are considering a limit of 50 nodes in all flows/tabs.  Support is best effor by email.
+The free service is currently an beta release and is best effort only.  Free instances run for 72 hours after a log in.  In the future, we are considering a limit of 50 nodes in all flows/tabs.  Support will be best effort by email.
 
 ### Q. Do you guys offer a SLA or some sort of guarantees? How can I ensure my flows will keep running?
 We are working on paid subscription options where your flows will keep running, higher node counts, improved support, and no time limits.  We also offer dedicated instances of Node-RED and customization services.  Please [contact us](mailto:info@sensetecnic.com) for more information.
