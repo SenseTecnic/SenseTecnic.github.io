@@ -21,13 +21,13 @@ We are Sense Tecnic, a commercial IoT solutions provider. We offer hosted IoT so
 We have no formal relationship with IBM. We are active members of the Node-RED community, but have developed FRED independently.
 
 ### Q. What do I get for free?
-The free service is currently an beta release and is best effort only.  Free instances run for 72 hours after a log in.  In the future, we are considering a limit of 50 nodes in all flows/tabs.  Support will be best effort by email.
+The free account has a restriction on the number of nodes you are able to have in all of your flows. When you hit that restriction your Node-RED instance will be stopped after a period of time and you'll be asked to remove some nodes. There are currently no restrictions on data in/out.  Support will be best effort by email.
 
-### Q. Do you guys offer a SLA or some sort of guarantees? How can I ensure my flows will keep running?
-We are working on paid subscription options where your flows will keep running, higher node counts, improved support, and no time limits.  We also offer dedicated instances of Node-RED and customization services.  Please [contact us](mailto:info@sensetecnic.com) for more information.
+### Q. How can I ensure my flows will keep running?
+To ensure your nodes keep running, you can now upgrade to our paid subscription plan.  This plan has a higher node limit, improved support and we'll keep your flows running.  See the [pricing page](https://fred.sensetecnic.com/pricing).  We also offer dedicated instances of Node-RED and customization services.  Please [contact us](mailto:info@sensetecnic.com) for more information.
 
 ### Q. How does the node count limit work?
-We count nodes in your flows that appear on the canvas/workspace, other than tabs and comment nodes.  We check the node count against your limits when you first log in, and then periodically.  If you go over your node count limit, we give you 24 hours to remove nodes and redeploy before the instance is stopped.  Even after the instance is stopped, you can log in any time, start the instance, remove nodes and redeploy, or upgrade your subscription and start the instance.
+We count nodes in your flows that appear on the canvas/workspace, other than tabs and comment nodes.  We check the node count against your limits when you first log in, and then periodically.  If you go over your node count limit, we let you know when you log in or by email, and give you 24 hours to remove nodes and redeploy before the instance is stopped.  Even after the instance is stopped, you can log in any time, start the instance, remove nodes and redeploy, or upgrade your subscription and start the instance.
 
 ### Q. Is FRED open source?
 No, we haven't made FRED open source. That's something we might consider but at the moment our contribution to the NR open source community will be through proposals and updates to Node-RED.
