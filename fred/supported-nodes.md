@@ -1,12 +1,11 @@
 ---
-layout: default
-permalink: /fred/nodered/
+layout: page
+permalink: /fred/supported-nodes/
+title: supported-nodes
 ---
-## Node-RED in FRED
 
-The current current version of Node-RED used by FRED is based on `0.13.3`.  The (minor) UI changes made to Node-RED are maintained at [github.com/mblackstock/node-red-contrib](https://github.com/mblackstock/node-red-contrib).  See the `fred-develop` and `fred-master` branches.
+# Nodes Supported by FRED
 
-## Nodes in FRED
 In addition to the core nodes, the following Node packages are installed for your enjoyment!  If there are nodes you would like to try, [let us know](mailto:info@sensetecnic.com)!
 
     node-red-contrib-moment@1.0.2

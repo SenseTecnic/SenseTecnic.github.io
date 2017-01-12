@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
   {% include head.html %}
-  <body class="page">
-    {% include header.html %}
+  <body class=>
+    <section class="page-header">
+      <h1 class="project-name"><div class="stslogo"></div><span>{{ site.title | default: site.github.repository_name }}</span></h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    </section>
+
     <section class="main-content">
-      
-      <div class="sidebar">
-        {% include sidebar.html %}
-      </div>
-
-      <div class="content">
-        {{ content }}
-      </div>
-
+      {{ content }}
       <div class="push-footer"></div>
     </section>
     {% include footer.html %}
@@ -29,6 +25,6 @@
         } catch(err) {}
       </script>
     {% endif %}
-
   </body>
+
 </html>

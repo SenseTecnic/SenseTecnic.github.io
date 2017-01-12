@@ -1,0 +1,164 @@
+html, body {
+	height: 100%;
+	background-color: #fcfcfc;
+	font-family: 'Droid Sans', Helvetica;
+}
+
+.main-content {
+	min-height: calc(100% - #{$footer-height});
+	margin: 0 auto - $footer-height; /* the bottom margin is the negative value of the footer's height */
+}
+
+.sidebar {
+	@include medium {
+		font-size: 90%;
+		background: #000;
+	}
+	@include small {
+		font-size: 75%;
+	}
+}
+
+.page-header {
+	padding: 4rem 6rem;
+
+	h1 {
+		.stslogo {
+			background-image: url(/assets/images/sts.png);
+			height: 40px;
+			width: 40px;
+			background-color: #fff;
+			border-radius: 6px;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			display: inline-block;
+			margin-right: 15px;
+			vertical-align: middle;
+		}
+		> span {
+			vertical-align: middle;
+		}
+	}
+
+}
+
+.page {
+	padding-top: $header-height;
+
+	.page-header {
+		text-align: left;
+		padding: 0;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		width: 100%;
+		position: fixed;
+		
+		background-color: #59658a;
+		background-image: linear-gradient(120deg, #59658a, #579bd5);
+
+		&:after {
+			content: " ";
+			display: block;
+			height: 0;
+			clear: both;
+		}
+		
+		a {
+			text-decoration: none;
+			color: #fff;
+			padding: 1rem;
+			display: inline-block;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: inline-block;
+			float: right;
+
+			li {
+				display: inline-block;
+
+				a {
+					height: $header-height;
+					line-height: 30px;
+					-webkit-transition: background-color 0.2s ease-in-out;
+					-moz-transition: background-color 0.2s ease-in-out;
+					transition: background-color 0.2s ease-in-out;
+
+					&:hover {
+						background-color: rgba(255,255,255,0.2);
+
+					}
+				}
+			}
+		}
+
+		h1.project-name {
+			font-size: 1.2em;
+			display: inline-block;
+		}
+	}
+
+	.site-footer {
+		padding-left: $sidebar-width;
+	}
+
+	.main-content {
+		padding: 0;
+		margin: 0;
+		max-width: none;
+
+		.sidebar {
+			background-color: #2e323e;
+
+			> ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+
+				> li {
+					&.sidebar-header {
+						padding: 8px 15px;
+						background-color: #373D4C;
+						text-transform: uppercase;
+						font-size: 0.7em;
+						color: #aaa;
+					}
+
+					> a {
+						color: #9EB7CE;
+						cursor: pointer;
+						display: block;
+						padding: 13px 25px;
+						font-size: 0.85em;
+						text-decoration: none;
+						-webkit-transition: background-color 0.2s ease-in-out;
+						-moz-transition: background-color 0.2s ease-in-out;
+						transition: background-color 0.2s ease-in-out;
+
+						&:hover {
+							background-color: rgba(0,0,0,0.3);
+						}
+					}
+
+				}
+			}
+			width: $sidebar-width;
+			height: 100%;
+			position: fixed;
+			overflow-y: auto;
+		}
+
+		.content {
+			padding: 1rem 2rem 1rem calc(2rem + #{$sidebar-width});
+			// padding-left: $sidebar-width;
+
+		}
+	}
+
+
+
+}
