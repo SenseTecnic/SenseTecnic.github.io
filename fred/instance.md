@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/instance/
+permalink: /fred/instance
 title: instance
 ---
 

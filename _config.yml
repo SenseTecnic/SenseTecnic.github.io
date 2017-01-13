@@ -24,22 +24,22 @@ twitter_username: sensetecnic
 github_username: SenseTecnic
 
 sidebar:
-  - text: overview
-    subpages:
-    - text: What is FRED?
-      url: /fred/about
+  - text: Overview
+    pages:
+    - text: Introduction
+      url: /fred/intro
     - text: Quick Start
       url: /fred/quickstart
     - text: FAQ
       url: /fred/faq
     - text: Release Notes
       url: /fred/release-notes
-  - text: usage
-    subpages:
-    - text: Profile
-      url: /fred/profile
+  - text: Usage
+    pages:
     - text: Your Node-RED Instance
       url: /fred/instance
+    - text: Profile and Subscription
+      url: /fred/profile
     - text: Accessing your HTTP endpoints
       url: /fred/http-access
     - text: Websocket Support

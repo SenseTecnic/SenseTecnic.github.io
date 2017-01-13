@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/node-install/
+permalink: /fred/node-install
 title: node-install
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/dashboard-sharing/
+permalink: /fred/dashboard-sharing
 title: dashboard-sharing
 ---
 

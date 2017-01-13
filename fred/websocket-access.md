@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/websocket-access/
+permalink: /fred/websocket-access
 title: websocket-access
 ---
 

@@ -1,8 +1,8 @@
 <ul>
 	{% for category in site.sidebar %}
 	<li class="sidebar-header">{{category.text}}</li>
-		{% for page in category.subpages %}
-		<li><a href="{{page.url}}">{{page.text}}</a></li>
+		{% for p in category.pages %}
+		<li {% if page.permalink == p.url %}class="active"{% endif %}><a href="{{p.url}}">{{p.text}}</a></li>
 		{% endfor %}
 	{% endfor %}
 </ul>

@@ -1,7 +1,34 @@
+<script >
+	function toggleNavbarCollapse () {
+		document.querySelector(".nav-collapsed").classList.toggle('active');
+		document.querySelector(".nav-collapsed-btn").classList.toggle('active');
+	}
+</script>
+
 <section class="page-header">
-  <a href="/"><h1 class="project-name">FRED - Documentation</h1></a>
-  <ul>
-  	<li><a href="/">Home</a></li>
-  	<li><a href="https://fred.sensetecnic.com">Go to FRED</a></li>
-  </ul>
+
+	<ul class="nav-collapsed">
+		{% for category in site.sidebar %}
+		<li class="heading">{{category.text}}</li>
+			{% for p in category.pages %}
+			<li {% if page.permalink == p.url %}class="active"{% endif %}><a href="{{p.url}}">{{p.text}}</a></li>
+			{% endfor %}
+		{% endfor %}
+		<li><a href="https://fred.sensetecnic.com">Go to FRED</a></li>
+	</ul>
+
+	<a href="/"><h1 class="project-name">FRED - Documentation</h1></a>
+
+	<ul class="nav-right">
+		<li><a href="/">Home</a></li>
+		<li><a href="https://fred.sensetecnic.com">Go to FRED</a></li>
+	</ul>
+
+	<button type="button" class="nav-collapsed-btn" onclick="toggleNavbarCollapse()">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span> 
+	</button>
+
 </section>
+

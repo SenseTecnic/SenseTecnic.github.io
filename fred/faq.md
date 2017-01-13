@@ -1,10 +1,29 @@
 ---
 layout: page
-permalink: /fred/faq/
+permalink: /fred/faq
 title: faq
 ---
 # FAQ
 Hopefully this answer's some of your questions about FRED. If you have any others, [let us know](mailto:info@sensetecnic.com). Note that FRED is a shared service and security in this alpha version is still simplistic: *take care to limit your use of passwords and other credentials in your flows.*
+
+- [What's with the name?](#q-whats-with-the-name)
+- [Neato, how does it work?](#q-neato-how-does-it-work)
+- [ave you hacked Node-RED?](#q-have-you-hacked-node-red)
+- [Who are you guys?](#q-who-are-you-guys)
+- [What's Sense Tecnic's relationship to IBM and Node-RED?](#q-whats-sense-tecnics-relationship-to-ibm-and-node-red)
+- [What do I get for free?](#q-what-do-i-get-for-free)
+- [How can I ensure my flows will keep running?](#q-how-can-i-ensure-my-flows-will-keep-running)
+- [How does the node count limit work?](#q-how-does-the-node-count-limit-work)
+- [Is FRED open source?](#q-is-fred-open-source)
+- [Are you guys philanthropists or looking to make a quick buck?](#q-are-you-guys-philanthropists-or-looking-to-make-a-quick-buck)
+- [Can I use it for commercial purposes?](#q-can-i-use-it-for-commercial-purposes)
+- [Can I have unlimited flows or nodes running?](#q-can-i-have-unlimited-flows-or-nodes-running)
+- [I want to run Node-RED on a Pi (or some other device) - how does FRED help?](#q-i-want-to-run-node-red-on-a-pi-or-some-other-device---how-does-fred-help)
+- [What are the technical limitations of FRED?](#q-what-are-the-technical-limitations-of-fred)
+- [What is your roadmap for FRED?](#q-what-is-your-roadmap-for-fred)
+- [How do I access HTTP or web sockets input nodes with FRED?](#q-how-do-i-access-http-or-web-sockets-input-nodes-with-fred)
+
+___
 
 ### Q. What's with the name?
 FRED stands for a 'Front End for Node-RED'.

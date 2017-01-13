@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 @import "variables.scss";
-@import "mixin.scss";
 @import "footer.scss";
 @import "main.scss";
+@import "front.scss";
+@import "page.scss";

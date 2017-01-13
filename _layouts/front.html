@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
   {% include head.html %}
-  <body class=>
+  <body class="front">
     <section class="page-header">
       <h1 class="project-name"><div class="stslogo"></div><span>{{ site.title | default: site.github.repository_name }}</span></h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      
+      <a class="btn" href="/fred/intro">FRED User Docs</a>
+      <a class="btn disabled" href="#">STS MQTT Docs (coming soon)</a>
+
     </section>
 
-    <section class="main-content">
-      {{ content }}
-      <div class="push-footer"></div>
-    </section>
     {% include footer.html %}
 
     {% if site.google_analytics %}

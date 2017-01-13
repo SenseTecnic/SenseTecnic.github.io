@@ -26,4 +26,10 @@
 		margin-left: 5px;
 	}
 
+	.separator:after {
+		content: "|";
+		color: #eff0f1;
+		margin: 0 7px;
+	}
+
 }

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/quickstart/
+permalink: /fred/quickstart
 title: quickstart
 ---
 
