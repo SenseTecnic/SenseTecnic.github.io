@@ -103,7 +103,7 @@ We have some ideas, but are open to suggestions. We hope to continue to support 
 ___
 
 ### Q. How do I access HTTP or web sockets input nodes with FRED?
-See the [user documentation](/fred/userdocs) for more information on how to access public and private input nodes.
+See the [http access](/fred/http-access) and [websocket support](/fred/websocket-access) for more information on how to access public and private input nodes.
 
 ___
 
