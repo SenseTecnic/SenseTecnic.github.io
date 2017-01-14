@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /fred/quickstart
-title: quickstart
+title: "FRED Docs: Quick Start"
 ---
 
 # Quick Start

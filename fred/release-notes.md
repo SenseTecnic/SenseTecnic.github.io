@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /fred/release-notes
-title: release-notes
+title: "FRED Docs: Release Notes"
 ---
 
 # FRED Release Notes

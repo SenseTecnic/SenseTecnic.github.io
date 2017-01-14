@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /fred/faq
-title: faq
+title: "FRED Docs: FAQ"
 ---
 # FAQ
 Hopefully this answer's some of your questions about FRED. If you have any others, [let us know](mailto:info@sensetecnic.com). Note that FRED is a shared service and security in this alpha version is still simplistic: *take care to limit your use of passwords and other credentials in your flows.*
@@ -22,7 +22,8 @@ Hopefully this answer's some of your questions about FRED. If you have any other
 - [What are the technical limitations of FRED?](#q-what-are-the-technical-limitations-of-fred)
 - [What is your roadmap for FRED?](#q-what-is-your-roadmap-for-fred)
 - [How do I access HTTP or web sockets input nodes with FRED?](#q-how-do-i-access-http-or-web-sockets-input-nodes-with-fred)
-
+- [How do I install custom nodes for my instance?](#q-how-do-i-install-custom-nodes-for-my-instance)
+- [Does FRED use Docker?](q-does-fred-use-docker)
 ___
 
 ### Q. What's with the name?
@@ -36,7 +37,7 @@ FRED is a "smart" proxy that relays HTTP and web sockets communications to one o
 ___
 
 ### Q. Have you hacked Node-RED?
-No, we use 'vanilla' Node-RED (with some very minor tweaks). We aim to make no changes to the node red core so that nodes and flows run without changes. When a new release of node red comes out, we can just upgrade to the new one.
+No, we use 'vanilla' Node-RED (with some very minor visual tweaks). We aim to make no changes to the Node-RED core so that nodes and flows run without changes or compatibility issues. When a new release of Node-RED comes out, we can just upgrade to the new one.
 
 ___
 
@@ -91,7 +92,7 @@ Todays service doesn't help you directly. The target for FRED is people who are 
 ___
 
 ### Q. What are the technical limitations of FRED?
-Broadly speaking, there are two. Firstly, FRED hosts Node-RED behind a proxy and firewall, so there is no way to communicate with your instance of Node-RED except through FRED. This means that only certain input nodes or configurations work. Secondly, because FRED is a cloud service, you don’t have access to nodes that depend on underlying OS for storage and sensors.  We currently don't allow you to install your own nodes yet. We plan to address some of these limitations in future releases.  Depending on your subscription and associated time and node count limits, instances may stop running after a period of time.  
+Broadly speaking, there are two. Firstly, FRED hosts Node-RED behind a proxy and firewall, so there is no way to communicate with your instance of Node-RED except through FRED. This means that only certain input nodes or configurations work. Secondly, because FRED is a cloud service, you don’t have access to nodes that depend on underlying OS for storage and sensors.  We currently don't allow you to install your own nodes. We plan to address some of these limitations in future releases.  Depending on your subscription and associated time and node count limits, instances may stop running after a period of time.  
 
 ___
 
@@ -102,5 +103,15 @@ ___
 
 ### Q. How do I access HTTP or web sockets input nodes with FRED?
 See the [user documentation](/fred/userdocs) for more information on how to access public and private input nodes.
+
+___
+
+### Q. How do I install custom nodes for my instance?
+See [Installing Node Packages for your Instance](/fred/node-install)
+
+___
+
+### Q. Does FRED use Docker?
+Yes. FRED uses [Docker](https://www.docker.com/) to contain its individual Node-RED instances.
 
 ___

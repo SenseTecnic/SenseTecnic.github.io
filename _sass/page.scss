@@ -147,7 +147,7 @@
 	}
 
 	.main-content {
-		padding: 0;
+		padding: 0 0 50px 0;
 		margin-left: 0;
 		margin-right: 0;
 		max-width: none;
@@ -157,6 +157,8 @@
 			width: $sidebar-width;
 			height: 100%;
 			position: fixed;
+			top: $header-height;
+			left: 0;
 			overflow-y: auto;
 
 			> ul {

@@ -1,19 +1,29 @@
 ---
 layout: page
 permalink: /fred/http-access
-title: http-access
+title: "FRED Docs: http-access"
 ---
 
 # Accessing Your Node HTTP Endpoints.
 
 ## HTTP Input Nodes
-FRED proxies all communication from the Internet to your instance of Node-RED.  To dispatch to your instance, FRED uses your user name in a header for private API input nodes, or the URL for public HTTP input nodes.
+FRED proxies all communication from the Internet to your instance of Node-RED.  To dispatch to your instance, FRED uses your username in a header for private API input nodes, or the URL for public HTTP input nodes.
 
 ### Public HTTP Input Nodes
-To create an HTTP input node accessible by anyone, prefix your URL with `/public/` in your flows.  To access the flow you add `/public/{username}` to the FRED host. For example, an HTTP Input node called `/public/data` set up by roberto will be accessible as `https://fred.sensetecnic.com/public/roberto/data`.
+To create an HTTP input node accessible by anyone, prefix your URL with `/public/` in your flows.  To access the flow you add `/public/{username}` to the FRED host. For example, an HTTP Input node called `/public/data` set up by roberto will be accessible as `https://fred.sensetecnic.com/public/roberto/data`. For compatibility reasons, we recommend to not name any HTTP input endpoint with "/ui" since it will clash with the node-red-dashboard UI endpoint.
 
 ### Private API HTTP Input Nodes
-For an HTTP client to access protected HTTP input nodes in your flows, you must provide your username and password using basic authentation, or your username and API key with your HTTP requests.  Like a password, the API key is used by FRED to authenticate the request.  An API is generated for you when you register, and can be regenerated using the Profile dialog.
+For an HTTP client to access protected HTTP input nodes in your flows there are two ways you can access your instance.
+
+#### Basic Auth
+
+You may provide your username and password using basic authentication. For example: 
+
+	curl --user <username>:<password> https://fred.sensetecnic.com/api/<endpoint>
+
+#### API Key
+
+Like a password, the API key is used by FRED to authenticate the request.  An API is generated for you when you register, and can be regenerated using the [Profile](/fred/profile) dialog.
 
 Note that if you regenerate your API key, existing HTTP clients will no longer have access to your flows.
 
@@ -24,7 +34,7 @@ To make a request to a protected HTTP input node, your username and API key must
 
 For example, to make a request to a node with the URL `/thing`, you make HTTP requests to: `https://fred.sensetecnic.com/api/thing`.  Note that there is no username in the URL, and your HTTP input node is prefixed with `/api`.  To illustrate we created a flow that takes in an HTTP input, sends the payload to the debug console, and sends a response back:
 
-![example input](/assets/images/sample_http_in1.png "Logo Title Text 1")
+![fred dashboard](/assets/images/sample_http_in1.png "Logo Title Text 1")
 
 The flow definition is shown here:
 
@@ -51,5 +61,3 @@ Specifically, the following nodes can be configured to 'Connect to' an outside s
 
 * TCP Input/Output
 * UDP Input/Output
-
-Note: we do intend to support web sockets input proxy to your flows in a future revsion.

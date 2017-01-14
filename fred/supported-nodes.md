@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /fred/supported-nodes
-title: supported-nodes
+title: "FRED Docs: Supported Nodes"
 ---
 
 # Nodes Supported by FRED
 
-In addition to the core nodes, the following Node packages are installed for your enjoyment!  If there are nodes you would like to try, [let us know](mailto:info@sensetecnic.com)!
+In addition to the core nodes, the following node packages are installed for your enjoyment!  If there are nodes you would like to try, [let us know](mailto:info@sensetecnic.com)!
 
 - [node-red-contrib-blynk-websockets@0.0.3](https://www.npmjs.com/package/node-red-contrib-blynk-websockets)
 - [node-red-contrib-boolean-logic@0.0.3](https://www.npmjs.com/package/node-red-contrib-boolean-logic)
