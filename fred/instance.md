@@ -59,7 +59,7 @@ If you are subscribed to your [FRED Tall](https://fred.sensetecnic.com/pricing) 
 
 - The amount of nodes you have have running in your flows is doubled to **100**. 
 
-- You have the option to **enable public access to your Node-RED UI dashboard page** through your FRED dashboard. This allows others to view your Node-RED dashboard page (https://fred.sensetecnic.com/public/\<YOUR_USERNAME\>/ui/) without logging into your FRED account.
+- You have the option to **enable public access to your Node-RED UI dashboard page** through your FRED dashboard. This allows others to view your Node-RED dashboard page `https://fred.sensetecnic.com/public/<YOUR_USERNAME>/ui/` without logging into your FRED account.
 
 ### Other Plans
 

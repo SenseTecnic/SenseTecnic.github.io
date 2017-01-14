@@ -16,6 +16,6 @@ To do so, simply:
 
 3. Click the "Enable Public Dashboard" check box on the sidebar.
 
-4. Your dashboard can now be accessed at "https://fred.sensetecnic.com/public/\<YOUR_USERNAME\>/ui/" without logging in to your FRED instance.
+4. Your dashboard can now be accessed at `https://fred.sensetecnic.com/public/<YOUR_USERNAME>/ui/` without logging in to your FRED instance.
 
 5. To disable sharing, simply uncheck the checkbox.
