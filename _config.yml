@@ -31,7 +31,7 @@ sidebar:
     - text: Quick Start
       url: /fred/quickstart
     - text: FAQ
-      url: /fred/faq
+      url: /fred/faq/
     - text: Release Notes
       url: /fred/release-notes
   - text: Usage
