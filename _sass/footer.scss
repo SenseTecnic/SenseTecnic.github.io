@@ -1,0 +1,35 @@
+.site-footer, .push-footer {
+	height: $footer-height; /* .push must be the same height as .footer */
+}
+
+.site-footer {
+	text-align: center;
+	font-size: 0.8em;
+	padding-top: 15px;
+	margin-top: 0;
+
+	.icon {
+	  > svg {
+	    display: inline-block;
+	    width: 16px;
+	    height: 16px;
+	    vertical-align: middle;
+
+	    path {
+	      fill: #7f7f7f;
+	    }
+	  }
+	}
+
+	a {
+		display: inline-block;
+		margin-left: 5px;
+	}
+
+	.separator:after {
+		content: "|";
+		color: #eff0f1;
+		margin: 0 7px;
+	}
+
+}

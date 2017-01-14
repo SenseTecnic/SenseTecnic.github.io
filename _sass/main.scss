@@ -1,0 +1,23 @@
+html, body {
+	height: 100%;
+	background-color: #fcfcfc;
+	font-family: 'Droid Sans', Helvetica;
+	font-size: 15px;
+}
+
+.main-content {
+	min-height: calc(100% - #{$footer-height});
+	margin: 0 auto (-$footer-height) auto; /* the bottom margin is the negative value of the footer's height */
+}
+
+.sidebar {
+	@include medium {
+		font-size: 90%;
+		background: #000;
+		width: 100px;
+	}
+	@include small {
+		font-size: 75%;
+	}
+}
+

@@ -1,22 +1,30 @@
 ---
-layout: default
-title: FRED
-project: FRED
+layout: page
 permalink: /fred/
+title: "FRED Docs: Intro"
 ---
-## Overview
+
+# What is FRED?
+
+Front End for Node-RED (FRED) manages instances of [Node-RED](https://nodered.org) for multiple users in the cloud. To instantly create your own Node-RED instance, [register for a free (limited) account](https://users.sensetecnic.com/register), or check out our [pricing](https://fred.sensetecnic.com/pricing) for hosting your instance of Node-RED. We are a member of the [Javascript Foundation](https://js.foundation/members).
 
 This guide will help you get started with using FRED.  To learn more about Node-RED itself see the official [Node-RED documentation](http://nodered.org).
 
-### Quick Start
-To register for FRED, click on the *Register Now* button to bring up the registration form.  Enter a user name, email address and password.  You will be asked to validate your email address.  Once you're email address validated, log in to FRED and start your instance!
+For more information and details, please refer to the [FAQ section](/fred/faq).
 
+## Node-RED in FRED
 
-### Documentation
-- [Frequently Asked Questions](faq)
-- [User Documentation](userdocs)
-- [Node-RED and Nodes](nodered)
+[Node-RED](https://nodered.org) is a visual tool for wiring the Internet of Things developed by [IBM Emerging Technology](https://www.ibm.com/blogs/emerging-technology) and the open source community. With Node-RED you can wire up input, output and processing nodes to create flows to prototype IoT applications.
 
+The current current version of [Node-RED](https://nodered.org) used by FRED is `0.15.3`.
 
+___
 
+# Table of Contents
 
+{% for category in site.sidebar %}
+**{{category.text}}**
+{% for p in category.pages %}
+- [{{p.text}}]({{p.url}})
+{% endfor %}
+{% endfor %}

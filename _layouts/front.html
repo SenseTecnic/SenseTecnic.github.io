@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
   {% include head.html %}
-  <body class="page">
-    {% include header.html %}
-    <section class="main-content">
+  <body class="front">
+    <section class="page-header">
+      <h1 class="project-name"><div class="stslogo"></div><span>{{ site.title | default: site.github.repository_name }}</span></h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       
-      <div class="sidebar">
-        {% include sidebar.html %}
-      </div>
+      <a class="btn" href="/fred/">FRED User Docs</a>
+      <a class="btn disabled" href="#">STS MQTT Docs (coming soon)</a>
 
-      <div class="content">
-        {{ content }}
-      </div>
-
-      <div class="push-footer"></div>
     </section>
+
     {% include footer.html %}
 
     {% if site.google_analytics %}
@@ -29,6 +25,6 @@
         } catch(err) {}
       </script>
     {% endif %}
-
   </body>
+
 </html>
