@@ -35,4 +35,16 @@
 
 }
 
+@media (max-width: $small-breakpoint) {
+	.site-footer {
+		.separator {
+			display: none;
+		}
+		a {
+			.username {
+				display: none;
+			}
+		}
+	}
+}
 
