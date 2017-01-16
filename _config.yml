@@ -51,6 +51,22 @@ sidebar:
     - text: Node-RED Dashboard Sharing
       url: /fred/dashboard-sharing/
 
+mqtt_sidebar:
+  - text: Getting Started
+    pages:
+    - text: Introduction
+      url: /mqtt/
+    - text: Registration
+      url: /mqtt/register/
+    - text: Status
+      url: /mqtt/status/
+    - text: Create a client
+      url: /mqtt/create-client/
+    - text: Connect with FRED
+      url: /mqtt/connect-howto/
+    - text: Create a topic
+      url: /mqtt/create-topic/
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman

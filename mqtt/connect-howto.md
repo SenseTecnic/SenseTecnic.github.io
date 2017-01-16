@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mqtt-page
 permalink: /mqtt/connect-howto/
 title: "MQTT Docs: Connect using FRED"
 ---

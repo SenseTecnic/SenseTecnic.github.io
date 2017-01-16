@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mqtt-page
 permalink: /mqtt/register/
 title: "MQTT Docs: Register and Log in"
 ---

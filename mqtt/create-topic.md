@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mqtt-page
 permalink: /mqtt/create-topic/
 title: "MQTT Docs: Create a topic"
 ---
