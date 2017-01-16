@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/faq
+permalink: /fred/faq/
 title: "FRED Docs: FAQ"
 ---
 # FAQ
@@ -24,6 +24,7 @@ Hopefully this answer's some of your questions about FRED. If you have any other
 - [How do I access HTTP or web sockets input nodes with FRED?](#q-how-do-i-access-http-or-web-sockets-input-nodes-with-fred)
 - [How do I install custom nodes for my instance?](#q-how-do-i-install-custom-nodes-for-my-instance)
 - [Does FRED use Docker?](q-does-fred-use-docker)
+
 ___
 
 ### Q. What's with the name?
@@ -102,7 +103,7 @@ We have some ideas, but are open to suggestions. We hope to continue to support 
 ___
 
 ### Q. How do I access HTTP or web sockets input nodes with FRED?
-See the [user documentation](/fred/userdocs) for more information on how to access public and private input nodes.
+See the [http access](/fred/http-access) and [websocket support](/fred/websocket-access) for more information on how to access public and private input nodes.
 
 ___
 
