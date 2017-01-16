@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/supported-nodes
+permalink: /fred/supported-nodes/
 title: "FRED Docs: Supported Nodes"
 ---
 

@@ -29,27 +29,27 @@ sidebar:
     - text: Introduction
       url: /fred/
     - text: Quick Start
-      url: /fred/quickstart
+      url: /fred/quickstart/
     - text: FAQ
       url: /fred/faq/
     - text: Release Notes
-      url: /fred/release-notes
+      url: /fred/release-notes/
   - text: Usage
     pages:
     - text: Your Node-RED Instance
-      url: /fred/instance
+      url: /fred/instance/
     - text: Profile and Subscription
-      url: /fred/profile
+      url: /fred/profile/
     - text: Accessing your HTTP endpoints
-      url: /fred/http-access
+      url: /fred/http-access/
     - text: Websocket Support
-      url: /fred/websocket-access
+      url: /fred/websocket-access/
     - text: Node Package Installation
-      url: /fred/node-install
+      url: /fred/node-install/
     - text: Supported Nodes
-      url: /fred/supported-nodes
+      url: /fred/supported-nodes/
     - text: Node-RED Dashboard Sharing
-      url: /fred/dashboard-sharing
+      url: /fred/dashboard-sharing/
 
 # Build settings
 markdown: kramdown
