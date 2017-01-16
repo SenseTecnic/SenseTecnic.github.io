@@ -12,6 +12,6 @@ The boxes indicate your current service statistics updated every 10 seconds. Thi
 
 The Information Messages log area displays real time information when clients connect and subscribe; the Error Messages contain error messages when they occur.
 
-![status_page.png](https://bitbucket.org/repo/dMMejn/images/2600865386-status_page.png)
+![status_page.png](/assets/images/mqtt_status_page.png)
 
-Before you can use the service to send and receive messages, you'll need to create a Client described [next](Creating_a_client).
+Before you can use the service to send and receive messages, you'll need to create a Client described [next](/mqtt/create-client/).

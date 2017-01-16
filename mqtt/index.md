@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /mqtt/
-title: "STS MQTT Docs: Introduction"
+title: "MQTT Docs: Introduction"
 ---
 
 # Introduction
