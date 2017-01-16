@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /mqtt/view-status/
+permalink: /mqtt/status/
 title: "MQTT Docs: Viewing Status"
 ---
 

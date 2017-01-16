@@ -24,4 +24,4 @@ You should see messages appear in the topic view window as shown:
 
 You are now ready to put the STS MQTT service to work for you, creating additional clients and topics for your application.
 
-[[Home]]
+[Home](/mqtt/)
