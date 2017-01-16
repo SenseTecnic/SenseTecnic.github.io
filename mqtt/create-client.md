@@ -19,3 +19,5 @@ Add a name and description for the client, describing the device or connection t
 >**Note**: Once the new client is created and form is submitted, the key will not be shown again; it is hashed by the system.  If you forget, you will need to regenerate a new key.
 
 Click on 'Add' to create the new client.  You are now ready to send and receive messages to the service as described [next](/mqtt/connect-howto/).
+
+[Connect using FRED >>](/mqtt/connect-howto/)

@@ -15,3 +15,5 @@ The Information Messages log area displays real time information when clients co
 ![status_page.png](/assets/images/mqtt_status_page.png)
 
 Before you can use the service to send and receive messages, you'll need to create a Client described [next](/mqtt/create-client/).
+
+[Create a Client >>](/mqtt/create-client/)

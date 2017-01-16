@@ -11,3 +11,5 @@ To register for the STS-MQTT service, click on the “REGISTER FOR FREE” butto
 Fill out the form with your user name, first and last name, email address and password and hit submit.  You will be asked to validate your email address.
 
 Once you’re email address validated, [log in](https://users.sensetecnic.com/login?return=https://mqtt.sensetecnic.com/dash) to access the STS-MQTT dashboard.  Initially you will be shown the Status Tab described [next](/mqtt/status/).
+
+[Viewing Status >>](/mqtt/status/)

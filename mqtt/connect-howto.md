@@ -38,4 +38,6 @@ Drag an MQTT input node to the canvas underneath the existing flow.  Set the top
 
 Now, when you click on your inject node in the first flow, messages should appear in the debug output on FRED/Node-RED.  The 'hello world' message will travel through the MQTT output node, to the broker topic, back through the connection to the subscribing input node, and to the debug window.
 
-Lets use the MQTT service to view messages sent to this topic from the STS-MQTT management UI [next](/mqtt/create-topic/),
+Lets use the MQTT service to view messages sent to this topic from the STS-MQTT management UI [next](/mqtt/create-topic/).
+
+[Create a Topic >>](/mqtt/create-topic/)

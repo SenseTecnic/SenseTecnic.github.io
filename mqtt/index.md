@@ -6,7 +6,7 @@ title: "MQTT Docs: Introduction"
 
 # Introduction
 
-The STS-MQTT service provides FRED users with access to MQTT publish and subscribe functionality for their flows.  It provides the ability for users to maintain an inventory of client connections, tracked topics, and provide access to certain topic streams to other STS users.
+The STS-MQTT service provides FRED users with an MQTT broker for their flows.  In addition to basic publish and subscribe functionality, the STS MQTT service allows users to manage client connections, tracked topics, and create public data feeds.
 
 # Getting Started
 
