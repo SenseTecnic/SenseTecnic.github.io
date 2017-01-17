@@ -22,9 +22,9 @@ ___
 
 # Table of Contents
 
-{% for category in site.sidebar %}
-**{{category.text}}**
-{% for p in category.pages %}
+{% for chapters in site.toc.fred %}
+**{{chapters.text}}**
+{% for p in chapters.pages %}
 - [{{p.text}}]({{p.url}})
 {% endfor %}
 {% endfor %}
