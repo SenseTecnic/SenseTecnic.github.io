@@ -22,7 +22,7 @@ ___
 
 # Table of Contents
 
-{% for c in site.toc[0].chapters %}
+{% for c in site.data.toc[0].chapters %}
 **{{c.text}}**
 {% for p in c.pages %}
 - [{{p.text}}]({{p.url}})
