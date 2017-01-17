@@ -28,9 +28,9 @@
     <span class="username">{{ site.twitter_username }}</span>
   </a>
   {% endif %}
-
+  
+  {% if title %}
   <span class="separator"></span>
-
   <a target="_blank" href="{{url}}">Go to {{title}}</a>
-
+  {% endif %}
 </footer>
