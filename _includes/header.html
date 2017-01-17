@@ -11,7 +11,7 @@
 		{% assign splits = page.permalink | split: "/" %}
 		{% assign pageSection = splits[1] %}
 
-		{% for section in site.toc %}
+		{% for section in site.data.toc %}
 			{% if section.name == pageSection %}
 				{% assign title = section.title %}
 				{% assign url = section.url %}

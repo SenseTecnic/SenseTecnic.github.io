@@ -1,0 +1,49 @@
+# add documenation sub directory as a section in the TOC
+- name: fred
+  title: FRED
+  url: "https:fred.sensetecnic.com"
+  chapters:  
+  - text: Overview
+    pages:
+    - text: Introduction
+      url: /fred/
+    - text: Quick Start
+      url: /fred/quickstart/
+    - text: FAQ
+      url: /fred/faq/
+    - text: Release Notes
+      url: /fred/release-notes/
+  - text: Usage
+    pages:
+    - text: Your Node-RED Instance
+      url: /fred/instance/
+    - text: Profile and Subscription
+      url: /fred/profile/
+    - text: Accessing your HTTP endpoints
+      url: /fred/http-access/
+    - text: Websocket Support
+      url: /fred/websocket-access/
+    - text: Node Package Installation
+      url: /fred/node-install/
+    - text: Supported Nodes
+      url: /fred/supported-nodes/
+    - text: Node-RED Dashboard Sharing
+      url: /fred/dashboard-sharing/
+- name: mqtt
+  title: STS MQTT
+  url: "https://mqtt.sensetecnic.com"
+  chapters:
+  - text: Getting Started
+    pages:
+    - text: Introduction
+      url: /mqtt/
+    - text: Registration
+      url: /mqtt/register/
+    - text: Status
+      url: /mqtt/status/
+    - text: Create a client
+      url: /mqtt/create-client/
+    - text: Connect with FRED
+      url: /mqtt/connect-howto/
+    - text: Create a topic
+      url: /mqtt/create-topic/
