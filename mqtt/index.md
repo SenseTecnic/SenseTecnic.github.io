@@ -1,5 +1,5 @@
 ---
-layout: mqtt-page
+layout: page
 permalink: /mqtt/
 title: "MQTT Docs: Introduction"
 ---

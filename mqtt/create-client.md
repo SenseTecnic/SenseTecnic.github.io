@@ -1,5 +1,5 @@
 ---
-layout: mqtt-page
+layout: page
 permalink: /mqtt/create-client/
 title: "MQTT Docs: Create a client"
 ---

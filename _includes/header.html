@@ -8,20 +8,29 @@
 <section class="page-header">
 
 	<ul class="nav-collapsed">
-		{% for category in site.sidebar %}
-		<li class="heading">{{category.text}}</li>
-			{% for p in category.pages %}
-			<li {% if page.permalink == p.url %}class="active"{% endif %}><a href="{{p.url}}">{{p.text}}</a></li>
-			{% endfor %}
+		{% assign splits = page.permalink | split: "/" %}
+		{% assign pageSection = splits[1] %}
+
+		{% for section in site.toc %}
+			{% if section.name == pageSection %}
+				{% assign title = section.title %}
+				{% assign url = section.url %}
+				{% for chapter in section.chapters %}
+				<li class="heading">{{chapter.text}}</li>
+					{% for p in chapter.pages %}
+					<li {% if page.permalink == p.url %}class="active"{% endif %}><a href="{{p.url}}">{{p.text}}</a></li>
+					{% endfor %}
+				{% endfor %}
+			{% endif %}
 		{% endfor %}
-		<li><a href="https://fred.sensetecnic.com">Go to FRED</a></li>
+ 		<li><a href="{{url}}">Go to {{title}}</a></li>
 	</ul>
 
-	<a href="/"><h1 class="project-name">FRED - Documentation</h1></a>
+	<a href="/"><h1 class="project-name">{{title}} - Documentation</h1></a>
 
 	<ul class="nav-right">
 		<li><a href="/">Home</a></li>
-		<li><a href="https://fred.sensetecnic.com">Go to FRED</a></li>
+		<li><a href="{{url}}">Go to {{title}}</a></li>
 	</ul>
 
 	<button type="button" class="nav-collapsed-btn" onclick="toggleNavbarCollapse()">
