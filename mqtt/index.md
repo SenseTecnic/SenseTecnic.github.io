@@ -12,11 +12,12 @@ The STS-MQTT service provides FRED users with an MQTT broker for their flows.  I
 
 This guide will help you get up and running with the STS MQTT service using FRED and the MQTT nodes in just a few minutes.
 
-- [Registration and Login](/mqtt/register/)
-- [Viewing Status](/mqtt/status/)
-- [Creating a client](/mqtt/create-client/)
-- [Connecting using Node-RED](/mqtt/connect-howto/)
-- [Create a topic](/mqtt/create-topic/)
+{% for c in site.toc[0].chapters %}
+{% for p in c.pages %}
+- [{{p.text}}]({{p.url}})
+{% endfor %}
+{% endfor %}
+
 
 # Using STS MQTT
 
