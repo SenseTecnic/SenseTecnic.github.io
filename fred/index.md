@@ -25,6 +25,5 @@ ___
 {% for c in site.data.toc[0].chapters %}
 **{{c.text}}**
 {% for p in c.pages %}
-- [{{p.text}}]({{p.url}})
-{% endfor %}
+- [{{p.text}}]({{p.url}}){% endfor %}
 {% endfor %}

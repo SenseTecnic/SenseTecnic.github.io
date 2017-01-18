@@ -14,10 +14,8 @@ This guide will help you get up and running with the STS MQTT service using FRED
 
 {% for c in site.data.toc[1].chapters %}
 {% for p in c.pages %}
-- [{{p.text}}]({{p.url}})
+- [{{p.text}}]({{p.url}}){% endfor %}
 {% endfor %}
-{% endfor %}
-
 
 # Using STS MQTT
 
