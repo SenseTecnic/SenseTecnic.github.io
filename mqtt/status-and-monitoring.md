@@ -14,14 +14,14 @@ Specifically the service sends data to the following topics:
 
 | Topic | Description |
 | ----- | ----------- |
-| <code>{% raw %}users/mike/$SYS/{broker-id}/infoMessages{% endraw %}</code> | information messages as shown on the [status page](http://mqtt.sensetecnic.com/status) |
-| <code>{% raw %}users/mike/$SYS/{broker-id}/errorMessages{% endraw %}</code> | error messages |
-| <code>{% raw %}users/mike/$SYS/{broker-id}/messages{% endraw %}</code> | messages published since the broker started |
-| <code>{% raw %}users/mike/$SYS/{broker-id}/messagesLastInterval{% endraw %}</code> | messages published during the last interval on the broker |
-| <code>{% raw %}users/mike/$SYS/{broker-id}/errors{% endraw %}</code> | total errors on the broker since startup | 
-| <code>{% raw %}users/mike/$SYS/{broker-id}/errorsLastInterval{% endraw %}</code> | errors on the broker for last interval | 
-| <code>{% raw %}users/mike/$SYS/{broker-id}/subscriptions{% endraw %}</code> | number of subscriptions during the last interval | 
-| <code>{% raw %}users/mike/$SYS/{broker-id}/connectedClients{% endraw %} | number of connectedClients during the last interval
+| <code>{% raw %}users/{username}/$SYS/{broker-id}/infoMessages{% endraw %}</code> | information messages as shown on the [status page](http://mqtt.sensetecnic.com/status) |
+| <code>{% raw %}users/{username}/$SYS/{broker-id}/errorMessages{% endraw %}</code> | error messages |
+| <code>{% raw %}users/{username}/$SYS/{broker-id}/messages{% endraw %}</code> | messages published since the broker started |
+| <code>{% raw %}users/{username}/$SYS/{broker-id}/messagesLastInterval{% endraw %}</code> | messages published during the last interval on the broker |
+| <code>{% raw %}users/{username}/$SYS/{broker-id}/errors{% endraw %}</code> | total errors on the broker since startup | 
+| <code>{% raw %}users/{username}/$SYS/{broker-id}/errorsLastInterval{% endraw %}</code> | errors on the broker for last interval | 
+| <code>{% raw %}users/{username}/$SYS/{broker-id}/subscriptions{% endraw %}</code> | number of subscriptions during the last interval | 
+| <code>{% raw %}users/{username}/$SYS/{broker-id}/connectedClients{% endraw %} | number of connectedClients during the last interval
  |
 
 
