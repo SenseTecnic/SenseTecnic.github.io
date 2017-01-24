@@ -47,3 +47,7 @@
       url: /mqtt/connect-howto/
     - text: Create a topic
       url: /mqtt/create-topic/
+  - text: Using STS MQTT
+    pages:
+      - text: Real time status and monitoring
+        url: /mqtt/real-time-status/
