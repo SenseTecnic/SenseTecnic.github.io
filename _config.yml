@@ -23,34 +23,6 @@ url: "http://sensetecnic.github.io" # the base hostname & protocol for your site
 twitter_username: sensetecnic
 github_username: SenseTecnic
 
-sidebar:
-  - text: Overview
-    pages:
-    - text: Introduction
-      url: /fred/
-    - text: Quick Start
-      url: /fred/quickstart
-    - text: FAQ
-      url: /fred/faq/
-    - text: Release Notes
-      url: /fred/release-notes
-  - text: Usage
-    pages:
-    - text: Your Node-RED Instance
-      url: /fred/instance
-    - text: Profile and Subscription
-      url: /fred/profile
-    - text: Accessing your HTTP endpoints
-      url: /fred/http-access
-    - text: Websocket Support
-      url: /fred/websocket-access
-    - text: Node Package Installation
-      url: /fred/node-install
-    - text: Supported Nodes
-      url: /fred/supported-nodes
-    - text: Node-RED Dashboard Sharing
-      url: /fred/dashboard-sharing
-
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman

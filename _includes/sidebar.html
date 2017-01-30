@@ -1,8 +1,15 @@
 <ul>
-	{% for category in site.sidebar %}
-	<li class="sidebar-header">{{category.text}}</li>
-		{% for p in category.pages %}
-		<li {% if page.permalink == p.url %}class="active"{% endif %}><a href="{{p.url}}">{{p.text}}</a></li>
-		{% endfor %}
+	{% assign splits = page.permalink | split: "/" %}
+	{% assign pageSection = splits[1] %}
+
+	{% for section in site.data.toc %}
+		{% if section.name == pageSection %}
+			{% for chapter in section.chapters %}
+			<li class="sidebar-header">{{chapter.text}}</li>
+				{% for p in chapter.pages %}
+				<li {% if page.permalink == p.url %}class="active"{% endif %}><a href="{{p.url}}">{{p.text}}</a></li>
+				{% endfor %}
+			{% endfor %}
+		{% endif %}
 	{% endfor %}
 </ul>

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/profile
+permalink: /fred/profile/
 title: "FRED Docs: Profile"
 ---
 

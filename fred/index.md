@@ -22,9 +22,8 @@ ___
 
 # Table of Contents
 
-{% for category in site.sidebar %}
-**{{category.text}}**
-{% for p in category.pages %}
-- [{{p.text}}]({{p.url}})
-{% endfor %}
+{% for c in site.data.toc[0].chapters %}
+**{{c.text}}**
+{% for p in c.pages %}
+- [{{p.text}}]({{p.url}}){% endfor %}
 {% endfor %}

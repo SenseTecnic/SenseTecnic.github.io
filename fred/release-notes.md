@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/release-notes
+permalink: /fred/release-notes/
 title: "FRED Docs: Release Notes"
 ---
 

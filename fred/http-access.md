@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fred/http-access
+permalink: /fred/http-access/
 title: "FRED Docs: http-access"
 ---
 

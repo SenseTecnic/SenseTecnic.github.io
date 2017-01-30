@@ -93,7 +93,8 @@
 
 			&.active{
 				opacity: 1;
-				max-height: 2000px;
+				max-height: 400px;
+				overflow-y: auto;
 			}
 
 			> li {
