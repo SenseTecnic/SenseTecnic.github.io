@@ -26,7 +26,7 @@ Occasionally, your Node-RED instance may be stopped or restarted without any war
 
 - A bad node configuration in your flows causing your instance to crash. 
 - A bug in one of the nodes in your flow, especially common for function nodes.
-- You've gone above your instance [limits](#limits).
+- You've gone above your instance [limits](#instance-limits).
 - Your instance is taking up too much memory and/or other system resources.
 - We stopped it manually for maintenance or to deploy a new version of FRED (we will attempt restart your instance when our job is complete, this is rare usually takes less than 30 minutes).
 
