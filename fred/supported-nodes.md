@@ -58,6 +58,7 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-node-twitter@0.1.6](https://www.npmjs.com/package/node-red-node-twitter)
 - [node-red-node-weather-underground@0.1.2](https://www.npmjs.com/package/node-red-node-weather-underground)
 - [node-red-node-wordpos@0.0.3](https://www.npmjs.com/package/node-red-node-wordpos)
+- [node-red-contrib-web-worldmap@1.0.22](https://www.npmjs.com/package/node-red-contrib-web-worldmap)
 - [node-red-node-xmpp@0.1.5](https://www.npmjs.com/package/node-red-node-xmpp)
 - [sts-node-red-contrib-litedb@0.0.1](https://github.com/sensetecnic//sts-node-red-contrib-litedb)
 

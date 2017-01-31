@@ -43,7 +43,7 @@ No, we use 'vanilla' Node-RED (with some very minor visual tweaks). We aim to ma
 ___
 
 ### Q. Who are you guys?
-We are Sense Tecnic, a commercial IoT solutions provider. We offer hosted IoT solutions using the Sense Tecnic IoT platform (known as WoTKit). We've been working with Node-RED for a while and have published a paper on Distributed Node-RED last year and use Node-RED for our own internal purposes. We've built FRED as a service because we think its needed - and we like building cool stuff!
+We are Sense Tecnic, a commercial IoT solutions provider. We've been working with Node-RED for a while and have published a paper on Distributed Node-RED last year and use Node-RED for our own internal purposes. We've built FRED as a service because we think its needed - and we like building cool stuff!
 
 ___
 
