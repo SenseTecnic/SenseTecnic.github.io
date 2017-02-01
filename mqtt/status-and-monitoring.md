@@ -25,4 +25,6 @@ Specifically the service sends data to the following topics:
  |
 
 
->*Note* The <code>broker-id</code> is an internal identifier for the specific MQTT broker in our cluster handling your connection. The service status window aggregates these counts across all currently running brokers.  It is subject to change depending on which broker in the service is handling your connection.
+>*Note:* The <code>broker-id</code> is an internal identifier for the specific MQTT broker in our cluster handling your connection. The service status window aggregates these counts across all currently running brokers.  It is subject to change depending on which broker in the service is handling your connection.
+
+

@@ -25,8 +25,4 @@ This guide will help you get up and running with the STS MQTT service using FRED
 
 Under construction:
 
-- Clients, Topics and Access Control
-- Managing clients and keys
-- Public and private topics
-- Topic Patterns
 - Information and Error Messages
