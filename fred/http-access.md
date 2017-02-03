@@ -20,7 +20,7 @@ ___
 FRED proxies all communication from the Internet to your instance of Node-RED.  To dispatch to your instance, FRED uses your username in a header for private API input nodes, or the URL for public HTTP input nodes.
 
 ### Public HTTP Input Nodes
-To create an HTTP input node accessible by anyone, prefix the URL field of the HTTP In node with `/public/`.  After deploying the flow, the endpoint can be accessed at `https://{username}.fred.sensetecnic.com/public/{custom_endpoint_name}`. For example, an HTTP Input node called `/public/data` created by user `roberto` will be accessible as `https://roberto.fred.sensetecnic.com/api/public/data`. For compatibility reasons, we recommend to not name any HTTP input endpoint with "/ui" since it will clash with the node-red-dashboard UI endpoint.
+To create an HTTP input node accessible by anyone, prefix the URL field of the HTTP In node with `/public/`.  After deploying the flow, the endpoint can be accessed at `https://{username}.fred.sensetecnic.com/api/public/{custom_endpoint_name}`. For example, an HTTP Input node called `/public/data` created by user `roberto` will be accessible as `https://roberto.fred.sensetecnic.com/api/public/data`. For compatibility reasons, we recommend to not name any HTTP input endpoint with "/ui" since it will clash with the node-red-dashboard UI endpoint.
 
 ### Private API HTTP Input Nodes
 For an HTTP client to access protected HTTP input nodes in your flows there are two ways you can access your instance.
