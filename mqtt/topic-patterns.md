@@ -6,7 +6,7 @@ title: "MQTT Docs: Topic Patterns"
 
 # Topic Patterns
 
-Client topics are used to classify and filter different MQTT messages. To achieve this goal, users need to follow and understand the topic patterns.
+Topics are used to classify and filter different MQTT messages. To achieve this goal, users need to follow and understand MQTT topic patterns.
 
 ## Topic Structures
 
@@ -16,7 +16,7 @@ This is how a typical topic would look like on the STS-MQTT server. As you can s
 
 A topic may have many different levels for organizing messages. As you can see in the above sample topic, user can set different levels for better organization of messages sent to the server. You can treat mqtt topics as _channels_ for communication.
 
-## Topic Levels Wildcard
+## Topic Level Wildcard
 
 Users can use wildcard symbol to represent all topics at specific levels. 
 
