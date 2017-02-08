@@ -49,5 +49,15 @@
       url: /mqtt/create-topic/
   - text: Using STS MQTT
     pages:
+      - text: Managing Clients and Keys
+        url: /mqtt/managing-clients-and-keys/
+      - text: Clients topics and Access control
+        url: /mqtt/clients-topics-and-access-control/
+      - text: Public and Private topics
+        url: /mqtt/public-private-topics/
+      - text: Topic Patterns
+        url: /mqtt/topic-patterns/
       - text: Real time status and monitoring
         url: /mqtt/real-time-status/
+      - text: Information and Error Messages
+        url: /mqtt/information-and-error-messages/
