@@ -10,7 +10,9 @@ Front End for Node-RED (FRED) manages instances of [Node-RED](https://nodered.or
 
 This guide will help you get started with using FRED.  To learn more about Node-RED itself see the official [Node-RED documentation](http://nodered.org).
 
-For more information and details, please refer to the [FAQ section](/fred/faq).
+For more information and details, please refer to the [FAQ section](/fred/faq) or take a look at the quick video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/POMYTPgq2-g" frameborder="0" allowfullscreen></iframe>
 
 ## Node-RED in FRED
 

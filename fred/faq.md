@@ -8,7 +8,7 @@ Hopefully this answer's some of your questions about FRED. If you have any other
 
 - [What's with the name?](#q-whats-with-the-name)
 - [Neato, how does it work?](#q-neato-how-does-it-work)
-- [ave you hacked Node-RED?](#q-have-you-hacked-node-red)
+- [Have you hacked Node-RED?](#q-have-you-hacked-node-red)
 - [Who are you guys?](#q-who-are-you-guys)
 - [What's Sense Tecnic's relationship to IBM and Node-RED?](#q-whats-sense-tecnics-relationship-to-ibm-and-node-red)
 - [What do I get for free?](#q-what-do-i-get-for-free)
