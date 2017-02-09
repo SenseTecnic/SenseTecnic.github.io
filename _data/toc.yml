@@ -27,6 +27,8 @@
       url: /fred/node-install/
     - text: Supported Nodes
       url: /fred/supported-nodes/
+    - text: Connecting your Devices
+      url: /fred/device-connect/
     - text: Node-RED Dashboard Sharing
       url: /fred/dashboard-sharing/
 - name: mqtt
