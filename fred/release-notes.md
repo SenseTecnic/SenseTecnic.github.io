@@ -6,7 +6,7 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
-### Version 1.0 (PENDING RELEASE)
+### Version 1.0 (2017-02-14)
 ___
 
 - Improved and simplified back-end proxy mechanism for better compatibility with Node-RED node packages. Base URL of a user's instance has been changed to `https://{username}.fred.sensetecnic.com`. All http node and websocket access as well as node-red-dashboard URL will be prefixed by the new URL. Old base URL scheme will remain for a short period to allow the transition to the new URL.
