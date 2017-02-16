@@ -6,6 +6,11 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.0.1 (2017-02-15)
+___
+ 
+- Added [node-red-contrib-chatbot](https://github.com/SenseTecnic/node-red-contrib-chatbot) and [node-red-node-watson](https://github.com/SenseTecnic/node-red-node-watson) to bundled nodes.
+
 ### Version 1.0 (2017-02-14)
 ___
 
