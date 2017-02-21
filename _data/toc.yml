@@ -27,6 +27,8 @@
       url: /fred/node-install/
     - text: Supported Nodes
       url: /fred/supported-nodes/
+    - text: Connecting your Devices
+      url: /fred/device-connect/
     - text: Node-RED Dashboard Sharing
       url: /fred/dashboard-sharing/
 - name: mqtt
@@ -51,8 +53,8 @@
     pages:
       - text: Managing Clients and Keys
         url: /mqtt/managing-clients-and-keys/
-      - text: Clients topics and Access control
-        url: /mqtt/clients-topics-and-access-control/
+      - text: Topics and Access control
+        url: /mqtt/topics-and-access-control/
       - text: Public and Private topics
         url: /mqtt/public-private-topics/
       - text: Topic Patterns
