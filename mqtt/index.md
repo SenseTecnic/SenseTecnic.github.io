@@ -23,6 +23,3 @@ This guide will help you get up and running with the STS MQTT service using FRED
 {% for p in c.pages %}
 - [{{p.text}}]({{p.url}}){% endfor %}
 
-Under construction:
-
-- Information and Error Messages

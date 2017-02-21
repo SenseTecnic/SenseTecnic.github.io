@@ -61,5 +61,3 @@
         url: /mqtt/topic-patterns/
       - text: Real time status and monitoring
         url: /mqtt/real-time-status/
-      - text: Information and Error Messages
-        url: /mqtt/information-and-error-messages/

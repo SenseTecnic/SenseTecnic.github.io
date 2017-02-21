@@ -6,7 +6,13 @@ title: "MQTT Docs: Register and Log in"
 
 # Register and Log in.
 
-To register for the STS-MQTT service, click on the “REGISTER FOR FREE” button on the [STS-MQTT home page](https://mqtt.sensetecnic.com). You will be redirected to the Sense Tecnic [Account Registration](https://users.sensetecnic.com/register) page.
+To register for the STS-MQTT service, click on the “REGISTER FOR FREE” button on the [STS-MQTT home page](https://mqtt.sensetecnic.com). 
+
+![mqtt_landing_page.png](/assets/images/mqtt_landing_page.png)
+
+You will be redirected to the Sense Tecnic [Account Registration](https://users.sensetecnic.com/register) page.
+
+![mqtt_registration.png](/assets/images/mqtt_registration.png)
 
 Fill out the form with your user name, first and last name, email address and password and hit submit.  You will be asked to validate your email address.
 

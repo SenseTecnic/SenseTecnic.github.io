@@ -32,6 +32,8 @@ In the Clients panel, you will be able to see a list of all the Clients you've c
 
 If you've forgotten your Client Key and need to regenerate another, simply click the *Regenerate Key* button and copy the new client key.
 
+![mqtt_regenerate_key.png](/assets/images/mqtt_regenerate_key.png)
+
 >*Note:* Any clients that were previously connected using the previous key will no longer be able to connect to the service.
 
 ## Delete Client  
