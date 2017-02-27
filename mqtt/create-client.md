@@ -6,13 +6,13 @@ title: "MQTT Docs: Create a client"
 
 # Creating a client
 
-Next, you'll need to create a client so you can connect to the MQTT service.  A client corresponds to a connection from FRED or Node-RED or a connection to a device.
+First, you'll need to create a client so you can connect to the MQTT service.  A client corresponds to a connection from FRED or Node-RED or a connection to a device.
 
 ![mqtt_clients_panel.png](/assets/images/mqtt_clients_panel.png)
 
 Click on the Clients tab, then on the 'Add New' button.  A form will appear as shown below.
 
-Fill in the form.  The service will generate a unique Client id for you based on your username, and a client key.  You can edit these fields if you like, but the client id must be unique to the system.
+Fill in the form.  The service will generate a unique Client ID for you based on your username, and a client key.  You can edit these fields if you like, but the client id must be unique to the whole system.
 
 ![client_form.png](/assets/images/mqtt_client_form.png)
 
