@@ -8,7 +8,7 @@ title: "MQTT Docs: Connect using FRED"
 
 Now that we have a client set up, we'll use the standard MQTT nodes to connect to the service using FRED.  First, we will create a flow that publishes messages to a topic on the service using FRED.
 
-First, log in to your FRED account.  For more information on how to use FRED see the [FRED Docs](http://sensetecnic.github.io/fred/).
+First, head over to [FRED](https://fred.sensetecnic.com) and log in to your FRED account if needed.  For more information on how to use FRED see the [FRED Docs](http://sensetecnic.github.io/fred/).
 
 Drag an inject node to the canvas and configure it to send a string 'Hello World' to a test topic.  Note that you have access to all topics on the MQTT service that start with `users/{username}` where username is your Sense Tecnic and FRED username.
 
