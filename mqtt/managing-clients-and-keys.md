@@ -6,7 +6,7 @@ title: "MQTT Docs: Managing Clients and Keys"
 
 # Managing Clients and Keys
 
-Clients represent client connections to the STS MQTT service from Node-RED or devices.  A Client record consists of a Client ID, a friendly name, description and a Client Key.  For every connection frmo a device, FRED or Node-RED MQTT server configuration node, you will need to create a Client.
+Clients represent client connections to the STS MQTT service from Node-RED or devices.  A Client record consists of a Client ID, a friendly name, description and a Client Key.  For every connection from a device, FRED or Node-RED MQTT server configuration node, you will need to create a Client.
 
 ## Creating a client
 
