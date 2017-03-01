@@ -45,8 +45,8 @@ During testing the service is free.  The cost of the service will be competitive
 
 ### Q. How do I connect my device to the service?
 First, [Create a Client](/mqtt/create-client/) and then connect using the MQTT protocol using your device configuration or MQTT
-client library.  Ensure you set the username to your STS MQTT username, the ClientID for the connection to your ClientId,
-and the password to your Client Key (NOT your STS password).
+client library.  Ensure you set the MQTT protocol username to your STS MQTT username, the MQTT Client ID for the connection to your STS MQTT
+Client ID, and the password to your Client Key (NOT your STS password).
 
 ### Q. How do I connect using Node-RED on FRED?
 [Create a Client](/mqtt/create-client/) and then connect using MQTT nodes on FRED [as described here](/mqtt/connect-howto). 
