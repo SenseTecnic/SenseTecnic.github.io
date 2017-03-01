@@ -4,7 +4,8 @@ permalink: /fred/faq/
 title: "FRED Docs: FAQ"
 ---
 # FAQ
-Hopefully this answer's some of your questions about FRED. If you have any others, [let us know](mailto:info@sensetecnic.com). Note that FRED is a shared service and security in this alpha version is still simplistic: *take care to limit your use of passwords and other credentials in your flows.*
+Hopefully this answer's some of your questions about FRED. If you have any others, [let us know](mailto:info@sensetecnic.com).
+Note that FRED is a shared service: *take care to limit your use of passwords and other credentials in your flows.*
 
 - [What's with the name?](#q-whats-with-the-name)
 - [Neato, how does it work?](#q-neato-how-does-it-work)
