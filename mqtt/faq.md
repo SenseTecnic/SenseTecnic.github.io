@@ -38,7 +38,7 @@ include message/data volume and connection limits depending on the plan.
 During testing the service is free.  When ready, the cost of the service will be competitive with other MQTT service offerings.
 
 ### Q. Where can I find documentation and more information?
-See our [documentation page](http://docs.sensetecnic.com/mqtt), or contact us [by email]((mailto:info@sensetecnic.com). 
+See our [documentation page](http://docs.sensetecnic.com/mqtt), or contact us [by email](mailto:info@sensetecnic.com). 
 
 ### Q. How much does it cost?
 During testing the service is free.  The cost of the service will be competitive with other MQTT service offerings.
@@ -53,5 +53,6 @@ and the password to your Client Key (NOT your STS password).
 
 ### Q. What are public topics and how can I make one?
 Public topics are topics that *any* user of the STS MQTT service can subscribe to.  To create a public topic,
-simply check the 'public' checkbox to make it available for other users.  See [the documentation](http://docs.sensetecnic.com/mqtt)
+simply uncheck check the 'Is Private' checkbox in the Topic edit page to make it available for other users.  See 
+[Create a Topic](/mqtt/create-topic/) in [the documentation](http://docs.sensetecnic.com/mqtt)
 for more information.
