@@ -40,9 +40,6 @@ During testing the service is free.  When ready, the cost of the service will be
 ### Q. Where can I find documentation and more information?
 See our [documentation page](http://docs.sensetecnic.com/mqtt), or contact us [by email](mailto:info@sensetecnic.com). 
 
-### Q. How much does it cost?
-During testing the service is free.  The cost of the service will be competitive with other MQTT service offerings.
-
 ### Q. How do I connect my device to the service?
 First, [Create a Client](/mqtt/create-client/) and then connect using the MQTT protocol using your device configuration or MQTT
 client library.  Ensure you set the MQTT protocol username to your STS MQTT username, the MQTT Client ID for the connection to your STS MQTT
