@@ -6,6 +6,18 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.1.0 (2017-03-17)
+___
+
+- Bug fixes and back-end refactor.
+
+- Updated instance limits.
+
+### Version 1.0.4 (2017-03-07)
+___
+
+- Added node-red-contrib-sts-mqtt to [available nodes](/fred/supported-nodes).
+
 ### Version 1.0.1 (2017-02-15)
 ___
  

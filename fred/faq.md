@@ -64,7 +64,7 @@ To ensure your nodes keep running, you can now upgrade to our paid subscription 
 ___
 
 ### Q. How does the node count limit work?
-We count nodes in your flows that appear on the canvas/workspace, other than tabs and comment nodes.  We check the node count against your limits when you first log in, and then periodically.  If you go over your node count limit, we let you know when you log in or by email, and give you 24 hours to remove nodes and redeploy before the instance is stopped.  Even after the instance is stopped, you can log in any time, start the instance, remove nodes and redeploy, or upgrade your subscription and start the instance.  We count all nodes in all tabs *including configuration nodes* which do not appear in the workspace.  We do not include comment nodes.
+We count nodes in your flows that appear on the canvas/workspace, other than tabs and comment nodes.  We check the node count against your limits when you first log in, and then periodically.  If you go over your node count limit, we let you know when you log in or by email, and give you 1 hour to remove nodes and redeploy before the instance is stopped.  Even after the instance is stopped, you can log in any time, start the instance, remove nodes and redeploy, or upgrade your subscription and start the instance.  We count all nodes in all tabs *including configuration nodes* which do not appear in the workspace.  We do not include comment nodes.
 
 ___
 
@@ -79,7 +79,7 @@ We are providing FRED as a service to the Node-RED community.  Initially FRED wa
 ___
 
 ### Q. Can I use it for commercial purposes?
-Yes, feel free to use your account and the NR instances in anyway you want. However, keep in mind that we only run your instance for 72 hours with the free account, and don't offer any guarantees that your flow will stay up. If you want that type of guarantee, please [contact us](mailto:info@sensetecnic.com) or consider a paid subscription when that is ready.
+Yes, feel free to use your account and the NR instances in anyway you want. However, keep in mind that we only run your instance for 24 hours with the free account, and don't offer any guarantees that your flow will stay up. If you want that type of guarantee, please [contact us](mailto:info@sensetecnic.com) or consider a paid subscription when that is ready.
 
 ___
 
