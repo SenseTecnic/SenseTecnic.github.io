@@ -25,7 +25,7 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-contrib-slack@0.1.1](https://www.npmjs.com/package/node-red-contrib-slack)
 - [node-red-contrib-soap2@0.0.1](https://github.com/SenseTecnic/node-red-contrib-soap2)
 - [node-red-contrib-ui@1.2.19](https://www.npmjs.com/package/node-red-contrib-ui)
-- [node-red-dashboard@2.1.0](https://www.npmjs.com/package/node-red-dashboard)
+- [node-red-dashboard@2.3.6](https://www.npmjs.com/package/node-red-dashboard)
 - [node-red-node-aws@0.1.1](https://www.npmjs.com/package/node-red-node-aws)
 - [node-red-node-badwords@0.0.4](https://www.npmjs.com/package/node-red-node-badwords)
 - [node-red-node-box@0.1.0](https://www.npmjs.com/package/node-red-node-box)
