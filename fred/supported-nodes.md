@@ -63,6 +63,8 @@ In addition to the core nodes, the following node packages are installed for you
 - [sts-node-red-contrib-litedb@0.0.1](https://github.com/sensetecnic//sts-node-red-contrib-litedb)
 - [sts-node-red-contrib-chatbot@0.6.17](https://github.com/SenseTecnic/node-red-contrib-chatbot)
 - [sts-node-red-node-watson@0.4.42](https://github.com/SenseTecnic/node-red-node-watson)
+- [sts-node-red-node-graphs@0.3.5](https://github.com/IBM-IoT/node-red-contrib-graphs)
+- [sts-node-red-node-ttn@2.0.1](https://github.com/TheThingsNetwork/nodered-app-node.git)
 
 
 ### Slightly Modified Nodes
