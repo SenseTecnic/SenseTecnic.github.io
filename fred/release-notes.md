@@ -6,6 +6,25 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.1.4 (2017-04-04)
+___
+
+- Added FRED Grande to list of [available plans](https://fred.sensetecnic.com/pricing).
+
+- Fixed bad url in sample flow.
+
+### Version 1.1.0 (2017-04-03)
+___
+
+- Added node-red-contrib-graphs to [available nodes](/fred/supported-nodes).
+
+- Added node-red-node-ttn to [available nodes](/fred/supported-nodes).
+
+### Version 1.1.0 (2017-03-27)
+___
+
+- Updated node-red-dashboard to version 2.3.6.
+
 ### Version 1.1.0 (2017-03-17)
 ___
 
