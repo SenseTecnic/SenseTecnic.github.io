@@ -13,14 +13,14 @@ ___
 
 - Fixed bad url in sample flow.
 
-### Version 1.1.0 (2017-04-03)
+### Version 1.1.2 (2017-04-03)
 ___
 
 - Added node-red-contrib-graphs to [available nodes](/fred/supported-nodes).
 
 - Added node-red-node-ttn to [available nodes](/fred/supported-nodes).
 
-### Version 1.1.0 (2017-03-27)
+### Version 1.1.1 (2017-03-27)
 ___
 
 - Updated node-red-dashboard to version 2.3.6.
