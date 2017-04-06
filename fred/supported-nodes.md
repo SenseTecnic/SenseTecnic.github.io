@@ -13,6 +13,7 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-contrib-ckants@1.0.14](https://www.npmjs.com/package/node-red-contrib-ckants)
 - [node-red-contrib-fred@0.0.2](https://www.npmjs.com/package/node-red-contrib-fred)
 - [node-red-contrib-freeboard@0.0.6](https://www.npmjs.com/package/node-red-contrib-freeboard)
+- [node-red-contrib-graphs@0.3.5](https://www.npmjs.com/package/node-red-contrib-graphs)
 - [node-red-contrib-influxdb@0.1.1](https://www.npmjs.com/package/node-red-contrib-influxdb)
 - [node-red-contrib-moment@2.0.0](https://www.npmjs.com/package/node-red-contrib-moment)
 - [node-red-contrib-mongodb2@0.5.5](https://www.npmjs.com/package/node-red-contrib-mongodb2)
@@ -24,6 +25,8 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-contrib-salesforce@0.0.5](https://www.npmjs.com/package/node-red-contrib-salesforce)
 - [node-red-contrib-slack@0.1.1](https://www.npmjs.com/package/node-red-contrib-slack)
 - [node-red-contrib-soap2@0.0.1](https://github.com/SenseTecnic/node-red-contrib-soap2)
+- [node-red-contrib-sts-mqtt@0.0.3](https://www.npmjs.com/package/node-red-contrib-sts-mqtt)
+- [node-red-contrib-ttn@2.0.1](https://www.npmjs.com/package/node-red-contrib-ttn)
 - [node-red-contrib-ui@1.2.19](https://www.npmjs.com/package/node-red-contrib-ui)
 - [node-red-dashboard@2.3.6](https://www.npmjs.com/package/node-red-dashboard)
 - [node-red-node-aws@0.1.1](https://www.npmjs.com/package/node-red-node-aws)
@@ -63,9 +66,7 @@ In addition to the core nodes, the following node packages are installed for you
 - [sts-node-red-contrib-litedb@0.0.1](https://github.com/sensetecnic/sts-node-red-contrib-litedb)
 - [sts-node-red-contrib-chatbot@0.6.17](https://github.com/SenseTecnic/node-red-contrib-chatbot)
 - [sts-node-red-node-watson@0.4.42](https://github.com/SenseTecnic/node-red-node-watson)
-- [sts-node-red-contrib-graphs@0.3.5](https://www.npmjs.com/package/node-red-contrib-graphs)
-- [sts-node-red-node-ttn@2.0.1](https://www.npmjs.com/package/node-red-contrib-ttn)
-- [sts-node-red-node-sts-mqtt@0.0.3](https://www.npmjs.com/package/node-red-contrib-sts-mqtt)
+
 
 
 ### Slightly Modified Nodes
