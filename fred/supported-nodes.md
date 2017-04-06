@@ -13,7 +13,7 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-contrib-ckants@1.0.14](https://www.npmjs.com/package/node-red-contrib-ckants)
 - [node-red-contrib-fred@0.0.2](https://www.npmjs.com/package/node-red-contrib-fred)
 - [node-red-contrib-freeboard@0.0.6](https://www.npmjs.com/package/node-red-contrib-freeboard)
-- [node-red-contrib-influxdb@0.0.6](https://www.npmjs.com/package/node-red-contrib-influxdb)
+- [node-red-contrib-influxdb@0.1.1](https://www.npmjs.com/package/node-red-contrib-influxdb)
 - [node-red-contrib-moment@2.0.0](https://www.npmjs.com/package/node-red-contrib-moment)
 - [node-red-contrib-mongodb2@0.5.5](https://www.npmjs.com/package/node-red-contrib-mongodb2)
 - [node-red-contrib-netatmo-dashboard@0.2.2](https://www.npmjs.com/package/node-red-contrib-netatmo-dashboard)
@@ -60,11 +60,12 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-node-wordpos@0.0.3](https://www.npmjs.com/package/node-red-node-wordpos)
 - [node-red-contrib-web-worldmap@1.0.22](https://www.npmjs.com/package/node-red-contrib-web-worldmap)
 - [node-red-node-xmpp@0.1.5](https://www.npmjs.com/package/node-red-node-xmpp)
-- [sts-node-red-contrib-litedb@0.0.1](https://github.com/sensetecnic//sts-node-red-contrib-litedb)
+- [sts-node-red-contrib-litedb@0.0.1](https://github.com/sensetecnic/sts-node-red-contrib-litedb)
 - [sts-node-red-contrib-chatbot@0.6.17](https://github.com/SenseTecnic/node-red-contrib-chatbot)
 - [sts-node-red-node-watson@0.4.42](https://github.com/SenseTecnic/node-red-node-watson)
-- [sts-node-red-node-graphs@0.3.5](https://github.com/IBM-IoT/node-red-contrib-graphs)
-- [sts-node-red-node-ttn@2.0.1](https://github.com/TheThingsNetwork/nodered-app-node.git)
+- [sts-node-red-contrib-graphs@0.3.5](https://www.npmjs.com/package/node-red-contrib-graphs)
+- [sts-node-red-node-ttn@2.0.1](https://www.npmjs.com/package/node-red-contrib-ttn)
+- [sts-node-red-node-sts-mqtt@0.0.3](https://www.npmjs.com/package/node-red-contrib-sts-mqtt)
 
 
 ### Slightly Modified Nodes
