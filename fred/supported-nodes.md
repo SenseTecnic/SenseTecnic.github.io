@@ -65,7 +65,7 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-node-xmpp@0.1.5](https://www.npmjs.com/package/node-red-node-xmpp)
 - [sts-node-red-contrib-litedb@0.0.1](https://github.com/sensetecnic/sts-node-red-contrib-litedb)
 - [sts-node-red-contrib-chatbot@0.6.17](https://github.com/SenseTecnic/node-red-contrib-chatbot)
-- [sts-node-red-node-watson@0.4.42](https://github.com/SenseTecnic/node-red-node-watson)
+- [sts-node-red-node-watson@0.5.3](https://github.com/SenseTecnic/node-red-node-watson)
 
 
 
