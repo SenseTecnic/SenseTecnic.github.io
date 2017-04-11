@@ -109,7 +109,7 @@ See the [http access](/fred/http-access) and [websocket support](/fred/websocket
 ___
 
 ### Q. How do I install custom nodes for my instance?
-See [Installing Node Packages for your Instance](/fred/node-install)
+We don't allow you to install arbitrary nodes on FRED. Because fred is a shared service, we have to validate and test any nodes that run on FRED. However, we do provide an extensive set of nodes that we curate - all tested (fixed where needed), and checked to make sure they don't break the service for other users.  We install a small default set of nodes, and allow you to install new nodes from our large and growing catalogue. See [Installing Node Packages for your Instance](/fred/node-install)
 
 ___
 
