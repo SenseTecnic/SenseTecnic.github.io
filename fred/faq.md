@@ -54,12 +54,12 @@ We have no formal relationship with IBM. We are active members of the Node-RED c
 ___
 
 ### Q. What do I get for free?
-The free account is a fully functioning node-RED instance that you can use to build and run Node-RED flows on our cloud server. It has two main restriction. Firstly, there is a max limit (50) on the number of nodes you can use in your flows. When you hit that restriction your Node-RED instance will be stopped after a period of time and you'll be asked to remove some nodes. Secondly, once deployed, your flows will run in our server for 24h. If you log in to FRED again during those 24h your timer is restarted. If you don't log in, your flows will be stopped to conserver server resources. All you have to do is login again and they will be restarted for another 24h. There are currently no restrictions on data in/out.  Support will be best effort by email.
+The free account is a fully functioning node-RED instance that you can use to build and run Node-RED flows on our cloud server. It has two main restriction. Firstly, there is a max limit (50) on the number of nodes you can use in your flows. When you hit that restriction your Node-RED instance will be stopped after a period of time and you'll be asked to remove some nodes. Secondly, once deployed, your flows will run in our server for 24h. If you log in to FRED again during those 24h your timer is restarted. If you don't log in, your flows will be stopped to conserve server resources. All you have to do is login again and they will be restarted for another 24h. There are currently no restrictions on data in/out.  Support is best effort by email.
 
 ___
 
 ### Q. How can I ensure my flows will keep running?
-To ensure your nodes keep running, you can now upgrade to our paid subscription plan.  Paid plans has a higher node limit, improved support and we'll keep your flows running.  See the [pricing page](https://fred.sensetecnic.com/pricing).  We also offer dedicated instances of Node-RED and customization services.  Please [contact us](mailto:info@sensetecnic.com) for more information.
+To ensure your nodes keep running, you can upgrade to our paid subscription plans.  Paid plans has a higher node limit, improved support and we'll keep your flows running. They also include an MQTT service.  See the [pricing page](https://fred.sensetecnic.com/pricing).  We also offer dedicated instances of Node-RED and customization services.  Please [contact us](mailto:info@sensetecnic.com) for more information.
 
 ___
 
