@@ -99,7 +99,7 @@ Broadly speaking, there are two. Firstly, FRED hosts Node-RED behind a proxy and
 ___
 
 ### Q. What is your roadmap for FRED?
-We have some ideas, but are open to suggestions. We hope to continue to support new versions and capabilities of Node-RED when they become available. We will be adding new nodes, and think that it would be good to bundle the system with libraries of flows and nodes. We are considering how to break open the functionality of the Sense Tecnic IoT platform so that we can offer other key components needed for IoT development.
+Our goal is to make FRED the easiest IoT development environment for those looking for a "develop and deploy" service in the cloud. We continue to track Node-RED releases and update the FRED service as they become available. We have added MQTT support to FRED and are working on other microservices that are useful to our users. We have some other ideas, but are open to suggestions.
 
 ___
 
