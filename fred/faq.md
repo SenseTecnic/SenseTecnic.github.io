@@ -34,7 +34,7 @@ FRED stands for a 'Front End for Node-RED'.
 ___
 
 ### Q. Neato, how does it work?
-FRED is managed multi-tenant cloud service that manages Node-ED instances on behalf of users. Each instance relieas on a "smart" proxy that relays HTTP and web sockets communications to one of many Node-RED instances that the system manages on our cloud instance. When you login, your user name and password or the generated API key in your profile is used to access your node red UI and your flows' HTTP input nodes.
+FRED is managed multi-tenant cloud service that manages Node-RED instances on behalf of users. Each instance relieas on a "smart" proxy that relays HTTP and web sockets communications to one of many Node-RED instances that the system manages on our cloud instance. When you login, your user name and password or the generated API key in your profile is used to access your node red UI and your flows' HTTP input nodes. A technical paper is available [here](http://sensetecnic.com/how-fred-cloud-node-red-works/)
 
 ___
 
