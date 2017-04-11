@@ -34,7 +34,7 @@ FRED stands for a 'Front End for Node-RED'.
 ___
 
 ### Q. Neato, how does it work?
-FRED is a "smart" proxy that relays HTTP and web sockets communications to one of many Node-RED instances that the system manages on our cloud instance. When you login, your user name and password or the generated API key in your profile is used to access your node red UI and your flows' HTTP input nodes.
+FRED is managed multi-tenant cloud service that manages Node-ED instances on behalf of users. Each instance relieas on a "smart" proxy that relays HTTP and web sockets communications to one of many Node-RED instances that the system manages on our cloud instance. When you login, your user name and password or the generated API key in your profile is used to access your node red UI and your flows' HTTP input nodes.
 
 ___
 
@@ -44,7 +44,7 @@ No, we use 'vanilla' Node-RED (with some very minor visual tweaks). We aim to ma
 ___
 
 ### Q. Who are you guys?
-We are Sense Tecnic, a commercial IoT solutions provider. We've been working with Node-RED for a while and have published a paper on Distributed Node-RED last year and use Node-RED for our own internal purposes. We've built FRED as a service because we think its needed - and we like building cool stuff!
+We are Sense Tecnic, a commercial IoT solutions provider. We've been working with Node-RED since it's initial release. We've contributed to the core Node-RED source, have built and contributed a number of new nodes and have written many lectures and tutorials for the community. We've built FRED as a service because we think its needed - and we like building cool stuff!
 
 ___
 
@@ -54,12 +54,12 @@ We have no formal relationship with IBM. We are active members of the Node-RED c
 ___
 
 ### Q. What do I get for free?
-The free account has a restriction on the number of nodes you are able to have in all of your flows. When you hit that restriction your Node-RED instance will be stopped after a period of time and you'll be asked to remove some nodes. There are currently no restrictions on data in/out.  Support will be best effort by email.
+The free account is a fully functioning node-RED instance that you can use to build and run Node-RED flows on our cloud server. It has two main restriction. Firstly, there is a max limit (50) on the number of nodes you can use in your flows. When you hit that restriction your Node-RED instance will be stopped after a period of time and you'll be asked to remove some nodes. Secondly, once deployed, your flows will run in our server for 24h. If you log in to FRED again during those 24h your timer is restarted. If you don't log in, your flows will be stopped to conserver server resources. All you have to do is login again and they will be restarted for another 24h. There are currently no restrictions on data in/out.  Support will be best effort by email.
 
 ___
 
 ### Q. How can I ensure my flows will keep running?
-To ensure your nodes keep running, you can now upgrade to our paid subscription plan.  This plan has a higher node limit, improved support and we'll keep your flows running.  See the [pricing page](https://fred.sensetecnic.com/pricing).  We also offer dedicated instances of Node-RED and customization services.  Please [contact us](mailto:info@sensetecnic.com) for more information.
+To ensure your nodes keep running, you can now upgrade to our paid subscription plan.  Paid plans has a higher node limit, improved support and we'll keep your flows running.  See the [pricing page](https://fred.sensetecnic.com/pricing).  We also offer dedicated instances of Node-RED and customization services.  Please [contact us](mailto:info@sensetecnic.com) for more information.
 
 ___
 
@@ -69,17 +69,17 @@ We count nodes in your flows that appear on the canvas/workspace, other than tab
 ___
 
 ### Q. Is FRED open source?
-No, we haven't made FRED open source. That's something we might consider but at the moment our contribution to the NR open source community will be through proposals and updates to Node-RED.
+No, we haven't made FRED open source. That's something we might consider but at the moment our contribution to the NR open source community is through contributions to the Node-RED core code, new nodes we develop and open souyrce and through engagement and contribution to the community. Part of our motivation for making sure we have a free tier on FRED is to help grow the Node-RED community.
 
 ___
 
 ### Q. Are you guys philanthropists or looking to make a quick buck?
-We are providing FRED as a service to the Node-RED community.  Initially FRED was free, but we've found it necessary to cover the costs of running *many* Node-RED instances in the cloud, so we're introducing paid subscriptions for those that need their instance to run 24x7.
+We are providing FRED as a service to the Node-RED community.  Initially FRED was free, but we've found it necessary to cover the costs of running *many* Node-RED instances in the cloud, so we're introducing paid subscriptions for those that need their instance to run 24x7. We think Node-RED is very powerful and we aim to build our business out of making it easy for companies and developers to use it for their projects.
 
 ___
 
 ### Q. Can I use it for commercial purposes?
-Yes, feel free to use your account and the NR instances in anyway you want. However, keep in mind that we only run your instance for 24 hours with the free account, and don't offer any guarantees that your flow will stay up. If you want that type of guarantee, please [contact us](mailto:info@sensetecnic.com) or consider a paid subscription when that is ready.
+Yes, feel free to use your account and the NR instances in anyway you want. However, keep in mind that we only run your instance for 24 hours with the free account, and don't offer any guarantees that your flow will stay up. If you want that type of guarantee, please [contact us](mailto:info@sensetecnic.com) or consider a paid subscription.
 
 ___
 
