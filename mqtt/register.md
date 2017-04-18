@@ -6,9 +6,10 @@ title: "MQTT Docs: Register and Log in"
 
 # Register and Log in.
 
-If you are already a Sense Tecnic FRED user, there is no need to register for the STS MQTT service.  Just hit the [STS MQTT home page](https://mqtt.sensetecnic.com) and you're in!  If you are not a FRED user, to register for the STS-MQTT service, click on the “REGISTER FOR FREE” button on the [STS-MQTT home page](https://mqtt.sensetecnic.com). 
+If you are already a Sense Tecnic FRED user, there is no need to register for the STS MQTT service.  Just hit the [STS MQTT home page](https://mqtt.sensetecnic.com) and you're in! The MQTT service for FRED requires a paid account, so you may need to upgrade your account to use MQTT for FRED. 
 
-![mqtt_landing_page.png](/assets/images/mqtt_landing_page.png)
+If you are not a FRED user, you have to sign up for a FRED paid account to access the MQTT service. Follow this link to get started [Account Registration](https://users.sensetecnic.com/register)
+
 
 You will be redirected to the Sense Tecnic [Account Registration](https://users.sensetecnic.com/register) page.
 
