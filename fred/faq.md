@@ -13,7 +13,7 @@ Note that FRED is a shared service: *take care to limit your use of passwords an
 - [Who are you guys?](#q-who-are-you-guys)
 - [What's Sense Tecnic's relationship to IBM and Node-RED?](#q-whats-sense-tecnics-relationship-to-ibm-and-node-red)
 - [What's the difference between paid and free accounts?](#q-paid-and-free-accounts)
-- [What's the MQTT service](#q-whats-the-MQTT-service)
+- [What's the MQTT service?](#q-whats-the-MQTT-service)
 - [What do I get for free?](#q-what-do-i-get-for-free)
 - [How can I ensure my flows will keep running?](#q-how-can-i-ensure-my-flows-will-keep-running)
 - [How does the node count limit work?](#q-how-does-the-node-count-limit-work)
@@ -62,6 +62,7 @@ ___
 
 ### Q. What's the MQTT service?
 Paid accounts get a bundled MQTT service that makes it easy to built IoT apps that rely on field deployed devices sending data over MQTT. Our MQTT service is built into FRED and highly integrated. In addition, we've developed a management interface for MQTT that makes it easy to create connections, monitor them, manage your topics etc. More details [here](http://docs.sensetecnic.com/mqtt/faq/)
+
 ___
 
 ### Q. What do I get for free?
