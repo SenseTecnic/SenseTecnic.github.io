@@ -31,11 +31,10 @@ Our shared MQTT service has a few unique features:
 * We focus on providing support for small to medium sized companies looking for easy to use IoT solutions.
 
 ### Q. Are their limits to the service?
-During testing, the service is limited to 5 Client IDs (connections) per registered user.  This will change once the service goes live and may
-include message/data volume and connection limits depending on the plan.
+Limits are dependent on the FRED service level you have paid for. The Tall service currently limits you to 5 connections. The Grande service level has a 25 connection limit. We currently don't impose limits on number of messages although we may review this.
 
 ### Q. How much does it cost?
-During testing the service is free.  When ready, the cost of the service will be competitive with other MQTT service offerings.
+The MQTT service is bundled with the FRED paid tiers, it is not available under the free tier (although you can look at the management interface and browse the public topics with a free tier account). You need to have upgraded your account to any of the paid tiers to have access to the MQTT service and to create connections. 
 
 ### Q. Where can I find documentation and more information?
 See our [documentation page](http://docs.sensetecnic.com/mqtt), or contact us [by email](mailto:info@sensetecnic.com). 
