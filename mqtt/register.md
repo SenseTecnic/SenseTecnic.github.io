@@ -15,7 +15,7 @@ You will be redirected to the Sense Tecnic [Account Registration](https://users.
 
 ![mqtt_registration.png](/assets/images/mqtt_registration.png)
 
-Fill out the form with your user name, first and last name, email address, password and other information and hit submit.  You will then be asked to validate your email address by email.
+Fill out the form with your user name, first and last name, email address, password and other information, add your card details and hit submit.  You will then be asked to validate your email address by email.
 
 Once you’re email address validated, [log in](https://users.sensetecnic.com/login?return=https://mqtt.sensetecnic.com/dash) to access the STS-MQTT dashboard.  Initially you will be shown the Status Tab described [next](/mqtt/status/).
 
