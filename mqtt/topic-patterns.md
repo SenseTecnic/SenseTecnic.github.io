@@ -43,4 +43,4 @@ Users can use the hashtag to represent multi levels. In this case, any topic wit
 but not the following:
 
 * <code>{% raw %}users/tom/humidity/data{% endraw %}</code>
-* <code>{% raw %}users/tom/temperature/data{% endraw %}</code>
+* <code>{% raw %}users/tom/light/data{% endraw %}</code>

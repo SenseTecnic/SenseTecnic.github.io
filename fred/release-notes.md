@@ -6,7 +6,43 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
-### Version 1.0 (PENDING RELEASE)
+### Version 1.1.4 (2017-04-04)
+___
+
+- Added FRED Grande to list of [available plans](https://fred.sensetecnic.com/pricing).
+
+- Fixed bad url in sample flow.
+
+### Version 1.1.2 (2017-04-03)
+___
+
+- Added node-red-contrib-graphs to [available nodes](/fred/supported-nodes).
+
+- Added node-red-node-ttn to [available nodes](/fred/supported-nodes).
+
+### Version 1.1.1 (2017-03-27)
+___
+
+- Updated node-red-dashboard to version 2.3.6.
+
+### Version 1.1.0 (2017-03-17)
+___
+
+- Bug fixes and back-end refactor.
+
+- Updated instance limits.
+
+### Version 1.0.4 (2017-03-07)
+___
+
+- Added node-red-contrib-sts-mqtt to [available nodes](/fred/supported-nodes).
+
+### Version 1.0.1 (2017-02-15)
+___
+ 
+- Added [node-red-contrib-chatbot](https://github.com/SenseTecnic/node-red-contrib-chatbot) and [node-red-node-watson](https://github.com/SenseTecnic/node-red-node-watson) to bundled nodes.
+
+### Version 1.0 (2017-02-14)
 ___
 
 - Improved and simplified back-end proxy mechanism for better compatibility with Node-RED node packages. Base URL of a user's instance has been changed to `https://{username}.fred.sensetecnic.com`. All http node and websocket access as well as node-red-dashboard URL will be prefixed by the new URL. Old base URL scheme will remain for a short period to allow the transition to the new URL.

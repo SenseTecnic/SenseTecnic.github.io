@@ -17,6 +17,6 @@ The difference in public and private topic is mainly in the access permission in
 
 ## Edit Privacy of a topic
 
-To edit the privacy of a topic, simply click on a topic in the topic panel. As the *View Topic* modal shows up, you can click the _Edit_ button at the bottom of the modal to edit the setting of the topic. For more information of managing topics, please refer to [Clients Topics and Access Controls](/mqtt/clients-topics-and-access-control/)
+To edit the privacy of a topic, simply click on a topic in the topic panel. As the *View Topic* modal shows up, you can click the _Edit_ button at the bottom of the modal to edit the setting of the topic. For more information of managing topics, please refer to [Topics and Access Controls](/mqtt/topics-and-access-control/)
 
 >*Note:* The setting of the privacy of a topic would only affect the access permission of the subscription to a topic. For publishing to a topic, only the topic owner, or the user with the same username in the topic has access. 

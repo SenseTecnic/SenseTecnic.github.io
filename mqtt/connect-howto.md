@@ -8,9 +8,9 @@ title: "MQTT Docs: Connect using FRED"
 
 Now that we have a client set up, we'll use the standard MQTT nodes to connect to the service using FRED.  First, we will create a flow that publishes messages to a topic on the service using FRED.
 
-Log in to your FRED account.  For more information on how to use FRED see the [FRED Docs](http://sensetecnic.github.io/fred/).
+First, head over to [FRED](https://fred.sensetecnic.com) and log in to your FRED account if needed.  For more information on how to use FRED see the [FRED Docs](http://sensetecnic.github.io/fred/).
 
-Drag an inject node to the canvas and configure it to send a string 'Hello World' to a test topic.  Note that you have access to all topics on the MQTT service that start with `users/{username}` where username is your Sense Tecnic username.
+Drag an inject node to the canvas and configure it to send a string 'Hello World' to a test topic.  Note that you have access to all topics on the MQTT service that start with `users/{username}` where username is your Sense Tecnic and FRED username.
 
 For example, if your username were `fred`, we would configure it to send data to `users/fred/test` as shown.
 
@@ -20,13 +20,19 @@ Drag an MQTT output node onto the Node-RED canvas and connect it to the inject n
 
 ![flow.png](/assets/images/mqtt_flow.png)
 
-Click on the Server pop up and select 'add new MQTT broker...'.  In this configuration, set the broker host to `mqtt.sensetecnic.com` and leave the port as `1883`.  Set the Client ID to the client id you created, for example, `fred-b738c479`.  Leave the topic, qo, retain and other configurations as is, since we will set them via a message property or use the defaults.
+Click on the 'Server' pop up and select 'add new MQTT broker...'.  In this configuration, set the broker host to `mqtt.sensetecnic.com` and leave the port as `1883`.  Set the Client ID to the client id you created, for example, `fred-b738c479`.  
 
 ![connection tab.png](/assets/images/mqtt_connection_tab.png)
 
-Click on the Security tab, and fill in your username in the username field.  In the password field, fill in the Client key that you created, for example, `51zytzw7b9`.
+Click on the Security tab, and fill in your username in the username field.  In the password field, fill in the Client Key that you created, for example,
+`51zytzw7b9`.
+
+>*Note:* Despite it's name in the MQTT configuration, do not put your STS service password in the Password field.  Put the Client Key in this field that
+corresponds to the Client ID.
 
 ![security tab.png](/assets/images/mqtt_security_tab.png)
+
+Leave the configurations in the 'Birth Message' and 'Will Messages' tabs as is (default).
 
 Click `Done` and you're ready to go.
 
@@ -38,6 +44,6 @@ Drag an MQTT input node to the canvas underneath the existing flow.  Set the top
 
 Now, when you click on your inject node in the first flow, messages should appear in the debug output on FRED/Node-RED.  The 'hello world' message will travel through the MQTT output node, to the broker topic, back through the connection to the subscribing input node, and to the debug window.
 
-Lets use the MQTT service to view messages sent to this topic from the STS-MQTT management UI [next](/mqtt/create-topic/).
+Next, lets use the MQTT service to view messages sent to this topic from the STS-MQTT management UI [next](/mqtt/create-topic/).
 
 [Create a Topic >>](/mqtt/create-topic/)

@@ -14,7 +14,7 @@ Specifically the service sends data to the following topics:
 
 | Topic | Description |
 | ----- | ----------- |
-| <code>{% raw %}users/{username}/$SYS/{broker-id}/infoMessages{% endraw %}</code> | information messages as shown on the [status page](http://mqtt.sensetecnic.com/status) |
+| <code>{% raw %}users/{username}/$SYS/{broker-id}/infoMessages{% endraw %}</code> | information messages as shown on the [status page](/mqtt/status/) |
 | <code>{% raw %}users/{username}/$SYS/{broker-id}/errorMessages{% endraw %}</code> | error messages |
 | <code>{% raw %}users/{username}/$SYS/{broker-id}/messages{% endraw %}</code> | messages published since the broker started |
 | <code>{% raw %}users/{username}/$SYS/{broker-id}/messagesLastInterval{% endraw %}</code> | messages published during the last interval on the broker |

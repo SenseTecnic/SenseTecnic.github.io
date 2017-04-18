@@ -45,7 +45,7 @@ In addition to the limits below, all instances are also given a limit on the amo
 
 Our free tier comes with several restrictions: 
 
-- Your instance will automatically be stopped after **3 days** if it is not accessed. However your account and flows will not be changed or removed. Every time you log into FRED, this timer will be reset. 
+- Your instance will automatically be stopped after **24 hours** if it is not accessed. However your account and flows will not be changed or removed. Every time you log into FRED, this timer will be reset. 
 
 - You may only have a maximum of **50 nodes** running in your flows. This number is displayed on the sidebar by the "Node Count" field. If you exceed this node count you will have some time to remove nodes from your instance before it is turned automatically stopped. Comment nodes are exempt from this count. 
 
@@ -55,7 +55,7 @@ Our free tier comes with several restrictions:
 
 If you are subscribed to your [FRED Tall](https://fred.sensetecnic.com/pricing) plan, will you have the following benefits:
 
-- Your instance will **not be turned off** after 3 days. 
+- Your instance will **not be turned off** after 24 hours. 
 
 - The amount of nodes you have have running in your flows is doubled to **100**. 
 

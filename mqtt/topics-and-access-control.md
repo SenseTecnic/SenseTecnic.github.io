@@ -49,4 +49,4 @@ Users can also view the recent messages published to this topic in the _Recent M
 
 To edit or delete a topic, simply click on a topic in the topic panel. You can find the *Edit* and *Delete* buttons at the bottom of the modal. Simply click on these buttons.
 
->*Note* 
+

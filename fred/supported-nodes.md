@@ -13,7 +13,8 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-contrib-ckants@1.0.14](https://www.npmjs.com/package/node-red-contrib-ckants)
 - [node-red-contrib-fred@0.0.2](https://www.npmjs.com/package/node-red-contrib-fred)
 - [node-red-contrib-freeboard@0.0.6](https://www.npmjs.com/package/node-red-contrib-freeboard)
-- [node-red-contrib-influxdb@0.0.6](https://www.npmjs.com/package/node-red-contrib-influxdb)
+- [node-red-contrib-graphs@0.3.5](https://www.npmjs.com/package/node-red-contrib-graphs)
+- [node-red-contrib-influxdb@0.1.1](https://www.npmjs.com/package/node-red-contrib-influxdb)
 - [node-red-contrib-moment@2.0.0](https://www.npmjs.com/package/node-red-contrib-moment)
 - [node-red-contrib-mongodb2@0.5.5](https://www.npmjs.com/package/node-red-contrib-mongodb2)
 - [node-red-contrib-netatmo-dashboard@0.2.2](https://www.npmjs.com/package/node-red-contrib-netatmo-dashboard)
@@ -24,8 +25,10 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-contrib-salesforce@0.0.5](https://www.npmjs.com/package/node-red-contrib-salesforce)
 - [node-red-contrib-slack@0.1.1](https://www.npmjs.com/package/node-red-contrib-slack)
 - [node-red-contrib-soap2@0.0.1](https://github.com/SenseTecnic/node-red-contrib-soap2)
+- [node-red-contrib-sts-mqtt@0.0.3](https://www.npmjs.com/package/node-red-contrib-sts-mqtt)
+- [node-red-contrib-ttn@2.0.1](https://www.npmjs.com/package/node-red-contrib-ttn)
 - [node-red-contrib-ui@1.2.19](https://www.npmjs.com/package/node-red-contrib-ui)
-- [node-red-dashboard@2.1.0](https://www.npmjs.com/package/node-red-dashboard)
+- [node-red-dashboard@2.3.6](https://www.npmjs.com/package/node-red-dashboard)
 - [node-red-node-aws@0.1.1](https://www.npmjs.com/package/node-red-node-aws)
 - [node-red-node-badwords@0.0.4](https://www.npmjs.com/package/node-red-node-badwords)
 - [node-red-node-box@0.1.0](https://www.npmjs.com/package/node-red-node-box)
@@ -60,7 +63,10 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-node-wordpos@0.0.3](https://www.npmjs.com/package/node-red-node-wordpos)
 - [node-red-contrib-web-worldmap@1.0.22](https://www.npmjs.com/package/node-red-contrib-web-worldmap)
 - [node-red-node-xmpp@0.1.5](https://www.npmjs.com/package/node-red-node-xmpp)
-- [sts-node-red-contrib-litedb@0.0.1](https://github.com/sensetecnic//sts-node-red-contrib-litedb)
+- [sts-node-red-contrib-litedb@0.0.1](https://github.com/sensetecnic/sts-node-red-contrib-litedb)
+- [sts-node-red-contrib-chatbot@0.6.17](https://github.com/SenseTecnic/node-red-contrib-chatbot)
+- [sts-node-red-node-watson@0.5.3](https://github.com/SenseTecnic/node-red-node-watson)
+
 
 
 ### Slightly Modified Nodes
@@ -68,6 +74,8 @@ In addition to the core nodes, the following node packages are installed for you
     mblackstock/node-red-contrib-freeboard
     SenseTecnic/node-red-dashboard
     SenseTecnic/node-red-contrib-ui
+    SenseTecnic/node-red-contrib-chatbot
+    SenseTecnic/node-red-node-watson
 
 
 Because FRED is a cloud-hosted service, it does not make sense to include nodes that access hardware or the underlying operating system.  The following core nodes are *disabled* in FRED:
