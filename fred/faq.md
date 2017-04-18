@@ -12,6 +12,7 @@ Note that FRED is a shared service: *take care to limit your use of passwords an
 - [Have you hacked Node-RED?](#q-have-you-hacked-node-red)
 - [Who are you guys?](#q-who-are-you-guys)
 - [What's Sense Tecnic's relationship to IBM and Node-RED?](#q-whats-sense-tecnics-relationship-to-ibm-and-node-red)
+- [What's the difference between paid and free accounts?](#q-paid-and-free_accounts)
 - [What do I get for free?](#q-what-do-i-get-for-free)
 - [How can I ensure my flows will keep running?](#q-how-can-i-ensure-my-flows-will-keep-running)
 - [How does the node count limit work?](#q-how-does-the-node-count-limit-work)
@@ -53,8 +54,17 @@ We have no formal relationship with IBM. We are active members of the Node-RED c
 
 ___
 
+### Q. What's the difference between paid and free accounts?
+The free account is a great way to try out FRED, ie cloud Node-RED, but it's limited by resources and will only run for 24h after you log out. Paid accounts are for users who need a real service which runs 24X7, has support and has much higher resource limits. The paid accounts also have access to an integrated MQTT service that makes it super easy to build IoT apps. 
+
+___
+
+### Q. What's the MQTT service?
+Paid accounts get a bundled MQTT service that makes it easy to built IoT apps that rely on field deployed devices sending data over MQTT. Our MQTT service is built into FRED and highly integrated. In addition, we've developed a management interface for MQTT that makes it easy to create connections, monitor them, manage your topics etc. More details [here](http://docs.sensetecnic.com/mqtt/faq/)
+___
+
 ### Q. What do I get for free?
-The free account is a fully functioning node-RED instance that you can use to build and run Node-RED flows on our cloud server. It has two main restriction. Firstly, there is a max limit (50) on the number of nodes you can use in your flows. When you hit that restriction your Node-RED instance will be stopped after a period of time and you'll be asked to remove some nodes. Secondly, once deployed, your flows will run in our server for 24h. If you log in to FRED again during those 24h your timer is restarted. If you don't log in, your flows will be stopped to conserve server resources. All you have to do is login again and they will be restarted for another 24h. There are currently no restrictions on data in/out.  Support is best effort by email.
+The free account is a fully functioning node-RED instance that you can use to build and run Node-RED flows on our cloud server. It has three main restriction. Firstly, there is a max limit (50) on the number of nodes you can use in your flows. When you hit that restriction your Node-RED instance will be stopped after a period of time and you'll be asked to remove some nodes. Secondly, once deployed, your flows will run in our server for 24h. If you log in to FRED again during those 24h your timer is restarted. If you don't log in, your flows will be stopped to conserve server resources. All you have to do is login again and they will be restarted for another 24h. There are currently no restrictions on data in/out.  Support is best effort by email. Lastly, you don't get access to our integrated MQTT service - that's only available for paying users.
 
 ___
 
@@ -75,16 +85,10 @@ ___
 
 ### Q. Are you guys philanthropists or looking to make a quick buck?
 We are providing FRED as a service to the Node-RED community.  Initially FRED was free, but we've found it necessary to cover the costs of running *many* Node-RED instances in the cloud, so we're introducing paid subscriptions for those that need their instance to run 24x7. We think Node-RED is very powerful and we aim to build our business out of making it easy for companies and developers to use it for their projects.
-
-___
-
-### Q. Can I use it for commercial purposes?
-Yes, feel free to use your account and the NR instances in anyway you want. However, keep in mind that we only run your instance for 24 hours with the free account, and don't offer any guarantees that your flow will stay up. If you want that type of guarantee, please [contact us](mailto:info@sensetecnic.com) or consider a paid subscription.
-
 ___
 
 ### Q. Can I have unlimited flows or nodes running?
-We don't restrict the volume and data in/out at this stage but we may have to if our costs get out of hand. If your flows misbehave, we may need to shut them down until we can work out what’s up.
+Paid tiers have high resource limits and we don't restrict message flows. The free tier has enough resources to try out the service, but you'll want to upgrade for anything serious. In all cases, we monitor the system and if your flows misbehave, we may need to shut them down until we can work out what’s up.
 
 ___
 
@@ -94,7 +98,7 @@ Todays service doesn't help you directly. The target for FRED is people who are 
 ___
 
 ### Q. What are the technical limitations of FRED?
-Broadly speaking, there are two. Firstly, FRED hosts Node-RED behind a proxy and firewall, so there is no way to communicate with your instance of Node-RED except through FRED. This means that only certain input nodes or configurations work. Secondly, because FRED is a cloud service, you don’t have access to nodes that depend on underlying OS for storage and sensors.  We currently don't allow you to install your own nodes. We plan to address some of these limitations in future releases.  Depending on your subscription and associated time and node count limits, instances may stop running after a period of time.  
+Broadly speaking, there are two. Firstly, FRED hosts Node-RED behind a proxy and firewall, so there is no way to communicate with your instance of Node-RED except through FRED. This means that only certain input nodes or configurations work. Secondly, because FRED is a cloud service, you don’t have access to nodes that depend on underlying OS for storage and sensors. Depending on your subscription and associated time and node count limits, instances may stop running after a period of time.  
 
 ___
 
