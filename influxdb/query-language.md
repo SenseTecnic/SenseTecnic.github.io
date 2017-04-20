@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /influx/query-language/
+permalink: /influxdb/query-language/
 title: "InfluxDB Docs: Query Language"
 ---
 

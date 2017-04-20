@@ -63,31 +63,31 @@
         url: /mqtt/topic-patterns/
       - text: Real time status and monitoring
         url: /mqtt/real-time-status/
-- name: influx
+- name: influxdb
   title: STS InfluxDB
   url: "https://influxdb.sensetecnic.com"
   chapters:
   - text: Getting Started
     pages:
     - text: Introduction
-      url: /influx/
+      url: /influxdb/
     - text: Registration
-      url: /influx/register/
+      url: /influxdb/register/
     - text: Create a database
-      url: /influx/create-database/
+      url: /influxdb/create-database/
     - text: Create a user
-      url: /influx/create-user/ 
+      url: /influxdb/create-user/ 
     - text: Connect with FRED
-      url: /influx/connect-howto/
+      url: /influxdb/connect-howto/
     - text: Use the web query tool
-      url: /influx/query-tool/                               
+      url: /influxdb/query-tool/                               
   - text: Using STS InfluxDB
     pages:
     - text: Frequently Asked Questions
-      url: /influx/faq/ 
+      url: /influxdb/faq/ 
     - text: Manage Databases
-      url: /influx/manage-databases/
+      url: /influxdb/manage-databases/
     - text: Manage users and privileges
-      url: /influx/manage-users-privileges/
+      url: /influxdb/manage-users-privileges/
     - text: Query Language
-      url: /influx/query-language/                               
+      url: /influxdb/query-language/                               

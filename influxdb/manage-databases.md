@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /influx/manage-databases/
+permalink: /influxdb/manage-databases/
 title: "InfluxDB Docs: Manage Databases"
 ---
 
@@ -27,7 +27,7 @@ ___
 
 ### Manage users
 
-When you click `Manage Users`, you will be redirect to the Users and Privileges tab where you can see all the database users created for your instance. You can refer to [Manage users and privileges](/influx/manage-users-privileges) for details.
+When you click `Manage Users`, you will be redirect to the Users and Privileges tab where you can see all the database users created for your instance. You can refer to [Manage users and privileges](/influxdb/manage-users-privileges) for details.
 
 ### Connect via shell
 
@@ -35,7 +35,7 @@ When you click `Connect`, you will see the command of connecting to your databas
 
 ### Query using the query tool
 
-When you click `Query`, you will be redirect to the Query Tool tab where you can use the easy access web query tool to send query command to your database. You can refer to [Use the web query tool](/influx/query-tool) for more details.
+When you click `Query`, you will be redirect to the Query Tool tab where you can use the easy access web query tool to send query command to your database. You can refer to [Use the web query tool](/influxdb/query-tool) for more details.
 
 ### Delete Database 
 

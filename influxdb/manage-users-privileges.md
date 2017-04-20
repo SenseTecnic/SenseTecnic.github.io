@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /influx/manage-users-privileges/
+permalink: /influxdb/manage-users-privileges/
 title: "InfluxDB Docs: Manage users and privileges"
 ---
 

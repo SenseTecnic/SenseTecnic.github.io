@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /influx/
+permalink: /influxdb/
 title: "InfluxDB Docs: Introduction"
 ---
 
@@ -9,7 +9,7 @@ title: "InfluxDB Docs: Introduction"
 The STS-InfluxDB service provides FRED users with an InfluxDB database server for their flows. In addition to the basic InfluxDB data storage
 functionality, the STS InfluxDB service allows users to manage database, users and previlleges through the web interface tools.
 
-For more information and details, please refer to the [FAQ section](/influx/faq) or take a look at the documentation below.
+For more information and details, please refer to the [FAQ section](/influxdb/faq) or take a look at the documentation below.
 
 # Getting Started
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /influx/register/
+permalink: /influxdb/register/
 title: "InfluxDB Docs: Register and Log in"
 ---
 
@@ -17,6 +17,6 @@ You will be redirected to the Sense Tecnic [Account Registration](https://users.
 
 Fill out the form with your user name, first and last name, email address, password and other information, add your card details and hit submit.  You will then be asked to validate your email address by email.
 
-Once you’re email address validated, [log in](https://users.sensetecnic.com/login?return=https://influxdb.sensetecnic.com/dash) to access the STS-InfluxDB platform.  Initially you will be shown the Databases Tab described [next](/influx/create-database/).
+Once you’re email address validated, [log in](https://users.sensetecnic.com/login?return=https://influxdb.sensetecnic.com/dash) to access the STS-InfluxDB platform.  Initially you will be shown the Databases Tab described [next](/influxdb/create-database/).
 
-[Create a database >>](/influx/create-database/)
+[Create a database >>](/influxdb/create-database/)

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /influx/faq/
+permalink: /influxdb/faq/
 title: "InfluxDB Docs: FAQ"
 ---
 # FAQ
@@ -39,8 +39,8 @@ Our shared InfluxDB service has a few unique features:
 See our [documentation page](http://docs.sensetecnic.com/influx), or contact us [by email](mailto:info@sensetecnic.com). 
 
 ### Q. How do I set up my database?
-First, [Create a database](/influx/create-database/), and then [create database users](/influx/create-user) with the correct read/write previleges. Now you are good to go!  
+First, [Create a database](/influxdb/create-database/), and then [create database users](/influxdb/create-user) with the correct read/write previleges. Now you are good to go!  
 
 ### Q. How do I connect the database on FRED?
-You will need the user with correct read/write previleges. Use the InfluxDB node [as described in here](/influx/connect-howto). Ensure you enter the correct database user credential (not your STS service user credentials!) 
+You will need the user with correct read/write previleges. Use the InfluxDB node [as described in here](/influxdb/connect-howto). Ensure you enter the correct database user credential (not your STS service user credentials!) 
 
