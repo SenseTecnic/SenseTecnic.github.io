@@ -4,7 +4,7 @@ permalink: /mqtt/faq/
 title: "MQTT Docs: FAQ"
 ---
 # FAQ
-Hopefully this answer's some of your questions the STS MQTT service. If you have any others, [let us know](mailto:info@sensetecnic.com).
+Hopefully this answers some of your questions the STS MQTT service. If you have any others, [let us know](mailto:info@sensetecnic.com).
 
 - [Who are you guys?](#q-who-are-you-guys)
 - [How is your MQTT service different?](#q-how-is-your-mqtt-service-different)

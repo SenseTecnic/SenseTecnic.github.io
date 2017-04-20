@@ -27,7 +27,7 @@ Click on the 'Server' pop up and select 'add new MQTT broker...'.  In this confi
 Click on the Security tab, and fill in your username in the username field.  In the password field, fill in the Client Key that you created, for example,
 `51zytzw7b9`.
 
->*Note:* Despite it's name in the MQTT configuration, do not put your STS service password in the Password field.  Put the Client Key in this field that
+>*Note:* Despite its name in the MQTT configuration, do not put your STS service password in the Password field.  Put the Client Key in this field that
 corresponds to the Client ID.
 
 ![security tab.png](/assets/images/mqtt_security_tab.png)

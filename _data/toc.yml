@@ -79,15 +79,15 @@
       url: /influx/create-user/ 
     - text: Connect with FRED
       url: /influx/connect-howto/
-    - text: Send a query
+    - text: Use the web query tool
       url: /influx/query-tool/                               
   - text: Using STS InfluxDB
     pages:
     - text: Frequently Asked Questions
       url: /influx/faq/ 
-    - text: Manage databases
+    - text: Manage Databases
       url: /influx/manage-databases/
     - text: Manage users and privileges
       url: /influx/manage-users-privileges/
-    - text: Using Query Tool
-      url: /influx/use-query-tool/                               
+    - text: Query Language
+      url: /influx/query-language/                               
