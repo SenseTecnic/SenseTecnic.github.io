@@ -6,23 +6,23 @@ title: "InfluxDB Docs: Connect with FRED"
 
 # Connect with FRED
 
-Now that we have a database and database users set up, we'll use the InfluxDB nodes to connect to the service using FRED.  First, we will create a flow that publishes messages to a topic on the service using FRED.
+Now that we have a database and database users set up, we'll use the Node-RED InfluxDB nodes to connect to the service using FRED.  First, we will create a flow that publishes messages to a topic on the service.
 
-First, head over to [FRED](https://fred.sensetecnic.com){:target="_blank"} and log in to your FRED account if needed.  For more information on how to use FRED see the [FRED Docs](http://sensetecnic.github.io/fred/){:target="_blank"}.
+Head over to [FRED](https://fred.sensetecnic.com){:target="_blank"} and log in to your FRED account if needed.  For more information on how to use FRED see the [FRED Docs](http://sensetecnic.github.io/fred/){:target="_blank"}.
 
 ## Write data
 
-We will first config an InfluxDB out node to write data to the InfluxDB. We first drag an InfluxDB out node to the editor. Double click on the node to edit the configuration tab.
+We will first config an *InfluxDB out* node to write data to InfluxDB. Drag an *InfluxDB out* node to the editor canvas, and double click on the node to edit the configuration tab.
 
 ![influxdb_out_node_config.png](/assets/images/influxdb_out_node_config.png)
 
-We will add new server config to this node by clicking the edit button. 
+We will add new InfluxDb server configuration by clicking the edit button. 
 
 ![influxdb_add_new_server.png](/assets/images/influxdb_add_new_server.png)
 
-As you can see, we enter the STS-InfluxDB URL in the host field. We use the database username and database user password in the username and password field of the InfluxDB node config tab. The default port number would be 8086.
+Next, we enter the STS-InfluxDB URL in the host field and the database username and database user password that we created previously in the username and password field of the InfluxDB node config tab. The default port number is 8086.  Click the update button
 
-Then, we can click the update button, and enter the measurement that we are interested in. Let's say the measurement is called "test".
+Next, enter a measurement name for collecting some sensor data.  Lets call the measurement "test".
 
 ![influxdb_add_measurement.png](/assets/images/influxdb_add_measurement.png)
 
