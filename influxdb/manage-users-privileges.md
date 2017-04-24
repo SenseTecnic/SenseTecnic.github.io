@@ -4,7 +4,7 @@ permalink: /influxdb/manage-users-privileges/
 title: "InfluxDB Docs: Manage users and privileges"
 ---
 
-# Manage Users and Privileges
+# Managing Users and Privileges
 
 Users in InfluxDB defines who can access the database to write or read data. When you create a new database, by default there is no users exist for this database and you will need to create one if you want to access the database from outside of STS-InfluxDB.
 

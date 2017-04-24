@@ -20,13 +20,13 @@ We will add new InfluxDb server configuration by clicking the edit button.
 
 ![influxdb_add_new_server.png](/assets/images/influxdb_add_new_server.png)
 
-Next, we enter the STS-InfluxDB URL in the host field and the database username and database user password that we created previously in the username and password field of the InfluxDB node config tab. The default port number is 8086.  Click the update button
+Next, we enter the STS-InfluxDB URL in the host field and the database username and database user password that we created previously in the username and password field of the InfluxDB node config tab. The default port number is 8086.  Click the update button.
 
-Next, enter a measurement name for collecting some sensor data.  Lets call the measurement "test".
+Next, enter a measurement name for collecting some sensor data.  Let's call the measurement "test".
 
 ![influxdb_add_measurement.png](/assets/images/influxdb_add_measurement.png)
 
-We will first test writing a random number as in the payload to the measurement "test". Let's drag an inject node and a random node (You will need to install the random node if you don't have it in your node list. Please refer to [Node Package Installation](/fred/node-install/).) Let's set the random node to this:
+We can test writing some random sensor data to the measurement "test". Let's drag an inject node and a random node (You will need to install the random node if you don't have it in your node list. Please refer to [Node Package Installation](/fred/node-install/).) Let's set the random node to this:
 
 ![influxdb_random_node_config.png](/assets/images/influxdb_random_node_config.png)
 

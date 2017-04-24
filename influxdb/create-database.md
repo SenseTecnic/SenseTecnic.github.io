@@ -6,7 +6,7 @@ title: "InfluxDB Docs: Create a database"
 
 # Creating a database
 
-To store your time series data in the service, you'll need to create a database.
+To store your time series data in the InfluxDb service, you'll need to create a database.
 
 ![influxdb_view_database.png](/assets/images/influxdb_view_database.png)
 

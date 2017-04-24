@@ -4,30 +4,28 @@ permalink: /influxdb/manage-databases/
 title: "InfluxDB Docs: Manage Databases"
 ---
 
-# Manage Databases
+# Managing Databases
 
-An InfluxDB database is a structured set of data that stores timeseries data which users write into it. 
-
-Each database may have different measurements. Measurements are containers for tags, fields, and the time column. The measurement name also describes the data stored in the associated fields.
+An InfluxDB database is a logical container for database users and time series data called *measurements*.  Measurements are containers for tags, fields, and the time column.  It's conceptually similar to a table in a SQL database.  The measurement name effectively describes the data stored in the associated fields.
 
 ## Creating a database
 
-To create a database, click on the databases page, then click on the `+ New` button.  This will bring up the `New Database` modal. The name of the database will be started with your STS services username, and is in the form of "{Your STS service username}_{your database name}".  Note that the database name must be globally unique.
+To create a database, click on the databases page, then click on the **+ NEW** button.  This will bring up the `New Database` modal. The name of the database will be started with your STS services username, and is in the form of `{username}_{databasename}`.  Note that the database name must be unique.
 
 >*Note:* Once the database is created and the form is submitted, you cannot change the database name. If you need a different name for the database, you will have to create a new one.
 
-Once you have a database, you do the following:
+Once you have a database, you can do the following:
 
-* [Manage users](#manage-users)
+* [Manage database users](#manage-users)
 * [Connect via shell](#connect-via-shell)
 * [Query using the query tool](#query-using-the-query-tool)
-* [Delete Database](#delete-database)
+* [Delete the database](#delete-database)
 
 ___
 
 ### Manage users
 
-When you click `Manage Users`, you will be redirect to the Users and Privileges tab where you can see all the database users created for your instance. You can refer to [Manage users and privileges](/influxdb/manage-users-privileges) for details.
+When you click on `Manage Users`, you will be redirected to the *Users and Privileges* tab where you can see all the database users created for your instance. For more information, please refer to [Manage users and privileges](/influxdb/manage-users-privileges) for details.
 
 ### Connect via shell
 

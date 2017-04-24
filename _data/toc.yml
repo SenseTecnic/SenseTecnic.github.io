@@ -85,9 +85,9 @@
     pages:
     - text: Frequently Asked Questions
       url: /influxdb/faq/ 
-    - text: Manage Databases
+    - text: Managing Databases
       url: /influxdb/manage-databases/
-    - text: Manage users and privileges
+    - text: Managing users and privileges
       url: /influxdb/manage-users-privileges/
     - text: Query Language
       url: /influxdb/query-language/                               
