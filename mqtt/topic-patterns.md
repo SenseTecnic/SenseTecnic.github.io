@@ -44,3 +44,5 @@ but not the following:
 
 * <code>{% raw %}users/tom/humidity/data{% endraw %}</code>
 * <code>{% raw %}users/tom/light/data{% endraw %}</code>
+
+>*Note:* Currently, you can only use wildcard symbol on your own topics, i.e. you cannot use wildcard symbol to subscribe or publish to topics owned by other users.
