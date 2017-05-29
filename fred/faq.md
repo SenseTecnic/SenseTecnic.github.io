@@ -87,6 +87,7 @@ ___
 
 ### Q. Are you guys philanthropists or looking to make a quick buck?
 We are providing FRED as a service to the Node-RED community.  Initially FRED was free, but we've found it necessary to cover the costs of running *many* Node-RED instances in the cloud, so we're introducing paid subscriptions for those that need their instance to run 24x7, want less resource restrictions and a built in MQTT service. We think Node-RED is very powerful and we aim to build our business out of making it easy for companies and developers to use it for their projects. However, we continue to offer a free service to the community for those who just want to check out Node-RED, or run a few simple flows for their own use.
+
 ___
 
 ### Q. Can I have unlimited flows or nodes running?

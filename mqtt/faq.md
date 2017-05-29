@@ -14,6 +14,7 @@ Hopefully this answers some of your questions the STS MQTT service. If you have 
 - [How do I connect my device to the service?](#q-how-do-i-connect-my-device-to-the-service)
 - [How do I connect using Node-RED on FRED?](#q-how-do-i-connect-using-node-red-on-fred)
 - [What are public topics and how can I make one?](#q-what-are-public-topics-and-how-can-i-make-one)
+- [What is the host or IP address and port I should use?](#q-what-is-the-host-or-ip-address-and-port-i-should-use)
 
 ___
 
@@ -52,3 +53,6 @@ Public topics are topics that *any* user of the STS MQTT service can subscribe t
 simply uncheck check the 'Is Private' checkbox in the Topic edit page to make it available for other users.  See 
 [Create a Topic](/mqtt/create-topic/) in [the documentation](http://docs.sensetecnic.com/mqtt)
 for more information.
+
+### Q. What is the host or IP address and port I should use?
+The host for the MQTT service is `mqtt.sensetecnic.com`.  The IP address is currently `52.36.153.16`.  This may change in the future so be sure to use the host name and DNS where possible.  The port is the standard MQTT port 1883.

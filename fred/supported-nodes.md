@@ -54,6 +54,7 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-node-random@0.0.6](https://www.npmjs.com/package/node-red-node-random)
 - [node-red-node-rbe@0.1.5](https://www.npmjs.com/package/node-red-node-rbe)
 - [node-red-node-smooth@0.0.8](https://www.npmjs.com/package/node-red-node-smooth)
+- [node-red-node-swagger@0.1.8](https://github.com/node-red/node-red-node-swagger)
 - [node-red-node-strava@0.1.0](https://www.npmjs.com/package/node-red-node-strava)
 - [node-red-node-suncalc@0.0.8](https://www.npmjs.com/package/node-red-node-suncalc)
 - [node-red-node-tfl@0.1.1](https://www.npmjs.com/package/node-red-node-tfl)
