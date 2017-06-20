@@ -47,6 +47,7 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-node-mongodb@0.0.7](https://www.npmjs.com/package/node-red-node-mongodb)
 - [node-red-node-mysql@0.0.9](https://www.npmjs.com/package/node-red-node-mysql)
 - [node-red-node-openweathermap@0.1.9](https://www.npmjs.com/package/node-red-node-openweathermap)
+- [node-red-node-pidcontrol@0.0.4](https://www.npmjs.com/package/node-red-node-pidcontrol)
 - [node-red-node-pinboard@0.1.1](https://www.npmjs.com/package/node-red-node-pinboard)
 - [node-red-node-ping@0.0.12](https://www.npmjs.com/package/node-red-node-ping)
 - [node-red-node-pushbullet@0.0.9](https://www.npmjs.com/package/node-red-node-pushbullet)
