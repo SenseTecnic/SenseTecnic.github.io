@@ -6,10 +6,12 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
-### Version 1.1.15 (2017-06-20)
+### Version 1.2.0 (2017-06-20)
 ___
 
 - Added support for cross domain requests from Node_RED HTTP node through proxy.
+
+- Back-end updates
 
 ### Version 1.1.14 (2017-06-13)
 ___
