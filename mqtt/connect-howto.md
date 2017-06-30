@@ -24,6 +24,8 @@ Click on the 'Server' pop up and select 'add new MQTT broker...'.  In this confi
 
 ![connection tab.png](/assets/images/mqtt_connection_tab.png)
 
+It is recommended to create MQTT connection with SSL connection to ensure security if you can. To use SSL connection, simply change the port number to `8883`. and then check the box "Enable secure (SSL/TLS) connection". A new TLS configuration drop down menu will be shown. By default, "add new tls-config..." is selected in the drop down menu, just click the edit button to enter the tls config tab. All you need to do is to uncheck "verify server certificate", and then click the "Add" button to add the TLS configuration.
+
 Click on the Security tab, and fill in your username in the username field.  In the password field, fill in the Client Key that you created, for example,
 `51zytzw7b9`.
 
