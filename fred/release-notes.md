@@ -6,6 +6,72 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.2.0 (2017-06-20)
+___
+
+- Added support for cross domain requests from Node_RED HTTP node through proxy.
+
+- Back-end updates
+
+### Version 1.1.14 (2017-06-13)
+___
+
+- Added node-red-node-pidcontrol to [available nodes](/fred/supported-nodes).
+
+- Updated node-red-node-mysql to 0.0.16.
+
+- Updated node-red-node-random to 0.0.8.
+
+- Updated node-red-node-suncalc to 0.0.10.
+
+- Updated node-red-node-dweetio to 0.0.15.
+
+- Updated node-red-node-smooth to 0.0.10.
+
+- Updated node-red-node-pushbullet to 0.0.10.
+
+- Updated node-red-node-pushover to 0.0.12.
+
+### Version 1.1.13 (2017-06-12)
+___
+
+- Updated node-red-contrib-influxdb to 0.2.0.
+
+### Version 1.1.12 (2017-06-01)
+___
+
+- Updated node-red-dashboard to version 2.3.11.
+
+### Version 1.1.11 (2017-05-18)
+___
+
+- Added node-red-contrib-solace to [available nodes](/fred/supported-nodes).
+
+### Version 1.1.10 (2017-05-17)
+___
+
+- Added node-red-node-swagger to [available nodes](/fred/supported-nodes).
+
+### Version 1.1.8 (2017-04-19)
+___
+
+- Updated home page and pricing page.
+
+### Version 1.1.7 (2017-04-10)
+___
+
+- Updated pricing page and sidebar links for STS-MQTT release.
+
+### Version 1.1.6 (2017-04-10)
+___
+
+- Updated node-red-node-watson to 0.5.3.
+
+### Version 1.1.5 (2017-04-06)
+___
+
+- Updated nodes node-red-contrib-sts-mqtt and node-red-contrib-influxdb.
+
 ### Version 1.1.4 (2017-04-04)
 ___
 
