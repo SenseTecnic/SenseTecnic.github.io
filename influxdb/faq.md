@@ -8,11 +8,10 @@ Hopefully this answers some of your questions the STS-InfluxDB service. If you h
 
 - [Who are you guys?](#q-who-are-you-guys)
 - [How is your InfluxDB service different?](#q-how-is-your-influxdb-service-different)
-- [Are there limits to how I can use the service?](#q-are-their-limits-to-the-service)
-- [How much does it (will it) cost?](#q-how-much-does-it-cost)
 - [Where can I find documentation and more information?](#q-where-can-i-find-documentation-and-more-information)
 - [How do I set up my database?](#q-how-do-i-set-up-my-database)
 - [How do I connect on FRED?](#q-how-do-i-connect-the-database-on-fred)
+- [What InfluxDb features are not available on the STS-MQTT service?](#q-what-influxdb-features-are-not-available-on-the-sts-mqtt-service)
 
 ___
 
@@ -28,12 +27,6 @@ Our shared InfluxDB service has a few unique features:
 * Tight integration with our FRED cloud-hosted Node-RED service.
 * We focus on providing support for small to medium sized companies looking for easy to use IoT solutions.
 
-### Q. Are their limits to the service?
-*Place holder*
-
-### Q. How much does it cost?
-*Place holder*
-
 ### Q. Where can I find documentation and more information?
 See our [documentation page](http://docs.sensetecnic.com/influx), or contact us [by email](mailto:info@sensetecnic.com). 
 
@@ -43,14 +36,8 @@ First, [Create a database](/influxdb/create-database/), and then [create databas
 ### Q. How do I connect to my database from FRED?
 After creating a database, and a database user with a password using the STS-InfluxDb management interface, use the [InfluxDB node [as described here](/influxdb/connect-howto) on FRED to connect your flow to your database. Ensure you enter the correct database and database user credentials (not your STS service user credentials).
 
-### Q. How much data can I store on the InfluxDB service?
-*Place holder* 
-
-### Q. What are the maximum write and query rates that the service supports?
-*Place holder* 
-
 ### Q. What InfluxDb features are not available on the STS-MQTT service?
-*Place holder*
 - retention policies
 - continuous queries
+- You should also take a look at the [query page](/influxdb/query-language/).
 
