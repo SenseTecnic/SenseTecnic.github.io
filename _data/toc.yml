@@ -51,7 +51,7 @@
       url: /mqtt/create-topic/
   - text: Using STS MQTT
     pages:
-      - text: Frequently Asked Questions
+      - text: FAQ
         url: /mqtt/faq/
       - text: Managing Clients and Keys
         url: /mqtt/managing-clients-and-keys/
@@ -83,11 +83,11 @@
       url: /influxdb/query-tool/                               
   - text: Using STS InfluxDB
     pages:
-    - text: Frequently Asked Questions
+    - text: FAQ
       url: /influxdb/faq/ 
     - text: Managing Databases
       url: /influxdb/manage-databases/
-    - text: Managing users and privileges
+    - text: Managing Users and Privileges
       url: /influxdb/manage-users-privileges/
     - text: Query Language
-      url: /influxdb/query-language/                               
+      url: /influxdb/query-language/

@@ -41,3 +41,7 @@ After creating a database, and a database user with a password using the STS-Inf
 - continuous queries
 - You should also take a look at the [query page](/influxdb/query-language/).
 
+### Q. What are the limits for the service?
+Currently the InfluxDB service is available to the FRED Grande and FRED Venti plan subscribers. 
+- The <a href="https://users.sensetecnic.com/subscriptions">FRED Grande</a> plan limits you to **1 database**, **1 database user** and **2 day data retention** with **50mb** database size. 
+- The <a href="https://users.sensetecnic.com/subscriptions">FRED Venti</a> plan allows you to create up to **5 databases**, **5 database users** and have a **30 day data retention** and **500mb** database size.
