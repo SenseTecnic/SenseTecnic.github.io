@@ -6,6 +6,52 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.3.3 (2017-09-14)
+___
+
+- Updated node-red-contrib-predix-timeseries to version 0.0.6.
+
+- Updated node-red-node-mongodb to version 0.0.13.
+
+
+### Version 1.3.1 (2017-09-07)
+___
+
+- Added FRED Venti Plan
+
+- Performance improvements.
+
+### Version 1.2.3 (2017-08-23)
+___
+
+- Updated node-red-contrib-ckants to version 1.1.1.
+
+
+### Version 1.2.1 (2017-07-24)
+___
+
+- Update node-red-node-ping to 0.0.13
+
+- Update node-red-dashboard to 2.4.3
+
+- Added node-red-node-base64
+
+- Added node-red-node-data-generator
+
+- Added node-red-node-emoncms
+
+- Added node-red-node-exif
+
+- Added node-red-node-geohash
+
+- Added node-red-node-msgpack
+
+- Added node-red-node-redis
+
+- Added node-red-node-what3words
+
+- Added node-red-contrib-contextbrowser
+
 ### Version 1.2.0 (2017-06-20)
 ___
 
