@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: STS Docs
+title: Sense Tecnic Platform Documentation
 email: info@domain.com
 email: info@sensetecnic.com
 description: > # this means to ignore newlines until "baseurl:"
-  Information and updates for Front End to Node-RED (FRED) and other components of the Sense Tecnic Platform.
+  Documentation for FRED and other Sense Tecnic Products and Services.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sensetecnic.github.io" # the base hostname & protocol for your site
 twitter_username: sensetecnic

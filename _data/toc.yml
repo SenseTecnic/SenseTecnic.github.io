@@ -1,7 +1,6 @@
-# add documenation sub directory as a section in the TOC
 - name: fred
   title: FRED
-  url: "https:fred.sensetecnic.com"
+  url: "https://fred.sensetecnic.com"
   chapters:  
   - text: Overview
     pages:
@@ -91,3 +90,23 @@
       url: /influxdb/manage-users-privileges/
     - text: Query Language
       url: /influxdb/query-language/
+- name: gateway
+  title: FRED Gateway
+  chapters:
+  - text: Overview
+    pages:
+    - text: Introduction
+      url: /gateway/
+    - text: Main Window
+      url: /gateway/main-window
+    - text: Flow Editor
+      url: /gateway/flow-editor
+    - text: Dashboard
+      url: /gateway/dashboard
+    - text: Flow Wizards
+      url: /gateway/wizards
+    - text: Settings
+      url: /gateway/settings
+    - text: Roadmap
+      url: /gateway/settings
+      
