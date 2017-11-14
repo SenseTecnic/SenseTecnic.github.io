@@ -98,15 +98,13 @@
     - text: Introduction
       url: /gateway/
     - text: Main Window
-      url: /gateway/main-window
+      url: /gateway/main-window/
     - text: Flow Editor
-      url: /gateway/flow-editor
-    - text: Dashboard
-      url: /gateway/dashboard
+      url: /gateway/flow-editor/
     - text: Flow Wizards
-      url: /gateway/wizards
+      url: /gateway/wizards/
     - text: Settings
-      url: /gateway/settings
+      url: /gateway/settings/
     - text: Roadmap
-      url: /gateway/settings
+      url: /gateway/roadmap/
       
