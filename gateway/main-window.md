@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /gateway/main-window
+permalink: /gateway/main-window/
 title: Main Window
 ---
 # Main Window

@@ -9,7 +9,7 @@ The FRED Gateway is a Node-RED desktop distribution bundled with additional feat
 
 ## Why FRED Gateway?
 
-Normally, to install Node-RED on a desktop OS like Windows, Mac OS and Linux, you will need to install Node.js, and then install and configure Node-RED on the command line.  The FRED Gateway uses the cross platform [Electron  desktop application framework](https://electron.atom.io/) popularized by applications such as Slack and Spotify.  Using the FRED Gateway, you simply install application and double click on the icon to get started with Node-RED.
+Normally, to install Node-RED on a desktop OS like Windows, Mac OS and Linux, you will need to install Node.js, and then install and configure Node-RED on the command line.  The FRED Gateway uses the cross platform [Electron](https://electron.atom.io/) desktop application framework popularized by applications such as Slack and Spotify.  Using the FRED Gateway, you simply install the desktop application and double click on the icon to get started with Node-RED.
 
 ## Installation
 
