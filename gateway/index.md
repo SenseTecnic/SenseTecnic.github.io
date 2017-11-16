@@ -31,6 +31,7 @@ In addition to the core nodes, the FRED Gateway comes with several nodes pre-ins
  * **[node-red-node-mongodb v0.0.13]()** - access MongoDb
  * **[node-red-node-mysql v0.0.16]()** - use MySQL
  * **[node-red-node-sqlite v0.1.2]()** - host a local lightweight database for your flows
+ * **[node-red-node-influxdb v0.2.1]()** - access InfluxDB 
 
 Other nodes can be installed as needed using the [Flow Editor](/gateway/flow-editor).
 
