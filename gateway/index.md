@@ -25,13 +25,13 @@ TODO
 
 In addition to the core nodes, the FRED Gateway comes with several nodes pre-installed:
 
- * **[node-red-contrib-opcua v0.2.20]()** - for communicating with OPC UA servers
- * **[node-red-contrib-sts-mqtt v0.0.4]()** - connect to the STS MQTT Service
- * **[node-red-dashboard v2.5.1]()** - use the powerful Node-RED Dashboard for monitoring
- * **[node-red-node-mongodb v0.0.13]()** - access MongoDb
- * **[node-red-node-mysql v0.0.16]()** - use MySQL
- * **[node-red-node-sqlite v0.1.2]()** - host a local lightweight database for your flows
- * **[node-red-node-influxdb v0.2.1]()** - access InfluxDB 
+ * **[node-red-contrib-opcua v0.2.20](https://flows.nodered.org/node/node-red-contrib-opcua)** 
+ * **[node-red-contrib-sts-mqtt v0.0.4](https://flows.nodered.org/node/node-red-contrib-sts-mqtt)**
+ * **[node-red-dashboard v2.5.1](https://flows.nodered.org/node/node-red-dashboard)** 
+ * **[node-red-node-mongodb v0.0.13](https://flows.nodered.org/node/node-red-node-mongodb)**
+ * **[node-red-node-mysql v0.0.16](https://flows.nodered.org/node/node-red-node-mysql)**
+ * **[node-red-node-sqlite v0.1.2](https://flows.nodered.org/node/node-red-node-sqlite)**
+ * **[node-red-node-influxdb v0.2.1](https://flows.nodered.org/node/node-red-contrib-influxdb)**
 
 Other nodes can be installed as needed using the [Flow Editor](/gateway/flow-editor).
 
