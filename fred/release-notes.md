@@ -6,6 +6,48 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.4.0 (2017-12-29)
+___
+
+- Added category filters for node management.
+
+- Added minimized view for sidebar for smaller screen widths.
+
+### Version 1.3.9 (2017-11-16)
+___
+
+Updated node-red-contrib-predix-timeseries to 0.0.8.
+
+### Version 1.3.7 (2017-11-07)
+___
+
+- Updated ndoe-red-node-darksky to 0.1.17.
+
+### Version 1.3.7 (2017-11-02)
+___
+
+- Added node-red-contrib-ifttt node.
+
+### Version 1.3.6 (2017-11-01)
+___
+
+- Added node-red-contrib-osisoft-web-api node.
+
+- Added node-red-contrib-timeout.
+
+- Updated node-red-contrib-bigtimer to 1.7.8.
+
+- Updated node-red-contrib-influxdb to 0.2.1.
+
+
+### Version 1.3.4 (2017-10-10)
+___
+
+- Updated node-red-contrib-predix-timeseries to version 0.0.7.
+
+- Updated node-red-node-dropbox to version 1.0.2.
+
+
 ### Version 1.3.3 (2017-09-14)
 ___
 
