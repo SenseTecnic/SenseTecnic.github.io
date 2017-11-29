@@ -6,7 +6,7 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
-### Version 1.4.0 (2017-12-29)
+### Version 1.4.0 (2017-11-29)
 ___
 
 - Added category filters for node management.
