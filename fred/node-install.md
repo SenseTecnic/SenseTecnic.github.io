@@ -18,7 +18,7 @@ Since FRED is running in the cloud, there are limitations to what nodes we can s
 
 1. Log into your FRED instance [here](https://users.sensetecnic.com/login?return=https://fred.sensetecnic.com).
 2. From the sidebar, click on "Add or Remove Nodes" to open up the node panel on the right. (See image below)
-3. From the node panel you will see the list of available node packages to be installed. (See image below)
+3. By default, nodes are filtered by categories. You can click on a category of choice or search for the node using the search bar. Alternatively you can click on "Alphabetical" at the top of the node panel and view the list of nodes alphabetically.
 4. Click on a node package in the list to view its detailed information on the right hand side.
 5. Click the checkbox next to the node package name or the "Install" button inside the node details panel to install the node.
 6. Restart your instance 
