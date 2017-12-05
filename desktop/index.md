@@ -13,28 +13,18 @@ Normally, to install Node-RED on a desktop OS like Windows, Mac OS and Linux, yo
 
 ## Installation
 
-Mac OS:
+Mac OS:  Download the supplied `FRED Desktop-{version}.dmg` file to your Mac.  Open this file then drag the FRED Desktop icon to your Applications.
 
-Windows:
+Windows:  Download the supplied `FRED Desktop Setup {version}.exe` file.  Double click on this file to install FRED Desktop on Windows.
 
-Linux:
+Linux:  Download the supplied `fred-desktop_{version}_amd64.deb` file. Move it to your home directory.  Open a termal window and use the following command:
 
-TODO
+   cd ~
+   sudo dpkg -i fred-desktop_{version}_amd64.deb 
 
-## Installed Nodes
+## Upgrades
 
-In addition to the core nodes, the FRED Desktop comes with several nodes pre-installed:
-
- * **[node-red-contrib-opcua v0.2.20](https://flows.nodered.org/node/node-red-contrib-opcua)** 
- * **[node-red-contrib-sts-mqtt v0.0.4](https://flows.nodered.org/node/node-red-contrib-sts-mqtt)**
- * **[node-red-dashboard v2.5.1](https://flows.nodered.org/node/node-red-dashboard)** 
- * **[node-red-node-mongodb v0.0.13](https://flows.nodered.org/node/node-red-node-mongodb)**
- * **[node-red-node-mysql v0.0.16](https://flows.nodered.org/node/node-red-node-mysql)**
- * **[node-red-node-sqlite v0.1.2](https://flows.nodered.org/node/node-red-node-sqlite)**
- * **[node-red-node-influxdb v0.2.1](https://flows.nodered.org/node/node-red-contrib-influxdb)**
- * **node-red-node-mqttdb v0.1.0**
-
-Other nodes can be installed as needed using the [Flow Editor](/desktop/flow-editor).
+Remove the previous version of the application, then install the new version.
 
 ## Prerelease Feedback
 The FRED Desktop is currently pre-release for testing and feedback.  Please let us know the FRED Version number when you report feedback and bug reports by sending an email to [info@sensetecnic.com](mailto:info@sensetecic.com).
