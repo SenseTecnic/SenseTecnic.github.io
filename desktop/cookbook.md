@@ -5,7 +5,7 @@ title: Cookbook
 ---
 # Cookbook
 
-When you click on the Cookbook you'll see a list of recipes to get you started creating Node-RED flows for your application.
+When you click on the Cookbook you'll see a list of *recipes* to get you started creating Node-RED flows for your application.
 
 Clicking on a recipe in the list will give you information on the flow that will be generated, and what information you will need to generate the flow successfully including suporting systems, URLs and other configuration parameters.
 

@@ -11,7 +11,20 @@ enter a name and password to unlock the editor if you have set a password in the
 Note that FRED Desktop also exposes the Node-RED editor on the local machine port 1880 by default, so that you can access the editor from a
 standard browser by accessing [http://localhost:1880/red](http://localhost:1880/red).
 
-## Installing Nodes
+## Installed Nodes
+
+In addition to the core nodes, the FRED Desktop comes with several nodes pre-installed in the editor palette.
+
+ * **[node-red-contrib-opcua v0.2.20](https://flows.nodered.org/node/node-red-contrib-opcua)** 
+ * **[node-red-contrib-sts-mqtt v0.0.4](https://flows.nodered.org/node/node-red-contrib-sts-mqtt)**
+ * **[node-red-dashboard v2.5.1](https://flows.nodered.org/node/node-red-dashboard)** 
+ * **[node-red-node-mongodb v0.0.13](https://flows.nodered.org/node/node-red-node-mongodb)**
+ * **[node-red-node-mysql v0.0.16](https://flows.nodered.org/node/node-red-node-mysql)**
+ * **[node-red-node-sqlite v0.1.2](https://flows.nodered.org/node/node-red-node-sqlite)**
+ * **[node-red-node-influxdb v0.2.1](https://flows.nodered.org/node/node-red-contrib-influxdb)**
+ * **node-red-node-mqttdb v0.1.0**
+
+## Installing Additional Nodes
 
 To install additional nodes, you must have NPM installed.  To do so, download and install the 8.x LTS version of [Node.js](https://nodejs.org/en/).
 

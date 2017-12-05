@@ -109,4 +109,5 @@
       url: /desktop/settings/
     - text: Roadmap
       url: /desktop/roadmap/
-      
+    - text: Release Notes
+      url: /desktop/release/      
