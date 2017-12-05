@@ -27,10 +27,12 @@ statistics related to the flow and outside connectivity.  The aim is to provide 
 
 * Connections tab is not updated in real time.
 * Console output is lost when reloading the UI window and does not persist.
-* OPC UA performance issues.
+* OPC UA browse performance issues.
 * Documentation tab requires connectivity. Links in documentation do not open a browser window.
 * Add license information.
 * Add software license checks.
+* Startup time can be slow.
+* After installing a recipe, editor requires a 'merge' to sync up with installed flow.
 
 ## Feedback
 
