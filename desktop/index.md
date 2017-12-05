@@ -17,16 +17,17 @@ Mac OS:  Download the supplied `FRED Desktop-{version}.dmg` file to your Mac.  O
 
 Windows:  Download the supplied `FRED Desktop Setup {version}.exe` file.  Double click on this file to install FRED Desktop on Windows.
 
-Linux:  Download the supplied `fred-desktop_{version}_amd64.deb` file. Move it to your home directory.  Open a termal window and use the following command:
+Linux:  Download the supplied `fred-desktop_{version}_amd64.deb` file. Move it to your home directory.  Open a termal window and use the following commands:
 
-   cd ~
-   sudo dpkg -i fred-desktop_{version}_amd64.deb 
+    cd ~
+    sudo dpkg -i fred-desktop_{version}_amd64.deb
 
 ## Upgrades
 
-Remove the previous version of the application, then install the new version.
+Remove the previous version of the application, then install the new version.  Your settings will be preserved in the `.sts-fred` directory
 
 ## Prerelease Feedback
+
 The FRED Desktop is currently pre-release for testing and feedback.  Please let us know the FRED Version number when you report feedback and bug reports by sending an email to [info@sensetecnic.com](mailto:info@sensetecic.com).
 
 Information on the current roadmap for the FRED Desktop [will be maintained here](/desktop/roadmap).

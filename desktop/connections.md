@@ -28,6 +28,6 @@ on another tab, then click back on this one.
 
 * When a broker connection node is configured to persist incoming messages, the messages can be corrupted.  We recommend only configuring outgoing message persistence for now.
 
-* The database is similar to REDIS in that it maintains data in RAM and writes to a file in case it goes down.  Since it is RAM based, can only go so long storing messages before it may run into trouble.
+* The database used [NeDB](https://github.com/louischatriot/nedb) is similar to REDIS in that it maintains data in RAM and writes to a file in case it goes down.  Since it is RAM based, can only go so long storing messages before it may run into trouble.  Please let us know if you experience problems.
 
 Next: [Cookbook](/desktop/cookbook)
