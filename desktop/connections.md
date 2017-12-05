@@ -14,8 +14,7 @@ messages in a lightweight local database in case of a lost connection, crash or 
 
 To enable persistent storage for input and output messages, click on the appropriate check boxes in the broker configuration.  You can change the *compaction interval time* to compact the internal database and remove deleted messages.
 
-Database files for a connection are stored in the Node-RED directory under the *mqttdb* directory.  These can be safely removed after stopping Node-RED to clear unsent messages.  The database
-used is [NeDB](https://github.com/louischatriot/nedb).
+Database files for a connection are stored in the Node-RED directory under the *mqttdb* directory.  These can be safely removed after stopping Node-RED to clear unsent messages.
 
 ## Current Implementation
 
