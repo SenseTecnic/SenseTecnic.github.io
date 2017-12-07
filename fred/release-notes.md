@@ -6,6 +6,13 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.5.0 (2017-12-05)
+___
+
+- Backend updates for multi-accounts support.
+
+- Minor changes to sidebar UI.
+
 ### Version 1.4.0 (2017-11-29)
 ___
 
