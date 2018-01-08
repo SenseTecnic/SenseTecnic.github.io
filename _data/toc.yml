@@ -101,12 +101,14 @@
       url: /desktop/main-window/
     - text: Flow Editor
       url: /desktop/flow-editor/
-    - text: Connections
-      url: /desktop/connections/
+    - text: Status
+      url: /desktop/status/
     - text: Flow Cookbook
       url: /desktop/cookbook/
     - text: Settings
       url: /desktop/settings/
+    - text: MQTT Connections
+      url: /desktop/connections/
     - text: Roadmap
       url: /desktop/roadmap/
     - text: Release Notes

@@ -26,4 +26,4 @@ Clicking on _Reset_ resets the settings to factory defaults.  To take effect, th
 ### Settings Storage
 The FRED Desktop settings are stored in your platform's *home* directory in a directory called `.sts-fred`.  There you will find a `settings.json` file, as well as a `node-red` directory which is where Node-RED stores flows and installed Nodes.  [Persistent message storage](/desktop/connections) are stored in the `mqttdb` directory inside the `node-red` directory.
 
-Next: [Roadmap and Feedback](/desktop/roadmap)
+Next: [Connections](/desktop/connections)

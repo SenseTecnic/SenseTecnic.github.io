@@ -11,9 +11,6 @@ Currently on the roadmap:
 
 * **Improved Recipes.** Current recipes are a proof of concept.  We aim to add more substantial recipes, provide recipe categories, and provide more information and tools to make it easier to generate common flows automatically.
 
-* **Connections**  We anticipate adding information to the Connections page to indicate the overall health of the flow.  This will include information such as how long the system has been running, how long connections have been up or down, and other
-statistics related to the flow and outside connectivity.  The aim is to provide more real time information on the overall health of the flow at a glance than the current Node-RED editor provides using status and debug nodes.
-
 * **Integration with FRED Cloud** The product will be more integrated with FRED cloud allowing you to more easily distribute flow logic between FRED Desktop and FRED Cloud services.
 
 * **UI and Settings Improvements**  The UI will be improved to support multiple windows, offline access to documentation and other features.  Add additional Node-RED settings controls.  Feedback is welcome.
@@ -25,14 +22,11 @@ statistics related to the flow and outside connectivity.  The aim is to provide 
 
 ## Known issues
 
-* Connections tab is not updated in real time.
 * Console output is lost when reloading the UI window and does not persist.
 * OPC UA browse performance issues.
-* Documentation tab requires connectivity. Links in documentation do not open a browser window.
-* Add license information.
-* Add software license checks.
-* Startup time can be slow.
+* Documentation tab requires connectivity.
 * After installing a recipe, editor requires a 'merge' to sync up with installed flow.
+* persisting MQTT Db input messages can corrupt data
 
 ## Feedback
 

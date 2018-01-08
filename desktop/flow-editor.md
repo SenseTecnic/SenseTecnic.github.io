@@ -30,4 +30,4 @@ To install additional nodes, you must have NPM installed.  To do so, download an
 
 Once NPM is installed, the Node-RED Palette Manager will be enabled.  To install a custom Node,click on _Manage Palette_ from the Node-RED editor menu (top right), and then select the *Install* tab in the palette manager. You can now search for new nodes to install, update, and enable and disable existing nodes.  For more information see the Node-RED documentation on [Adding Nodes](https://nodered.org/docs/getting-started/adding-nodes).
 
-Next: [Connections](/desktop/connections)
+Next: [Status](/desktop/status)
