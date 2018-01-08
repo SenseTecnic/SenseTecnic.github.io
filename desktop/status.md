@@ -7,6 +7,8 @@ title: Status
 
 The status page provides you with an overview of your flows, the status of nodes in your flows and information on MQTT connections using the MQTT db nodes.
 
+![desktop-status.png](/assets/images/desktop-status.png)
+
 ## Flow Status
 
 This section provide information on when the application was started, when flows were last deployed, the number of flows (tabs) in your system, and the total number of nodes.

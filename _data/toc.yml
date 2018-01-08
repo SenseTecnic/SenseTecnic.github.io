@@ -101,6 +101,8 @@
       url: /desktop/main-window/
     - text: Flow Editor
       url: /desktop/flow-editor/
+    - text: Dashboard
+      url: /desktop/dashboard/
     - text: Status
       url: /desktop/status/
     - text: Flow Cookbook

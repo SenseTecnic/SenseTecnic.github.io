@@ -5,7 +5,9 @@ title: Settings
 ---
 # Settings
 
-The settings pane allows you to configure the FRED desktop settings.  Currently this includes:
+The settings pane allows you to configure the FRED desktop settings as described below:
+
+![desktop-settings.png](/assets/images/desktop-settings.png)
 
 ### Node-RED Directory
 This is where Node-RED stores flows and installed nodes.  By default these are stored in the `~/.sts-fred/node-red`

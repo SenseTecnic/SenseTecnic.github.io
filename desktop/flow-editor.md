@@ -5,11 +5,12 @@ title: Flow Editor
 ---
 # Flow Editor
 
-The Flow Editor pane displays the Node-RED editor and a console pane below.  You can edit your flows here.  Note that you will need to
-enter a name and password to unlock the editor if you have set a password in the [settings](/desktop/settings).
+The Flow Editor pane displays the Node-RED editor and a console pane below.  You can edit your flows here.  Note that you will need to enter a name and password to unlock the editor if you have set a password in the [settings](/desktop/settings).
 
-Note that FRED Desktop also exposes the Node-RED editor on the local machine port 1880 by default, so that you can access the editor from a
-standard browser by accessing [http://localhost:1880/red](http://localhost:1880/red).
+![desktop-flow-editor.png](/assets/images/desktop-flow-editor.png)
+
+Note that FRED Desktop also exposes the Node-RED editor on a local port, so that you can access the editor from a
+standard browser.  You can open a your default browser on the editor by clicking on the external link icon beside *Flow Editor* in the navigation bar, or by clicking on the port number on the side bar.
 
 ## Installed Nodes
 
@@ -22,7 +23,7 @@ In addition to the core nodes, the FRED Desktop comes with several nodes pre-ins
 * **[node-red-node-mysql v0.0.16](https://flows.nodered.org/node/node-red-node-mysql)**
 * **[node-red-node-sqlite v0.1.2](https://flows.nodered.org/node/node-red-node-sqlite)**
 * **[node-red-node-influxdb v0.2.1](https://flows.nodered.org/node/node-red-contrib-influxdb)**
-* **node-red-node-mqttdb v0.1.0**
+* **[node-red-contrib-mqttdb v0.1.0](https://flows.nodered.org/node/node-red-contrib-mqttdb)**
 
 ## Installing Additional Nodes
 
@@ -30,4 +31,4 @@ To install additional nodes, you must have NPM installed.  To do so, download an
 
 Once NPM is installed, the Node-RED Palette Manager will be enabled.  To install a custom Node,click on _Manage Palette_ from the Node-RED editor menu (top right), and then select the *Install* tab in the palette manager. You can now search for new nodes to install, update, and enable and disable existing nodes.  For more information see the Node-RED documentation on [Adding Nodes](https://nodered.org/docs/getting-started/adding-nodes).
 
-Next: [Status](/desktop/status)
+Next: [Status](/desktop/dashboard)

@@ -7,7 +7,11 @@ title: MQTT Connections
 
 The FRED Desktop comes bundled with additional MQTT nodes called `mqttdb` available in the Node-RED palette.  Unlike the core MQTT nodes, these nodes optionally persist messages in a lightweight local database in case of a lost connection, crash or Node-RED restart.  Once the connection is re-established, messages that have been queued will be sent to the configured broker.
 
+![desktop-connections.png](/assets/images/desktop-connections.png)
+
 To enable persistent storage for input and output messages, click on the appropriate check boxes in the broker configuration.  You can change the *compaction interval time* to compact the internal database and remove deleted messages.
+
+![desktop-connections-config.png](/assets/images/desktop-connections-config.png)
 
 Database files for a connection are stored in the Node-RED directory under the *mqttdb* directory.  These can be safely removed after stopping Node-RED to clear unsent messages.
 
