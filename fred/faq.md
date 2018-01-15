@@ -4,6 +4,7 @@ permalink: /fred/faq/
 title: "FRED Docs: FAQ"
 ---
 # FAQ
+
 Hopefully this answer's some of your questions about FRED. If you have any others, [let us know](mailto:info@sensetecnic.com).
 Note that FRED is a shared service: *take care to limit your use of passwords and other credentials in your flows.*
 
