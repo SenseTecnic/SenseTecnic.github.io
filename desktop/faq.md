@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /fred/faq/
-title: "FRED Docs: FAQ"
+permalink: /desktop/faq/
+title: "FRED Desktop: FAQ"
 ---
 # FAQ
 
