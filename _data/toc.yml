@@ -97,6 +97,10 @@
     pages:
     - text: Introduction
       url: /desktop/
+    - text: FAQ
+      url: /desktop/faq/
+  - text: Usage
+    pages:
     - text: Main Window
       url: /desktop/main-window/
     - text: Flow Editor
