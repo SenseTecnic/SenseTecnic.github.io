@@ -90,21 +90,32 @@
       url: /influxdb/manage-users-privileges/
     - text: Query Language
       url: /influxdb/query-language/
-- name: gateway
-  title: FRED Gateway
+- name: desktop
+  title: FRED Desktop
   chapters:
   - text: Overview
     pages:
     - text: Introduction
-      url: /gateway/
+      url: /desktop/
+    - text: FAQ
+      url: /desktop/faq/
+  - text: Usage
+    pages:
     - text: Main Window
-      url: /gateway/main-window/
+      url: /desktop/main-window/
     - text: Flow Editor
-      url: /gateway/flow-editor/
-    - text: Flow Wizards
-      url: /gateway/wizards/
+      url: /desktop/flow-editor/
+    - text: Dashboard
+      url: /desktop/dashboard/
+    - text: Status
+      url: /desktop/status/
+    - text: Flow Cookbook
+      url: /desktop/cookbook/
     - text: Settings
-      url: /gateway/settings/
+      url: /desktop/settings/
+    - text: MQTT Connections
+      url: /desktop/connections/
     - text: Roadmap
-      url: /gateway/roadmap/
-      
+      url: /desktop/roadmap/
+    - text: Release Notes
+      url: /desktop/release/      

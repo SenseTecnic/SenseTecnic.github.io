@@ -4,6 +4,7 @@ permalink: /fred/faq/
 title: "FRED Docs: FAQ"
 ---
 # FAQ
+
 Hopefully this answer's some of your questions about FRED. If you have any others, [let us know](mailto:info@sensetecnic.com).
 Note that FRED is a shared service: *take care to limit your use of passwords and other credentials in your flows.*
 
@@ -17,6 +18,7 @@ Note that FRED is a shared service: *take care to limit your use of passwords an
 - [What do I get for free?](#q-what-do-i-get-for-free)
 - [How can I ensure my flows will keep running?](#q-how-can-i-ensure-my-flows-will-keep-running)
 - [How does the node count limit work?](#q-how-does-the-node-count-limit-work)
+- [I am paying for a subscription but my Node-RED instance keeps turning off!](#q-i-am-paying-for-a-subscription-but-my-node-red-instance-keeps-turning-off)
 - [Is FRED open source?](#q-is-fred-open-source)
 - [Are you guys philanthropists or looking to make a quick buck?](#q-are-you-guys-philanthropists-or-looking-to-make-a-quick-buck)
 - [Can I use it for commercial purposes?](#q-can-i-use-it-for-commercial-purposes)
@@ -77,6 +79,11 @@ ___
 
 ### Q. How does the node count limit work?
 We count nodes in your flows that appear on the canvas/workspace, other than tabs and comment nodes.  We check the node count against your limits when you first log in, and then periodically.  If you go over your node count limit, we let you know when you log in or by email, and give you 1 hour to remove nodes and redeploy before the instance is stopped.  Even after the instance is stopped, you can log in any time, start the instance, remove nodes and redeploy, or upgrade your subscription and start the instance.  We count all nodes in all tabs *including configuration nodes* which do not appear in the workspace.  We do not include comment nodes.
+
+___
+
+### Q. I am paying for a subscription but my Node-RED instance keeps turning off!
+It is likely that a bug in your flow is causing your instance to crash repeatedly. Our system automatically restarts your instance once after the first crash but does not attempt to restart it again if it crashes again within 5 minutes. Usually crashes are due to a bad node input or errors thrown in the function node. Occasionally, crashes are due to instances hitting their memory limit of 300mb. Most of the times this is due to a memory leaks within the flows. You can check the console output to make sure no errors are thrown or contact us.
 
 ___
 

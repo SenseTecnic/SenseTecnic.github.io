@@ -18,7 +18,7 @@ Your subscription to FRED can be viewed in the [here](https://users.sensetecnic.
 
 ## How to subscribe to a FRED Plan
 
-To subscribe to a FRED plan simply click the "Subscribe" button next to the plan of interest. You will be prompted for your card information. 
+To subscribe to a FRED plan simply click the "Upgrade Now" to bring up the list of available plans then click the "Subscribe" button on the plan of choice. You will be prompted for your card information. 
 
 FRED uses [Stripe](https://stripe.com/about) as its payment system for security and compliance. We do not store your credit card information. In fact, your credit card information never touches our servers. You can learn more about Stripe [here](https://stripe.com/about). 
 
