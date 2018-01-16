@@ -97,9 +97,17 @@
     pages:
     - text: Introduction
       url: /desktop/
+    - text: Quick Start
+      url: /desktop/quickstart/
+    - text: FRED Desktop Manager
+      url: /desktop/manager/
     - text: FAQ
       url: /desktop/faq/
-  - text: Usage
+    - text: Roadmap
+      url: /desktop/roadmap/
+    - text: Release Notes
+      url: /desktop/release/
+  - text: FRED Desktop Usage
     pages:
     - text: Main Window
       url: /desktop/main-window/
@@ -115,7 +123,3 @@
       url: /desktop/settings/
     - text: MQTT Connections
       url: /desktop/connections/
-    - text: Roadmap
-      url: /desktop/roadmap/
-    - text: Release Notes
-      url: /desktop/release/      
