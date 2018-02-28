@@ -18,8 +18,8 @@
       url: /fred/instance/
     - text: Profile and Subscription
       url: /fred/profile/
-    #- text: Accounts and Access Control
-    #  url: /fred/account-roles/
+    - text: Accounts and Access Control
+      url: /fred/account-roles/
     - text: Accessing your HTTP endpoints
       url: /fred/http-access/
     - text: Websocket Support
