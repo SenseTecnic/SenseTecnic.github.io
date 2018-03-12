@@ -6,6 +6,37 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.6.2 (2018-03-08)
+___
+
+- Added node-red-contrib-credentials.
+
+- Added node-red-contrib-azure-iot-hub.
+
+- Added node-red-contrib-azure-blob-storage.
+
+- Added node-red-contrib-azure-table-storage.
+
+- Added node-red-contrib-azure-sql.
+
+- Added node-red-contrib-iot-virtual-device.
+
+- Added node-red-contrib-amqp.
+
+- Bug fixes.
+
+### Version 1.6.0 (2018-02-14)
+___
+
+- Added support instance access control depending on account roles.
+
+- Bug fixes.
+
+### Version 1.5.3 (2018-01-10)
+___
+
+- Added node-red-contrib-crypto-js. 
+
 ### Version 1.5.0 (2017-12-05)
 ___
 

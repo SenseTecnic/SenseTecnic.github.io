@@ -8,11 +8,18 @@ title: "FRED Docs: Supported Nodes"
 
 In addition to the core nodes, the following node packages are installed for your enjoyment!  If there are nodes you would like to try, [let us know](mailto:info@sensetecnic.com)!
 
+- [node-red-contrib-amqp@0.4.5](https://www.npmjs.com/package/node-red-contrib-amqp)
+- [node-red-contrib-azure-sql@0.1.1](https://www.npmjs.com/package/node-red-contrib-azure-sql)
+- [node-red-contrib-azure-blob-storage@0.1.1](https://www.npmjs.com/package/node-red-contrib-azure-blob-storage)
+- [node-red-contrib-azure-table-storage@0.1.4](https://www.npmjs.com/package/node-red-contrib-azure-table-storage)
+- [node-red-contrib-azure-iot-hub@0.3.0](https://www.npmjs.com/package/node-red-contrib-azure-iot-hub)
 - [node-red-contrib-bigtimer@1.7.9](https://www.npmjs.com/package/node-red-contrib-bigtimer)
 - [node-red-contrib-blynk-websockets@0.0.3](https://www.npmjs.com/package/node-red-contrib-blynk-websockets)
 - [node-red-contrib-boolean-logic@0.0.3](https://www.npmjs.com/package/node-red-contrib-boolean-logic)
 - [node-red-contrib-ckants@1.0.14](https://www.npmjs.com/package/node-red-contrib-ckants)
 - [node-red-contrib-contextbrowser@0.0.4](https://github.com/sbarwe/node-red-contrib-contextbrowser)
+- [node-red-contrib-credentials@0.2.0](https://www.npmjs.com/package/node-red-contrib-credentials)
+- [node-red-contrib-crypto-js@0.1.1](https://www.npmjs.com/package/node-red-contrib-crypto-js)
 - [node-red-contrib-fred@0.0.2](https://www.npmjs.com/package/node-red-contrib-fred)
 - [node-red-contrib-freeboard@0.0.6](https://www.npmjs.com/package/node-red-contrib-freeboard)
 - [node-red-contrib-graphs@0.3.5](https://www.npmjs.com/package/node-red-contrib-graphs)
