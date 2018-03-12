@@ -55,4 +55,5 @@ simply uncheck check the 'Is Private' checkbox in the Topic edit page to make it
 for more information.
 
 ### Q. What is the host or IP address and port I should use?
-The host for the MQTT service is `mqtt.sensetecnic.com`.  The IP address is currently `52.36.153.16`.  This may change in the future so be sure to use the host name and DNS where possible.  The port is the standard MQTT port 1883.
+The host for the MQTT service is `mqtt.sensetecnic.com`.  The IP address is currently `52.36.153.16`.  This may change in the future so be sure to use the host name and DNS where possible.  The port is the standard MQTT port 1883 or over TLS use port 8883.
+For WebSocket connections over TLS use port 3443.
