@@ -6,6 +6,11 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.6.2 (2018-03-19)
+___
+
+- Added node-red-contrib-binance.
+
 ### Version 1.6.2 (2018-03-08)
 ___
 
