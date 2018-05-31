@@ -41,6 +41,7 @@ In addition to the core nodes, the following node packages are installed for you
 - [node-red-contrib-ttn@2.0.1](https://www.npmjs.com/package/node-red-contrib-ttn)
 - [node-red-contrib-web-worldmap@1.0.22](https://www.npmjs.com/package/node-red-contrib-web-worldmap)
 - [node-red-contrib-ui@1.2.19](https://www.npmjs.com/package/node-red-contrib-ui)
+- [node-red-contrib-users@0.1.7](https://www.npmjs.com/package/node-red-contrib-users)
 - [node-red-dashboard@2.4.3](https://www.npmjs.com/package/node-red-dashboard)
 - [node-red-node-aws@0.1.1](https://www.npmjs.com/package/node-red-node-aws)
 - [node-red-node-badwords@0.0.4](https://www.npmjs.com/package/node-red-node-badwords)

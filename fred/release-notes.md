@@ -6,6 +6,26 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+Version 1.7.0 (2018-05-30)
+___
+
+- Updated Node-RED version to 0.18.7.
+
+- Major back-end update to use NodeJS version 8.
+
+Version 1.6.6 (2018-05-03)
+___
+
+- Added node-red-contrib-users.
+
+Version 1.6.5 (2018-04-16)
+___
+
+- Updated node-red-contrib-ttn to 2.0.4.
+
+Version 1.6.4 (2018-03-27)
+___
+
 ### Version 1.6.3 (2018-03-19)
 ___
 
