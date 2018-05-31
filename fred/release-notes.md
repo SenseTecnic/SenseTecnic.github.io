@@ -6,30 +6,36 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
-Version 1.7.0 (2018-05-30)
+### Version 1.7.0 (2018-05-30)
 ___
 
-- Updated Node-RED version to 0.18.7.
+  - Updated Node-RED version to 0.18.7.
 
-- Major back-end update to use NodeJS version 8.
+  - Major back-end update to use NodeJS version 8.
 
-Version 1.6.6 (2018-05-03)
+### Version 1.6.6 (2018-05-03)
 ___
 
-- Added node-red-contrib-users.
+  - Added node-red-contrib-users.
 
-Version 1.6.5 (2018-04-16)
+### Version 1.6.5 (2018-04-16)
 ___
 
-- Updated node-red-contrib-ttn to 2.0.4.
+  - Updated node-red-contrib-ttn to 2.0.4.
 
-Version 1.6.4 (2018-03-27)
+### Version 1.6.4 (2018-03-27)
 ___
+
+  - Updated node-red-dashboard to 2.8.2.
+  
+  - Updated node-red-node-twilio to 0.0.15.
+  
+  - Updated node-red-contrib-blynk-ws to 0.4.0.
 
 ### Version 1.6.3 (2018-03-19)
 ___
 
-- Added node-red-contrib-binance.
+  - Added node-red-contrib-binance.
 
 ### Version 1.6.2 (2018-03-08)
 ___
