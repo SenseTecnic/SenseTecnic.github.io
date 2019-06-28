@@ -6,6 +6,31 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.7.5 (2019-06-27)
+___
+
+  - Updated node-red-contrib-particle to 1.1.0 .
+
+### Version 1.7.4 (2019-06-18)
+___
+
+  - Updated node-red-contrib-web-worldmap to 2.0.16.
+
+### Version 1.7.3 (2018-03-18)
+___
+
+  - Updated node-red-netatmo-dashboard to 0.5.2.
+
+### Version 1.7.2 (2018-07-13)
+___
+
+  - Updated node-red-contrib-web-worldmap to 1.3.2.
+
+### Version 1.7.1 (2018-07-08)
+___
+
+  - Updated node-red-dashboard to 2.9.5.
+
 ### Version 1.7.0 (2018-05-30)
 ___
 
