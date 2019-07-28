@@ -6,10 +6,15 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.7.6 (2019-07-28)
+___
+
+  - Update Node-Red to version 0.20.7.
+  
 ### Version 1.7.5 (2019-06-27)
 ___
 
-  - Updated node-red-contrib-particle to 1.1.0 .
+  - Updated node-red-contrib-particle to 1.1.0.
 
 ### Version 1.7.4 (2019-06-18)
 ___
