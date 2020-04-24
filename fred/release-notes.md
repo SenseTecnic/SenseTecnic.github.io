@@ -6,6 +6,23 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.8.0 (2020-04-24)
+___
+
+  - Update Node-RED to version 1.0.5
+
+  - Updated node-red-node-twitter to 1.1.6.
+
+  - Updated node-red-node-feedparser to 1.1.15.
+
+  - Updated node-red-node-email to 1.7.1.
+
+  - Updated node-red-dashboard to 2.21.0.
+
+  - Updated node-red-contrib-osisoft-web-api to 0.0.6.
+
+  - Added node-red-contrib-google-oauth2.
+
 ### Version 1.7.6 (2019-07-28)
 ___
 
