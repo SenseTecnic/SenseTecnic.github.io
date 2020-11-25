@@ -112,6 +112,11 @@ Broadly speaking, there are two. Firstly, FRED hosts Node-RED behind a proxy and
 
 ___
 
+### Q. Are there rate limits for FRED?
+Rate limits are an important protection for any internet service. Incoming messages are limited at 1 message per second with a burst of 3 per second. We recommend planning for a message rate of one message every 5 seconds, particularly if messages may trigger calls to other services.
+
+___
+
 ### Q. What is your roadmap for FRED?
 Our goal is to make FRED the easiest IoT development environment for those looking for a "develop and deploy" service in the cloud. We continue to track Node-RED releases and update the FRED service as they become available. We have added MQTT support to FRED and are working on other microservices that are useful to our users. We have some other ideas, but are open to suggestions.
 
