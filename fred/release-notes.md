@@ -6,6 +6,11 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.9.0 (2021-01-15)
+___
+
+ - Update Node-RED to version 1.2.7
+
 ### Version 1.8.0 (2020-04-24)
 ___
 
