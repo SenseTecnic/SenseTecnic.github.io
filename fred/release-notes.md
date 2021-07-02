@@ -9,8 +9,6 @@ title: "FRED Docs: Release Notes"
 ### Version 1.10.0 (2021-07-02)
 ___
   - Updated node version requirement to 14.
-
-  - Updated node-red-node-twitter to 1.1.6.
   
   - Update node-red-dashboard to version 2.29.3.
   
