@@ -6,6 +6,34 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.10.0 (2021-07-02)
+___
+  - Updated node version requirement to 14.
+
+  - Updated node-red-node-twitter to 1.1.6.
+  
+  - Update node-red-dashboard to version 2.29.3.
+  
+  - Update node-red-contrib-slack to version 2.0.0.
+  
+  - Update node-red-contrib-mysql to 0.2.1. 
+  
+  - Update node-red-contrib-freeboard to 0.0.7.
+  
+  - Update node-red-node-xmpp to 0.5.5.
+  
+  - Update node-red-node-email to 1.12.2.
+  
+  - Update node-red-node-twitter to 1.2.0.
+  
+  - Update node-red-contrib-salesforce to 0.7.3.
+  
+  - Update node-red-contrib-web-worldmap to 2.15.4.
+  
+  - Update node-red-contrib-users to 0.1.9.
+  
+  - Removed deprecated node-red-contrib-postgres.
+
 ### Version 1.9.0 (2021-01-15)
 ___
 
