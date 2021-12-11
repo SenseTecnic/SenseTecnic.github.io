@@ -6,6 +6,28 @@ title: "FRED Docs: Release Notes"
 
 # FRED Release Notes
 
+### Version 1.11.2 (2021-12-10)
+___
+
+  - Add node-red-node-ui-table.
+
+  - Add node-red-contrib-ubidots-nodered.
+
+  - Add node-red-contrib-data-view.
+
+  - Add node-red-contrib-rss.
+
+### Version 1.11.1 (2021-09-24)
+___
+
+  - Add node-red-contrib-nordpool-api.
+
+### Version 1.11.0 (2021-07-24)
+___
+
+  - Back-end dependency updates
+
+
 ### Version 1.10.0 (2021-07-02)
 ___
   - Updated node version requirement to 14.
